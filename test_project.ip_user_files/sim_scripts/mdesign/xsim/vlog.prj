@@ -1,0 +1,9 @@
+verilog xil_defaultlib -i "../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" --include "C:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../test_project.gen/sources_1/bd/mdesign/ipshared/ec67/hdl" --include "../../../../test_project.gen/sources_1/bd/mdesign/ipshared/7711/hdl" \
+"../../../bd/mdesign/ip/mdesign_zynq_ultra_ps_e_0_0/sim/mdesign_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/mdesign/ip/mdesign_top_0_0/sim/mdesign_top_0_0.v" \
+"../../../bd/mdesign/sim/mdesign.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
