@@ -2,19 +2,19 @@
 <Root MajorVersion="0" MinorVersion="43">
   <CompositeFile CompositeFileTopName="mdesign" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1753811518"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1753811518"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1753811518"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1753811518"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1754149091"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1754149091"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1754149091"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1754149091"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
-      <File Name="synth\mdesign.v" Type="Verilog">
+      <File Name="synth/mdesign.v" Type="Verilog">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
         <UsedIn Val="IMPLEMENTATION"/>
         <ProcessingOrder Val="NORMAL"/>
       </File>
-      <File Name="sim\mdesign.v" Type="Verilog">
+      <File Name="sim/mdesign.v" Type="Verilog">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>
@@ -28,7 +28,7 @@
         <UsedIn Val="OUT_OF_CONTEXT"/>
         <ProcessingOrder Val="NORMAL"/>
       </File>
-      <File Name="hw_handoff\mdesign.hwh" Type="HwHandoff">
+      <File Name="hw_handoff/mdesign.hwh" Type="HwHandoff">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="HW_HANDOFF"/>
@@ -40,13 +40,13 @@
         <UsedIn Val="HW_HANDOFF"/>
         <ProcessingOrder Val="NORMAL"/>
       </File>
-      <File Name="synth\mdesign.hwdef">
+      <File Name="synth/mdesign.hwdef">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="HW_HANDOFF"/>
         <ProcessingOrder Val="NORMAL"/>
       </File>
-      <File Name="sim\mdesign.protoinst">
+      <File Name="sim/mdesign.protoinst">
         <Properties IsEditable="false" IsVisible="true" IsNetlistSimulation="false" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SIMULATION"/>

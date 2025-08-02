@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/projects/amd/test_project/test_project.runs/synth_1/mdesign_wrapper.tcl"
+  variable script "/home/kai/projects/amd/zuboard/test_project.runs/synth_1/mdesign_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,17 +56,8 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
 set_param general.usePosixSpawnForFork 1
-set_param power.BramSDPPropagationFix 1
-set_param power.enableUnconnectedCarry8PinPower 1
-set_param power.enableCarry8RouteBelPower 1
-set_param synth.incrementalSynthesisCache C:/Users/kai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-22604-legion-slim-5/incrSyn
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param power.enableLutRouteBelPower 1
-set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
+set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xczu1cg-sbva484-1-e
 
@@ -74,24 +65,24 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/projects/amd/test_project/test_project.cache/wt [current_project]
-set_property parent.project_path C:/projects/amd/test_project/test_project.xpr [current_project]
+set_property webtalk.parent_dir /home/kai/projects/amd/zuboard/test_project.cache/wt [current_project]
+set_property parent.project_path /home/kai/projects/amd/zuboard/test_project.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {C:/Users/kai/AppData/Roaming/Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store} [current_project]
+set_property board_part_repo_paths {/home/kai/.Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store} [current_project]
 set_property board_part avnet.com:zuboard_1cg:part0:1.0 [current_project]
-set_property ip_output_repo c:/projects/amd/test_project/test_project.cache/ip [current_project]
+set_property ip_output_repo /home/kai/projects/amd/zuboard/test_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib C:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/hdl/mdesign_wrapper.v
-add_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd
-set_property used_in_implementation false [get_files -all c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/ip/mdesign_zynq_ultra_ps_e_0_0/mdesign_zynq_ultra_ps_e_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/ip/mdesign_zynq_ultra_ps_e_0_0/mdesign_zynq_ultra_ps_e_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/mdesign_ooc.xdc]
+read_verilog -library xil_defaultlib /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/hdl/mdesign_wrapper.v
+add_files /home/kai/projects/amd/zuboard/test_project.srcs/sources_1/bd/mdesign/mdesign.bd
+set_property used_in_implementation false [get_files -all /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/ip/mdesign_zynq_ultra_ps_e_0_0/mdesign_zynq_ultra_ps_e_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/ip/mdesign_zynq_ultra_ps_e_0_0/mdesign_zynq_ultra_ps_e_0_0.xdc]
+set_property used_in_implementation false [get_files -all /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/mdesign_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -102,14 +93,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/projects/amd/test_project/test_project.srcs/constrs_1/new/m_constraint.xdc
-set_property used_in_implementation false [get_files C:/projects/amd/test_project/test_project.srcs/constrs_1/new/m_constraint.xdc]
+read_xdc /home/kai/projects/amd/zuboard/test_project.srcs/constrs_1/new/m_constraint.xdc
+set_property used_in_implementation false [get_files /home/kai/projects/amd/zuboard/test_project.srcs/constrs_1/new/m_constraint.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/projects/amd/test_project/test_project.srcs/utils_1/imports/synth_1/top.dcp
+read_checkpoint -auto_incremental -incremental /home/kai/projects/amd/zuboard/test_project.srcs/utils_1/imports/synth_1/top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

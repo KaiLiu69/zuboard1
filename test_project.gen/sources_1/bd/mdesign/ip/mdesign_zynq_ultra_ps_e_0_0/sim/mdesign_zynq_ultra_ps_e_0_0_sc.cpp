@@ -85,10 +85,10 @@ mdesign_zynq_ultra_ps_e_0_0_sc::mdesign_zynq_ultra_ps_e_0_0_sc(const sc_core::sc
     model_param_props.addLong("C_TRACE_DATA_WIDTH", "32");
     model_param_props.addLong("C_USE_DEBUG_TEST", "0");
     model_param_props.addLong("C_SD0_INTERNAL_BUS_WIDTH", "5");
-    model_param_props.addLong("C_SD1_INTERNAL_BUS_WIDTH", "5");
+    model_param_props.addLong("C_SD1_INTERNAL_BUS_WIDTH", "4");
     model_param_props.addLong("C_NUM_F2P_0_INTR_INPUTS", "1");
     model_param_props.addLong("C_NUM_F2P_1_INTR_INPUTS", "1");
-    model_param_props.addLong("C_EMIO_GPIO_WIDTH", "1");
+    model_param_props.addLong("C_EMIO_GPIO_WIDTH", "30");
     model_param_props.addLong("C_NUM_FABRIC_RESETS", "1");
     model_param_props.addString("C_EN_FIFO_ENET0", "0");
     model_param_props.addString("C_EN_FIFO_ENET1", "0");
@@ -103,8 +103,10 @@ mdesign_zynq_ultra_ps_e_0_0_sc::mdesign_zynq_ultra_ps_e_0_0_sc(const sc_core::sc
   mp_impl = new zynq_ultra_ps_e_tlm("inst", model_param_props);
 
   // initialize AXI sockets
-  M_AXI_HPM0_LPD_rd_socket = mp_impl->M_AXI_HPM0_LPD_rd_socket;
-  M_AXI_HPM0_LPD_wr_socket = mp_impl->M_AXI_HPM0_LPD_wr_socket;
+  M_AXI_HPM0_FPD_rd_socket = mp_impl->M_AXI_HPM0_FPD_rd_socket;
+  M_AXI_HPM0_FPD_wr_socket = mp_impl->M_AXI_HPM0_FPD_wr_socket;
+  M_AXI_HPM1_FPD_rd_socket = mp_impl->M_AXI_HPM1_FPD_rd_socket;
+  M_AXI_HPM1_FPD_wr_socket = mp_impl->M_AXI_HPM1_FPD_wr_socket;
 }
 
 mdesign_zynq_ultra_ps_e_0_0_sc::~mdesign_zynq_ultra_ps_e_0_0_sc()

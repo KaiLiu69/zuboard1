@@ -1,4 +1,0 @@
-ERROR: Exception caught trying to open file C:\projects\amd\test_project\test_project.runs\mdesign_proc_sys_reset_0_0_synth_1/runme.log
-	Exception name: Error
-	Exception error code: 70
-	Exception message: Permission denied

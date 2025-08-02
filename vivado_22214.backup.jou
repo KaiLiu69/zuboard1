@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Aug  2 10:22:24 2025
+# Process ID         : 22214
+# Current directory  : /home/kai/projects/amd/zuboard
+# Command line       : vivado test_project.xpr
+# Log file           : /home/kai/projects/amd/zuboard/vivado.log
+# Journal file       : /home/kai/projects/amd/zuboard/vivado.jou
+# Running On         : kbuntu
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : AMD Ryzen 7 7840HS with Radeon 780M Graphics
+# CPU Frequency      : 2025.606 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 32792 MB
+# Swap memory        : 536 MB
+# Total Virtual      : 33329 MB
+# Available Virtual  : 24659 MB
+#-----------------------------------------------------------
+start_gui
+open_project test_project.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

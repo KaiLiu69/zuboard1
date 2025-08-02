@@ -1,0 +1,40 @@
+# Additional clean files
+cmake_minimum_required(VERSION 3.16)
+
+if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
+  file(REMOVE_RECURSE
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/sleep.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xfpga_config.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga_pcap.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga_pcap_common.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_bbramps_zynqmp_hw.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_bsp_config.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp_hw.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp_puf.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_utils.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xiltimer.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aes.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aes_hw.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aesalginfo.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_config.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_cryptochk.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa_core.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa_hw.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsaalginfo.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha3alginfo.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha_hw.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sss.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_utils.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_ver.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xtimer_config.h"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilfpga.a"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilsecure.a"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilskey.a"
+  "/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxiltimer.a"
+  )
+endif()
