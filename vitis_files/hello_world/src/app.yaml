@@ -1,4 +1,0 @@
-domain_path: C:\projects\amd\test_project\vitis_files\pll_platform\export\pll_platform\sw\standalone_psu_cortexa53_0
-app_src_dir: C:\Xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\hello_world
-template: hello_world
-lang: c

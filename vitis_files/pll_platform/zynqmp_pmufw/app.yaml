@@ -1,4 +1,0 @@
-domain_path: C:\projects\amd\test_project\vitis_files\pll_platform\zynqmp_pmufw\zynqmp_pmufw_bsp
-app_src_dir: C:\Xilinx\2025.1\Vitis\data\embeddedsw\lib\sw_apps\zynqmp_pmufw
-template: zynqmp_pmufw
-lang: c

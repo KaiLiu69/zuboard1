@@ -22,3 +22,73 @@
 # Available Virtual  : 4203 MB
 #-----------------------------------------------------------
 start_gui
+open_project C:/projects/amd/test_project/test_project.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+open_bd_design {C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd}
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_design synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+refresh_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+refresh_design
+set_property IOSTANDARD LVCMOS18 [get_ports [list blinky_0]]
+set_property PULLTYPE PULLUP [get_ports [list blinky_0]]
+startgroup
+set_property INTERNAL_VREF 0.600 [get_iobanks 44]
+endgroup
+
+startgroup
+reset_property INTERNAL_VREF [get_iobanks 44]
+endgroup
+
+set_property IOSTANDARD LVCMOS18 [get_ports [list blinky_0]]
+generate_target all [get_files  C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_ip_user_files -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_simulation -lib_map_path [list {modelsim=C:/projects/amd/test_project/test_project.cache/compile_simlib/modelsim} {questa=C:/projects/amd/test_project/test_project.cache/compile_simlib/questa} {riviera=C:/projects/amd/test_project/test_project.cache/compile_simlib/riviera} {activehdl=C:/projects/amd/test_project/test_project.cache/compile_simlib/activehdl}] -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -directory C:/projects/amd/test_project/test_project.ip_user_files/sim_scripts -ip_user_files_dir C:/projects/amd/test_project/test_project.ip_user_files -ipstatic_source_dir C:/projects/amd/test_project/test_project.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+update_module_reference [get_ips  mdesign_top_0_0]
+generate_target all [get_files  C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_ip_user_files -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+launch_runs mdesign_top_0_0_synth_1 -jobs 8
+wait_on_run mdesign_top_0_0_synth_1
+export_simulation -lib_map_path [list {modelsim=C:/projects/amd/test_project/test_project.cache/compile_simlib/modelsim} {questa=C:/projects/amd/test_project/test_project.cache/compile_simlib/questa} {riviera=C:/projects/amd/test_project/test_project.cache/compile_simlib/riviera} {activehdl=C:/projects/amd/test_project/test_project.cache/compile_simlib/activehdl}] -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -directory C:/projects/amd/test_project/test_project.ip_user_files/sim_scripts -ip_user_files_dir C:/projects/amd/test_project/test_project.ip_user_files -ipstatic_source_dir C:/projects/amd/test_project/test_project.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/projects/amd/test_project/mdesign_wrapper.xsa
+report_ip_status -name ip_status 
+generate_target all [get_files  C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_ip_user_files -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_simulation -lib_map_path [list {modelsim=C:/projects/amd/test_project/test_project.cache/compile_simlib/modelsim} {questa=C:/projects/amd/test_project/test_project.cache/compile_simlib/questa} {riviera=C:/projects/amd/test_project/test_project.cache/compile_simlib/riviera} {activehdl=C:/projects/amd/test_project/test_project.cache/compile_simlib/activehdl}] -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -directory C:/projects/amd/test_project/test_project.ip_user_files/sim_scripts -ip_user_files_dir C:/projects/amd/test_project/test_project.ip_user_files -ipstatic_source_dir C:/projects/amd/test_project/test_project.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+close_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+refresh_design
+current_design rtl_1
+set_property OFFCHIP_TERM FP_VTT_50 [get_ports [list blinky_0]]
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+refresh_design
+write_hw_platform -fixed -include_bit -force -file C:/projects/amd/test_project/mdesign_wrapper.xsa
+place_ports blinky_0 A2
+save_constraints
+make_wrapper -files [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -top
+open_bd_design {C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd}
+generate_target all [get_files  C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_ip_user_files -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd]
+export_simulation -lib_map_path [list {modelsim=C:/projects/amd/test_project/test_project.cache/compile_simlib/modelsim} {questa=C:/projects/amd/test_project/test_project.cache/compile_simlib/questa} {riviera=C:/projects/amd/test_project/test_project.cache/compile_simlib/riviera} {activehdl=C:/projects/amd/test_project/test_project.cache/compile_simlib/activehdl}] -of_objects [get_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd] -directory C:/projects/amd/test_project/test_project.ip_user_files/sim_scripts -ip_user_files_dir C:/projects/amd/test_project/test_project.ip_user_files -ipstatic_source_dir C:/projects/amd/test_project/test_project.ip_user_files/ipstatic -use_ip_compiled_libs -force -quiet
+open_hw_manager
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/projects/amd/test_project/mdesign_wrapper.xsa
