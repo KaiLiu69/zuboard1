@@ -1,0 +1,535 @@
+2025-08-03 15:47:21 [debug] : --------------------------------------------------------------------------------- 
+2025-08-03 15:47:21 [debug] : C:\projects\amd\test_project\vitis_files 
+2025-08-03 15:47:21 [debug] : --------------------------------------------------------------------------------- 
+2025-08-03 15:47:21 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\kai\.Xilinx\Vitis\2025.1\logs\ide.log 
+2025-08-03 15:47:21 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\kai\.Xilinx\Vitis\2025.1\.wsdata\ide_verbose.log 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : created .gitignore file for the project C:\projects\amd\test_project\vitis_files 
+2025-08-03 15:47:21 [debug] : Frontend v.configure: 49.8 ms [Finished 0.854 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend $.configure: 0.1 ms [Finished 0.854 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Application UI init preferences 
+2025-08-03 15:47:21 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2025-08-03 15:47:21 [debug] : A command editor.action.toggleStickyScroll is already registered. 
+2025-08-03 15:47:21 [debug] : A command rigel.edit.config is already registered. 
+2025-08-03 15:47:21 [debug] : Frontend commands.onStart: 16.1 ms [Finished 0.870 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["6e12f57c-c505-418b-9f86-a2a2e45b8b4b",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : updated workspace path: C:\projects\amd\test_project\vitis_files 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : Marking the target connection as default Local 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : Marking the target connection as default Linux Agent 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : Marking the target connection as default XRTServer 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : Marking the target connection as default LinuxEmulation 
+2025-08-03 15:47:21 [debug] : RIGEL SERVER 15:47:21 INFO  : Marking the target connection as default QEMU 
+2025-08-03 15:47:21 [debug] : Linked preference "workbench.colorCustomizations" not found. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] refresh requested. 
+2025-08-03 15:47:21 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-08-03 15:47:21 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-03 15:47:21 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-08-03 15:47:21 [debug] : [Logger UI]  Update Log Level  called 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] common calling method requested. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-08-03 15:47:21 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-08-03 15:47:21 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-08-03 15:47:21 [debug] : Application UI init preferences 
+2025-08-03 15:47:21 [debug] : Frontend keybindings.onStart took longer than the expected maximum 100 milliseconds: 134.2 ms [Finished 1.005 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend menus.onStart: 4.5 ms [Finished 1.009 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend l.onStart: 5.3 ms [Finished 1.015 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend l.onStart: 0.4 ms [Finished 1.015 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend d.onStart: 11.6 ms [Finished 1.027 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend u.onStart: 3.9 ms [Finished 1.031 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend Q.onStart: 0.1 ms [Finished 1.031 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 0.4 ms [Finished 1.032 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 4.6 ms [Finished 1.037 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend n.onStart: 0.1 ms [Finished 1.037 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend l.onStart: 0.2 ms [Finished 1.037 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend u.onStart: 0.9 ms [Finished 1.038 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 0.1 ms [Finished 1.038 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend $.onStart: 0.2 ms [Finished 1.038 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend f.onStart: 0.0 ms [Finished 1.038 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend u.onStart: 0.2 ms [Finished 1.039 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend l.onStart: 0.3 ms [Finished 1.039 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend u.onStart: 0.0 ms [Finished 1.039 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend n.onStart: 0.1 ms [Finished 1.040 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend g.onStart: 0.0 ms [Finished 1.040 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend _.onStart: 0.2 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend c.onStart: 0.0 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend v.onStart: 0.1 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend _.onStart: 0.1 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend $.onStart: 0.2 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend E.onStart: 0.1 ms [Finished 1.042 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend v.onStart: 0.2 ms [Finished 1.043 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend $.onStart: 0.1 ms [Finished 1.043 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend g.onStart: 0.1 ms [Finished 1.043 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend d.onStart: 0.1 ms [Finished 1.043 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend h.onStart: 0.2 ms [Finished 1.044 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 0.1 ms [Finished 1.044 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend C.onStart: 0.0 ms [Finished 1.044 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend Object.onStart: 0.1 ms [Finished 1.044 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 0.1 ms [Finished 1.044 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend x.onStart: 16.6 ms [Finished 1.061 s after frontend start] 
+2025-08-03 15:47:21 [debug] : [Feature Registry] Reading early access data from C:\Xilinx\2025.1\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-08-03 15:47:21 [debug] : [Feature Registry] Reading early access data from C:\Xilinx\2025.1\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-08-03 15:47:21 [debug] : [Feature Registry] Reading early access data from C:\Xilinx\2025.1\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-08-03 15:47:21 [debug] : Frontend d.onStart: 0.2 ms [Finished 1.062 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend l.onStart: 0.3 ms [Finished 1.062 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend U.onStart: 0.0 ms [Finished 1.062 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend g.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend n.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend a.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend g.onStart: 0.0 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend d.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend c.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend y.onStart: 0.1 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend w.onStart: 0.0 ms [Finished 1.063 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Frontend B.onStart: 0.2 ms [Finished 1.064 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Start frontend contributions: 403.7 ms [Finished 1.064 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2025-08-03 15:47:21 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-08-03 15:47:21 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["51eac2e9-be88-4534-8643-60dc7e8bf999",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-08-03 15:47:21 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-08-03 15:47:21 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-03 15:47:21 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2025-08-03 15:47:21 [debug] : >>> Restoring the layout state... 
+2025-08-03 15:47:21 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-08-03 15:47:21 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Waiting for backend deployment: 57.3 ms [Finished 1.102 s after frontend start] 
+2025-08-03 15:47:21 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-08-03 15:47:21 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:21 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-03 15:47:21 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:21 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Sync of 18 plugins: 64.5 ms [Finished 1.166 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:22 [debug] : [Component Provider] updating project C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:22 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272) starting instance 
+2025-08-03 15:47:22 [debug] : Couldn't attach - can't find terminal with id: 365898914  
+2025-08-03 15:47:22 [debug] : Couldn't restore widget for info-widget-factory. Error: Error: No Template found!  
+2025-08-03 15:47:22 [debug] : [hosted-plugin: 33272] [Object: null prototype] {} 
+2025-08-03 15:47:22 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:22 [debug] : [Component Provider] project updated C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:22 [debug] : Failed attaching to terminal id 365898914, the terminal is most likely gone. Starting up a new terminal instead. 
+2025-08-03 15:47:22 [debug] : Failed to parse markers data: {"0":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at _.setMarkersFromWorkspace (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:18349719)"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.doSync - exit - resource not found {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2025-08-03 15:47:22 [debug] : Couldn't restore widget for editor-preview-widget. Error: Error: 'file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c' is invalid  
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : <<< The layout has been successfully restored. 
+2025-08-03 15:47:22 [debug] : Initialize the workbench layout: 496.3 ms [Finished 1.585 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2025-08-03 15:47:22 [debug] : Frontend f.onDidInitializeLayout: 0.4 ms [Finished 1.585 s after frontend start] 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Loading plugin contributions 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][eclipse-cdt.serial-monitor]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.json-language-features]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][pkief.material-icon-theme]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.git-base]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteCommitUrl","group":"1_gitlens@3","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyShaToClipboard","group":"2_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyMessageToClipboard","group":"2_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to git.commit {"0":{"command":"gitlens.addAuthors","group":"4_gitlens@1","when":"gitlens:enabled && !gitlens:readonly && config.gitlens.menus.scm.authors"},"1":"Error: Could not find submenu with id git.commit\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][eamodio.gitlens]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.tcf-debug]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][twxs.cmake]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-config]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-l1-library]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-pragma]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-verilog-vhdl-support]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-output]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.cpp]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.json]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][webfreak.debug]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/sourceControl/title {"0":{"command":"git.reopenClosedRepositories","group":"navigation@1","when":"git.closedRepositoryCount > 0"},"1":"Error: Could not find submenu with id scm/sourceControl/title\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/sourceControl {"0":{"command":"git.close","group":"navigation@1","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/sourceControl\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/sourceControl {"0":{"command":"git.closeOtherRepositories","group":"navigation@2","when":"scmProvider == git && gitOpenRepositoryCount > 1"},"1":"Error: Could not find submenu with id scm/sourceControl\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/history/title {"0":{"command":"git.fetchAll","group":"navigation@999","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/history/title\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.createTag","group":"1_create@1","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.branch","group":"1_create@2","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.cherryPickRef","group":"2_modify@1","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.checkoutRefDetached","group":"2_modify@2","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.copyCommitId","group":"9_copy@1","when":"scmProvider == git && !listMultiSelection"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/historyItem/context {"0":{"command":"git.copyCommitMessage","group":"9_copy@2","when":"scmProvider == git && !listMultiSelection"},"1":"Error: Could not find submenu with id scm/historyItem/context\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to editor/content {"0":{"command":"git.acceptMerge","when":"isMergeResultEditor && mergeEditorBaseUri =~ /^(git|file):/ && mergeEditorResultUri in git.mergeChanges"},"1":"Error: Could not find submenu with id editor/content\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to editor/content {"0":{"command":"git.openMergeEditor","group":"navigation@-10","when":"config.git.enabled && !git.missing && !isInDiffEditor && !isMergeEditor && resource in git.mergeChanges"},"1":"Error: Could not find submenu with id editor/content\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to multiDiffEditor/resource/title {"0":{"command":"git.stageFile","group":"navigation","when":"scmProvider == git && scmResourceGroup == workingTree"},"1":"Error: Could not find submenu with id multiDiffEditor/resource/title\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to multiDiffEditor/resource/title {"0":{"command":"git.stageFile","group":"navigation","when":"scmProvider == git && scmResourceGroup == untracked"},"1":"Error: Could not find submenu with id multiDiffEditor/resource/title\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to multiDiffEditor/resource/title {"0":{"command":"git.unstageFile","group":"navigation","when":"scmProvider == git && scmResourceGroup == index"},"1":"Error: Could not find submenu with id multiDiffEditor/resource/title\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to diffEditor/gutter/hunk {"0":{"command":"git.diff.stageHunk","group":"primary@10","when":"diffEditorOriginalUri =~ /^git\\:.*%22ref%22%3A%22~%22%7D$/"},"1":"Error: Could not find submenu with id diffEditor/gutter/hunk\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : Failed to register a menu item for plugin vscode.git contributed to diffEditor/gutter/selection {"0":{"command":"git.diff.stageSelection","group":"primary@10","when":"diffEditorOriginalUri =~ /^git\\:.*%22ref%22%3A%22~%22%7D$/"},"1":"Error: Could not find submenu with id diffEditor/gutter/selection\n    at d.getMenuNode (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:2858055)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391210\n    at Array.forEach (<anonymous>)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8391099)\n    at c.handle (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:21801587)\n    at file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456416\n    at o (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8453884)\n    at P.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8456371)\n    at n.handleContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8226131)\n    at n.loadContributions (file:///C:/Xilinx/2025.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:8242540)"}
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.git]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.make]: Loaded contributions. 
+2025-08-03 15:47:22 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Load contributions of 18 plugins: 255.2 ms [Finished 1.841 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend c.onDidInitializeLayout: 0.6 ms [Finished 1.842 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend n.onDidInitializeLayout: 0.7 ms [Finished 1.843 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend x.onDidInitializeLayout: 2.2 ms [Finished 1.847 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend h.onDidInitializeLayout: 0.2 ms [Finished 1.847 s after frontend start] 
+2025-08-03 15:47:22 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2025-08-03 15:47:22 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2025-08-03 15:47:22 [debug] : Frontend U.onDidInitializeLayout took longer than the expected maximum 100 milliseconds: 188.8 ms [Finished 2.036 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend D.onDidInitializeLayout: 0.0 ms [Finished 2.036 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend D.onDidInitializeLayout: 0.3 ms [Finished 2.037 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend C.onDidInitializeLayout: 0.1 ms [Finished 2.037 s after frontend start] 
+2025-08-03 15:47:22 [debug] : Frontend v.onDidInitializeLayout: 0.0 ms [Finished 2.037 s after frontend start] 
+2025-08-03 15:47:22 [debug] : getTasks(): about to return task information for 0 tasks 
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 4,
+        "startColumn": 29,
+        "endLineNumber": 14,
+        "endColumn": 6
+      },
+      "rangeLength": 310,
+      "text": "{\r\n        \"**/.git/objects/**\": true,\r\n        \"**/.git/subtree-cache/**\": true,\r\n        \"**/_build/**\": true,\r\n        \"**/build/**\": true,\r\n        \"**/export/**\": true,\r\n        \"**/hls/impl/**\": true,\r\n        \"**/hls/syth/**\": true,\r\n        \"**/hls/syn/**\": true,\r\n        \"**/hls/csim/**\": true\r\n    }",
+      "rangeOffset": 124,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:22 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/init() 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(serial-monitor@1.0.2 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(json-language-features@1.88.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(material-icon-theme@5.15.0 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(git-base@1.95.3 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(gitlens@11.7.0 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(tcf-debug@0.0.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] Debugger contribution has been registered: tcf-debug 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(cmake@0.0.17 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vitis-config@0.0.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vitis-hls-l1-library@0.0.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vitis-hls-pragma@0.6.0 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vitis-output@0.0.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(cpp@1.88.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(json@1.88.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(vscode-clangd@0.1.33 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(debug@0.27.0 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] Debugger contribution has been registered: gdb 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] Debugger contribution has been registered: lldb-mi
+Debugger contribution has been registered: mago-mi 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(git@1.95.3 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): initializing(make@1.88.1 with C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] Unsupported activation events: onEditSession:file, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2025-08-03 15:47:23 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:23 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git-base\extension\dist\extension.js) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] calling activation function on Git Base (built-in) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git\extension\dist\main) 
+2025-08-03 15:47:23 [debug] : RIGEL SERVER 15:47:23 INFO  : [INFO]: Initializing repositories 
+2025-08-03 15:47:23 [debug] : RIGEL SERVER 15:47:23 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:47:23 INFO  : Successfully created repository data at C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai8748207494784929157 
+2025-08-03 15:47:23 [debug] : RIGEL SERVER 15:47:23 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai9604477750551759349 -r C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai8748207494784929157\.repo.yaml 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] calling activation function on Git (built-in) 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Starting plugins. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][eclipse-cdt.serial-monitor]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.json-language-features]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][pkief.material-icon-theme]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.git-base]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][eamodio.gitlens]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.tcf-debug]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][twxs.cmake]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-config]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-l1-library]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-pragma]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][amd.vitis-output]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.cpp]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.json]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][webfreak.debug]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.git]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1][vscode.make]: Started plugin. 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] There is no document for debugconsole:/ 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] There is no document for breakpointinput:vs.editor.ICodeEditor%3A2 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension\desktop\extension.cjs) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] calling activation function on Web and Desktop Serial Monitor 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] [INFO] 2025-08-03T13:47:23.349Z - Translations initialized. 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] [INFO] 2025-08-03T13:47:23.351Z - Extension activated!
+calling activation function on Material Icon Theme 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] calling activation function on JSON Language Features (built-in) 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] calling activation function on GitLens — Git supercharged 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] There is no document for debugconsole:/ 
+2025-08-03 15:47:23 [debug] : [hosted-plugin: 33272] There is no document for breakpointinput:vs.editor.ICodeEditor%3A2 
+2025-08-03 15:47:23 [debug] : [f75657c9-82d6-482a-8ec3-36a6ea6d0ff1] Start of 18 plugins: 771.2 ms [Finished 2.631 s after frontend start] 
+2025-08-03 15:47:23 [debug] : RIGEL SERVER 15:47:23 INFO  : Embedded Template List generated successfully 
+2025-08-03 15:47:23 [debug] : RIGEL SERVER 15:47:23 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\Xilinx\2025.1\Vitis\data\embeddedsw 
+2025-08-03 15:47:23 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-03 15:47:23 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-03 15:47:23 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-03 15:47:23 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-03 15:47:23 [debug] : Frontend application start: 2111.5 ms [Finished 13.361 s after backend start] 
+2025-08-03 15:47:23 [debug] : Replace loading indicator with ready workbench UI (animation): 814.7 ms [Finished 2.852 s after frontend start] 
+2025-08-03 15:47:23 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2025-08-03 15:47:23 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:23 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-03 15:47:23 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:23 [debug] : [Component Provider] updating project C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:23 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:23 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:23 [debug] : [Component Provider] project updated C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:24 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-08-03 15:47:24 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:24 [debug] : [ProjectCache] Project location updated to undefined 
+2025-08-03 15:47:24 [debug] : [ProjectDecorator] tree decoration updated 
+2025-08-03 15:47:24 [debug] : [Component Provider] updating project C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:24 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:24 [debug] : Error: 3 INVALID_ARGUMENT: Invalid project location 'C:\projects\amd\test_project\vitis_files\pll_platform'.
+    at t.callErrorFromStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:14413)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44860)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40662)
+    at Object.onReceiveStatus (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:40107)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:134165
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeUnaryRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:44391)
+    at s.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\6.js:2:118575)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:360047
+    at new Promise (<anonymous>)
+    at d.getComponent (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\main.js:1:359967)
+    at u.onRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52208)
+    at c.requestHandler (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:52027)
+    at c.handleRequest (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:47056)
+    at c.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44958)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:44592
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15380
+    at s.invoke (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:15470)
+    at a.fire (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:17273)
+    at t.ChannelMultiplexer.handleData (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:40138)
+    at t.ChannelMultiplexer.handleMessage (C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:39316)
+    at C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\lib\backend\19.js:1:38542 
+2025-08-03 15:47:24 [debug] : [Component Provider] project updated C:\projects\amd\test_project\vitis_files\pll_platform 
+2025-08-03 15:47:25 [debug] : RIGEL SERVER 15:47:25 INFO  : [INFO]: Initializing repositories 
+2025-08-03 15:47:25 [debug] : RIGEL SERVER 15:47:25 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:47:25 INFO  : Successfully created repository data at C:\projects\amd\test_project\vitis_files/_ide\.wsdata 
+2025-08-03 15:47:25 [debug] : RIGEL SERVER 15:47:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai16815833049022071930 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml 
+2025-08-03 15:47:25 [debug] : [hosted-plugin: 33272] PLUGIN_HOST(33272): PluginManagerExtImpl/loadPlugin(C:\Xilinx\2025.1\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-output-0.0.1\extension\lib\extension.js) 
+2025-08-03 15:47:25 [debug] : [hosted-plugin: 33272] calling activation function on amd.vitis-output 
+2025-08-03 15:47:25 [debug] : [hosted-plugin: 33272] There is no document for debugconsole:/ 
+2025-08-03 15:47:25 [debug] : [hosted-plugin: 33272] There is no document for breakpointinput:vs.editor.ICodeEditor%3A2 
+2025-08-03 15:47:25 [debug] : RIGEL SERVER 15:47:25 INFO  : Embedded Template List generated successfully 
+2025-08-03 15:47:25 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-08-03 15:47:25 [debug] : [Application Examples Provider] common calling method completed. 
+2025-08-03 15:47:25 [debug] : [Application Examples Provider] refresh completed. 
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 14,
+        "endColumn": 1
+      },
+      "rangeLength": 470,
+      "text": "yeah new try\n",
+      "rangeOffset": 0,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}
+2025-08-03 15:49:46 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/.git/COMMIT_EDITMSG"}

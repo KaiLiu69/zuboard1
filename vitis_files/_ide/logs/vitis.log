@@ -1,0 +1,17 @@
+15:47:21 INFO  : updated workspace path: C:\projects\amd\test_project\vitis_files
+15:47:21 INFO  : Marking the target connection as default Local
+15:47:21 INFO  : Marking the target connection as default Linux Agent
+15:47:21 INFO  : Marking the target connection as default XRTServer
+15:47:21 INFO  : Marking the target connection as default LinuxEmulation
+15:47:21 INFO  : Marking the target connection as default QEMU
+15:47:23 INFO  : [INFO]: Initializing repositories
+15:47:23 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:47:23 INFO  : Successfully created repository data at C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai8748207494784929157
+15:47:23 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai9604477750551759349 -r C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai8748207494784929157\.repo.yaml
+15:47:23 INFO  : Embedded Template List generated successfully
+15:47:23 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\Xilinx\2025.1\Vitis\data\embeddedsw
+15:47:25 INFO  : [INFO]: Initializing repositories
+15:47:25 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+15:47:25 INFO  : Successfully created repository data at C:\projects\amd\test_project\vitis_files/_ide\.wsdata
+15:47:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai16815833049022071930 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:47:25 INFO  : Embedded Template List generated successfully
