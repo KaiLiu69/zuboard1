@@ -1,0 +1,7 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_cpu = a53-0]C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\boot\fsbl.elf
+	[destination_device = pl]C:\projects\amd\test_project\vitis_files\hello_world\_ide\bitstream\mdesign_wrapper.bit
+	[destination_cpu = a53-0, exception_level = el-3]C:\projects\amd\test_project\vitis_files\hello_world\build\hello_world.elf
+}

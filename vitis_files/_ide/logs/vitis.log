@@ -15,3 +15,686 @@
 15:47:25 INFO  : Successfully created repository data at C:\projects\amd\test_project\vitis_files/_ide\.wsdata
 15:47:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai16815833049022071930 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
 15:47:25 INFO  : Embedded Template List generated successfully
+15:58:45 INFO  : Using sdt generation script from C:\Xilinx\2025.1\Vitis\vitis-server\scripts\platformutil.tcl
+15:58:45 INFO  : cmd.exe, /C, sdtgen.bat C:\Xilinx\2025.1\Vitis\vitis-server\scripts\platformutil.tcl C:\projects\amd\test_project\mdesign_wrapper.xsa C:\projects\amd\test_project\vitis_files\.rigel_lopper_temp_platform\mdesign_wrapper\hw\sdt
+15:58:52 INFO  : -xsa C:\projects\amd\test_project\mdesign_wrapper.xsa
+15:58:52 INFO  : -dir C:\projects\amd\test_project\vitis_files\.rigel_lopper_temp_platform\mdesign_wrapper\hw\sdt
+15:58:52 INFO  : -board_dts 
+15:58:52 INFO  : -include_dts 
+15:58:52 INFO  : -repo C:/Xilinx/2025.1/Vitis/data/system-device-tree-xlnx
+15:58:52 INFO  : -zocl disable
+15:58:52 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/2025.1/Vitis/data/embeddedsw) loading 0 seconds
+15:58:52 INFO  : SDT generated successfully
+15:58:52 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\.rigel_lopper_temp_platform\mdesign_wrapper\hw\sdt\system-top.dts
+15:58:52 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\.rigel_lopper_temp_platform\mdesign_wrapper\hw\sdt\system-top.dts
+15:58:53 INFO  : CPU List generated successfully
+15:59:02 INFO  : Platform platform_pll creation started.
+15:59:02 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts
+15:59:02 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts
+15:59:03 INFO  : CPU List generated successfully
+15:59:03 INFO  : SDT generated successfully.
+15:59:03 INFO  : created .gitignore file for the project C:\projects\amd\test_project\vitis_files\platform_pll
+15:59:03 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_linux\qemu\qemu_args.txt
+15:59:03 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_linux\qemu\pmu_args.txt
+15:59:03 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+15:59:03 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+15:59:03 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+15:59:03 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+15:59:03 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -p psu_pmu_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:03 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -p psu_cortexa53_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_fsbl -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:03 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -p psu_pmu_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:03 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -p psu_cortexa53_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_fsbl -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:19 INFO  : [INFO]: Starting domain creation
+15:59:19 INFO  : [INFO]: Generating Domain-specific DTS for psu_pmu_0
+15:59:19 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:59:19 INFO  : STATUS: No Value specified, assigning default values.
+15:59:19 INFO  : [INFO]: Successfully created Domain at C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+15:59:19 INFO  : Successfully Generated Domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+15:59:19 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -n pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:19 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:21 INFO  : [INFO]: Starting domain creation
+15:59:21 INFO  : [INFO]: Generating Domain-specific DTS for psu_cortexa53_0
+15:59:21 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:59:21 INFO  : [INFO]: Successfully created Domain at C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:59:21 INFO  : Successfully Generated Domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+15:59:21 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -t zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -n fsbl -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:21 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:21 INFO  : Successfully validated template zynqmp_pmufw
+15:59:21 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -n pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:23 INFO  : Successfully validated template zynqmp_fsbl
+15:59:23 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -t zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -n fsbl -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:25 INFO  : [INFO]: Generating Hardware Metadata for zynqmp_pmufw
+15:59:25 INFO  : [INFO]: Generating Linker script for zynqmp_pmufw
+15:59:25 INFO  : [INFO]: Successfully Created Application sources at C:/projects/amd/test_project/vitis_files/platform_pll/zynqmp_pmufw
+15:59:25 INFO  : Successfully created Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+15:59:25 INFO  : Platform PMU FW domain added successfully.
+15:59:25 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+15:59:25 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+15:59:25 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp -p psu_cortexa53_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t empty_application -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:25 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp -p psu_cortexa53_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t empty_application -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+15:59:27 INFO  : [INFO]: Generating Linker script for zynqmp_fsbl
+15:59:27 INFO  : [INFO]: Successfully Created Application sources at C:/projects/amd/test_project/vitis_files/platform_pll/zynqmp_fsbl
+15:59:27 INFO  : Successfully created Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+15:59:27 INFO  : Platform FSBL Boot domain added successfully.
+15:59:39 INFO  : [INFO]: Starting domain creation
+15:59:39 INFO  : [INFO]: Generating Domain-specific DTS for psu_cortexa53_0
+15:59:39 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:59:39 INFO  : [INFO]: Successfully created Domain at C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:59:39 INFO  : Successfully Generated Domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+15:59:39 INFO  : Domain standalone_psu_cortexa53_0 added successfully.
+15:59:39 INFO  : Platform creation finished successfully.
+15:59:39 INFO  : Platform Quick Build initiated.
+15:59:39 INFO  : Generating Export directory
+15:59:39 INFO  : Generated platform metadata for creating application(s) based on platform platform_pll.
+16:00:05 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t hello_world -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:07 INFO  : Successfully validated template hello_world
+16:00:12 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\hello_world\src -t hello_world -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -n hello_world -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:12 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t hello_world -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:14 INFO  : Successfully validated template hello_world
+16:00:14 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\hello_world\src -t hello_world -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -n hello_world -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:17 INFO  : [INFO]: Generating Hardware Metadata for hello_world
+16:00:17 INFO  : [INFO]: Generating Linker script for hello_world
+16:00:17 INFO  : [INFO]: Successfully Created Application sources at C:/projects/amd/test_project/vitis_files/hello_world/src
+16:00:17 INFO  : Successfully created Application C:\projects\amd\test_project\vitis_files\hello_world\src
+16:00:17 INFO  : The hardware specification used by project 'C:\projects\amd\test_project\vitis_files\hello_world' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:00:17 INFO  : The updated bitstream files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\bitstream' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:00:17 INFO  : The updated ps init files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\psinit' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:00:17 INFO  : created .gitignore file for the project C:\projects\amd\test_project\vitis_files\hello_world
+16:00:36 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:37 INFO  : Supported Library List generated.
+16:00:43 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:44 INFO  : Supported Library List generated.
+16:00:45 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_pmu_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:00:47 INFO  : Supported Library List generated.
+16:01:01 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+16:01:01 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+16:01:01 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+16:01:01 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:01 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:01 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:01 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:01 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:01 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:01 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:01 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:01 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:02 INFO  : Domain reconfigured successfully
+16:01:02 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:02 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:02 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:01:02 INFO  : Domain reconfigured successfully
+16:01:02 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:02 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:02 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:01:02 INFO  : Domain reconfigured successfully
+16:01:02 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:02 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:02 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:01:16 INFO  : Domain build successfully
+16:01:17 INFO  : Domain build successfully
+16:01:17 INFO  : Domain build successfully
+16:01:17 INFO  : Generating Boot ELFs
+16:01:17 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:01:17 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:01:18 INFO  : [INFO]: Retargeting app
+16:01:18 INFO  : [INFO]: Updating link libraries based on new domain
+16:01:18 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+16:01:18 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:01:18 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:01:24 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:01:24 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:01:24 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:01:25 INFO  : [INFO]: Retargeting app
+16:01:25 INFO  : [INFO]: Updating link libraries based on new domain
+16:01:25 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+16:01:25 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:01:25 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:01:31 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:01:31 INFO  : Generating Export directory
+16:01:31 INFO  : Platform Build Finished successfully.
+16:01:31 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\projects\amd\test_project\vitis_files\hello_world\src -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -b c:\projects\amd\test_project\vitis_files\hello_world\build
+16:01:31 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\projects\amd\test_project\vitis_files\hello_world\src -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\standalone_psu_cortexa53_0 -b c:\projects\amd\test_project\vitis_files\hello_world\build
+16:01:31 INFO  : [INFO]: Retargeting app
+16:01:31 INFO  : [INFO]: Updating link libraries based on new domain
+16:01:31 INFO  : Successfully retargeted Application c:\projects\amd\test_project\vitis_files\hello_world\src
+16:01:31 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\projects\amd\test_project\vitis_files\hello_world\src -b c:\projects\amd\test_project\vitis_files\hello_world\build
+16:02:19 INFO  : XSDB server has started successfully from frontend.
+16:02:19 INFO  : It has taken  2secs.
+16:02:20 INFO  : Connection to XSDB Server established.
+16:02:20 INFO  : It has taken  1secs.
+16:02:20 INFO  : Done
+16:02:22 INFO  : connect -url tcp:127.0.0.1:3121
+16:02:29 INFO  : bpremove -all
+16:02:29 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:02:29 INFO  : Context for 'APU' is selected.
+16:02:30 INFO  : System reset is completed.
+16:02:33 INFO  : 'after 3000' command is executed.
+16:02:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:02:35 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:02:35 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:02:35 INFO  : catch {disable_pmu_gate}
+16:02:35 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:02:35 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:02:35 INFO  : configparams force-mem-access 1
+16:02:35 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:02:35 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:02:35 INFO  : Boot mode is read from the target.
+16:02:39 INFO  : Boot mode of the target is set to jtag.
+16:02:39 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:02:39 INFO  : rst -processor
+16:02:40 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:02:40 INFO  : set bp_2_40_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:02:41 INFO  : con -block -timeout 60
+16:02:41 INFO  : bpremove $bp_2_40_fsbl_bp
+16:02:41 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:02:41 INFO  : rst -processor
+16:02:42 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:02:42 INFO  : con
+16:02:42 INFO  : configparams force-mem-access 0
+16:02:43 INFO  : Testing the connection for 127.0.0.1
+16:04:06 INFO  : disconnect
+16:04:30 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:04:31 INFO  : Supported Library List generated.
+16:04:48 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:48 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:48 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:48 INFO  : Domain reconfigured successfully
+16:04:48 INFO  : Updating the given parameters of library in BSP C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:48 INFO  : cmd.exe, /C, empyro.bat config_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -st standalone standalone_clocking:true -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:04:50 INFO  : [INFO]: Configuring standalone with  -Dstandalone_clocking="true"
+16:04:50 INFO  : -- Configuring done
+16:04:50 INFO  : -- Generating done
+16:04:50 INFO  : CMake Warning:
+16:04:50 INFO  :   Manually-specified variables were not used by the project:
+16:04:50 INFO  : 
+16:04:50 INFO  :     CMAKE_TOOLCHAIN_FILE
+16:04:50 INFO  : 
+16:04:50 INFO  : 
+16:04:50 INFO  : -- Build files have been written to: C:/projects/amd/test_project/vitis_files/platform_pll/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
+16:04:50 INFO  : [INFO]: Successfully configured BSP
+16:04:50 INFO  : Updated the library parameters successfully
+16:04:55 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+16:04:55 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+16:04:55 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+16:04:55 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:55 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:55 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:55 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:55 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:55 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:55 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:55 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:55 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:56 INFO  : Domain reconfigured successfully
+16:04:56 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:56 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:56 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:04:56 INFO  : Domain reconfigured successfully
+16:04:56 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:56 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:56 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:04:56 INFO  : Domain reconfigured successfully
+16:04:56 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:56 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:56 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:04:57 INFO  : Domain build successfully
+16:04:57 INFO  : Domain build successfully
+16:05:02 INFO  : Domain build successfully
+16:05:02 INFO  : Generating Boot ELFs
+16:05:02 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:05:02 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:05:03 INFO  : [INFO]: Retargeting app
+16:05:03 INFO  : [INFO]: Updating link libraries based on new domain
+16:05:03 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+16:05:03 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:05:03 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:05:07 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:05:07 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:05:07 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:05:08 INFO  : [INFO]: Retargeting app
+16:05:08 INFO  : [INFO]: Updating link libraries based on new domain
+16:05:08 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+16:05:08 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:05:08 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:05:13 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:05:13 INFO  : Generating Export directory
+16:05:13 INFO  : Platform Build Finished successfully.
+16:05:43 INFO  : connect -url tcp:127.0.0.1:3121
+16:05:43 INFO  : bpremove -all
+16:05:43 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:05:44 INFO  : Context for 'APU' is selected.
+16:05:45 INFO  : System reset is completed.
+16:05:48 INFO  : 'after 3000' command is executed.
+16:05:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:05:50 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:05:50 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:05:50 INFO  : catch {disable_pmu_gate}
+16:05:50 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:05:55 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:05:55 INFO  : configparams force-mem-access 1
+16:05:55 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:05:55 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:05:55 INFO  : Boot mode is read from the target.
+16:06:00 INFO  : Boot mode of the target is set to jtag.
+16:06:00 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:06:00 INFO  : rst -processor
+16:06:00 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:06:00 INFO  : set bp_6_0_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:06:01 INFO  : con -block -timeout 60
+16:06:01 INFO  : bpremove $bp_6_0_fsbl_bp
+16:06:01 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:06:01 INFO  : rst -processor
+16:06:02 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:06:02 INFO  : con
+16:06:02 INFO  : configparams force-mem-access 0
+16:06:03 INFO  : Testing the connection for 127.0.0.1
+16:08:17 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:08:18 INFO  : Supported Library List generated.
+16:08:20 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_pmu_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:08:21 INFO  : Supported Library List generated.
+16:09:01 INFO  : Updating Examples in Driver C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:09:01 INFO  : cmd.exe, /C, empyro.bat load_example -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:09:06 INFO  : [INFO]: Loading Valid Example names for BSP
+16:09:06 INFO  : -- The C compiler identification is GNU 13.3.0
+16:09:06 INFO  : -- The CXX compiler identification is GNU 13.3.0
+16:09:06 INFO  : -- Detecting C compiler ABI info
+16:09:06 INFO  : -- Detecting C compiler ABI info - done
+16:09:06 INFO  : -- Check for working C compiler: C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-gcc.exe - skipped
+16:09:06 INFO  : -- Detecting C compile features
+16:09:06 INFO  : -- Detecting C compile features - done
+16:09:06 INFO  : -- Detecting CXX compiler ABI info
+16:09:06 INFO  : -- Detecting CXX compiler ABI info - done
+16:09:06 INFO  : -- Check for working CXX compiler: C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-g++.exe - skipped
+16:09:06 INFO  : -- Detecting CXX compile features
+16:09:06 INFO  : -- Detecting CXX compile features - done
+16:09:06 INFO  : -- Configuring done
+16:09:06 INFO  : -- Generating done
+16:09:06 INFO  : -- Build files have been written to: C:/projects/amd/test_project/vitis_files/platform_pll/zynqmp_pmufw/zynqmp_pmufw_bsp/libsrc/build_configs/exmetadata
+16:09:06 INFO  : [INFO]: Gathering examples metadata
+16:09:06 INFO  : [INFO]: Successfully loaded all the valid examples for the BSP
+16:09:06 INFO  : Updated Examples in Driver
+16:09:29 INFO  : The updated bitstream files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\bitstream' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:09:29 INFO  : The updated ps init files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\psinit' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:10:05 INFO  : The updated bitstream files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\bitstream' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:10:06 INFO  : The updated ps init files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\hello_world\_ide\psinit' in project 'C:\projects\amd\test_project\vitis_files\hello_world'.
+16:10:33 INFO  : disconnect
+16:12:22 INFO  : connect -url tcp:127.0.0.1:3121
+16:12:22 INFO  : bpremove -all
+16:12:22 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:12:23 INFO  : Context for 'APU' is selected.
+16:12:24 INFO  : System reset is completed.
+16:12:27 INFO  : 'after 3000' command is executed.
+16:12:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:12:28 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:12:28 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:12:28 INFO  : catch {disable_pmu_gate}
+16:12:28 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:12:32 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:12:32 INFO  : configparams force-mem-access 1
+16:12:32 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:12:32 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:12:32 INFO  : Boot mode is read from the target.
+16:12:37 INFO  : Boot mode of the target is set to jtag.
+16:12:37 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:12:37 INFO  : rst -processor
+16:12:37 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:12:37 INFO  : set bp_12_37_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:12:38 INFO  : con -block -timeout 60
+16:12:38 INFO  : bpremove $bp_12_37_fsbl_bp
+16:12:38 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:12:39 INFO  : rst -processor
+16:12:39 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:12:39 INFO  : con
+16:12:39 INFO  : configparams force-mem-access 0
+16:12:40 INFO  : Testing the connection for 127.0.0.1
+16:15:21 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\hw\sdt\system-top.dts
+16:15:21 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\hw\sdt\system-top.dts
+16:15:22 INFO  : CPU List generated successfully
+16:15:52 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\hw\sdt\system-top.dts
+16:15:52 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\projects\amd\test_project\vitis_files\.rigel_lopper -i lop-cpu-oslist.dts C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\hw\sdt\system-top.dts
+16:15:54 INFO  : CPU List generated successfully
+16:16:01 INFO  : ZYNQMP: Using the QEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\qemu_args.txt
+16:16:01 INFO  : ZYNQMP: Using the PMUQEMU args from install at  : C:\Xilinx\2025.1\Vitis\data\emulation\platforms\zynqmp\sw\a53_standalone\qemu\pmu_args.txt
+16:16:01 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp -p psu_pmu_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:16:01 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp -p psu_pmu_0 -o standalone -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -t zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:16:17 INFO  : [INFO]: Starting domain creation
+16:16:17 INFO  : [INFO]: Generating Domain-specific DTS for psu_pmu_0
+16:16:17 INFO  : [INFO]: Generating required metadata from domain specific DT
+16:16:17 INFO  : STATUS: No Value specified, assigning default values.
+16:16:17 INFO  : [INFO]: Successfully created Domain at C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:17 INFO  : Successfully Generated Domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:17 INFO  : Generating Export directory
+16:16:17 INFO  : Generated platform metadata for creating application(s) based on platform platform_pll.
+16:16:17 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\what -n zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:16:17 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\what -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:16:19 INFO  : Successfully validated template zynqmp_pmufw
+16:16:19 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src -t zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\what -n zynqmp_pmufw -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:16:23 INFO  : [INFO]: Generating Hardware Metadata for zynqmp_pmufw
+16:16:23 INFO  : [INFO]: Generating Linker script for zynqmp_pmufw
+16:16:23 INFO  : [INFO]: Successfully Created Application sources at C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/src
+16:16:23 INFO  : Successfully created Application C:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src
+16:16:23 INFO  : The hardware specification used by project 'C:\projects\amd\test_project\vitis_files\zynqmp_pmufw' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:16:23 INFO  : The updated bitstream files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\zynqmp_pmufw\_ide\bitstream' in project 'C:\projects\amd\test_project\vitis_files\zynqmp_pmufw'.
+16:16:23 INFO  : The updated ps init files are copied from platform to folder 'C:\projects\amd\test_project\vitis_files\zynqmp_pmufw\_ide\psinit' in project 'C:\projects\amd\test_project\vitis_files\zynqmp_pmufw'.
+16:16:23 INFO  : created .gitignore file for the project C:\projects\amd\test_project\vitis_files\zynqmp_pmufw
+16:16:31 INFO  : BSP build will be initiated for Domain what
+16:16:31 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+16:16:31 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+16:16:31 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : Domain reconfigured successfully
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+16:16:31 INFO  : Domain reconfigured successfully
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:16:31 INFO  : Domain reconfigured successfully
+16:16:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:31 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:31 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+16:16:32 INFO  : Domain reconfigured successfully
+16:16:32 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:32 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:32 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+16:16:32 INFO  : Domain build successfully
+16:16:33 INFO  : Domain build successfully
+16:16:33 INFO  : Domain build successfully
+16:16:39 INFO  : Domain build successfully
+16:16:39 INFO  : Generating Boot ELFs
+16:16:39 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:16:39 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:16:40 INFO  : [INFO]: Retargeting app
+16:16:40 INFO  : [INFO]: Updating link libraries based on new domain
+16:16:40 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+16:16:40 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:16:40 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:16:44 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+16:16:44 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:16:44 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:16:45 INFO  : [INFO]: Retargeting app
+16:16:45 INFO  : [INFO]: Updating link libraries based on new domain
+16:16:45 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+16:16:45 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:16:45 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:16:51 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+16:16:51 INFO  : Generating Export directory
+16:16:51 INFO  : Platform Build Finished successfully.
+16:17:03 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\what -b c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\build
+16:17:03 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src -d C:\projects\amd\test_project\vitis_files\platform_pll\export\platform_pll\sw\what -b c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\build
+16:17:03 INFO  : [INFO]: Retargeting app
+16:17:03 INFO  : [INFO]: Updating link libraries based on new domain
+16:17:03 INFO  : Successfully retargeted Application c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src
+16:17:03 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\src -b c:\projects\amd\test_project\vitis_files\zynqmp_pmufw\build
+16:17:46 INFO  : connect -url tcp:127.0.0.1:3121
+16:17:46 INFO  : bpremove -all
+16:17:46 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:17:46 INFO  : Context for 'APU' is selected.
+16:17:46 INFO  : System reset is completed.
+16:17:46 INFO  : disconnect
+16:17:49 INFO  : 'after 3000' command is executed.
+16:17:50 ERROR : Failed to initialize the hardware Invalid target. Use "connect" command to connect to hw_server/TCF agent
+16:18:08 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_pmu_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:09 INFO  : Supported Library List generated.
+16:18:10 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_cortexa53_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:11 INFO  : Supported Library List generated.
+16:18:15 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_pmu_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:16 INFO  : Supported Library List generated.
+16:18:31 INFO  : Regenerating BSP 
+16:18:31 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:18:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:18:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:18:32 INFO  : Domain reconfigured successfully
+16:18:32 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:32 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:47 INFO  : [INFO]: Regenerating bsp
+16:18:47 INFO  : [INFO]: Starting domain creation
+16:18:47 INFO  : [INFO]: Generating Domain-specific DTS for psu_pmu_0
+16:18:47 INFO  : [INFO]: Generating required metadata from domain specific DT
+16:18:47 INFO  : STATUS: No Value specified, assigning default values.
+16:18:47 INFO  : [INFO]: Successfully created Domain at C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+16:18:47 INFO  : STATUS: No Value specified, assigning default values.
+16:18:47 INFO  : -- Configuring done
+16:18:47 INFO  : -- Generating done
+16:18:47 INFO  : CMake Warning:
+16:18:47 INFO  :   Manually-specified variables were not used by the project:
+16:18:47 INFO  : 
+16:18:47 INFO  :     CMAKE_TOOLCHAIN_FILE
+16:18:47 INFO  : 
+16:18:47 INFO  : 
+16:18:47 INFO  : -- Build files have been written to: C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp
+16:18:47 INFO  : [INFO]: Regenerated BSP successfully.
+16:18:47 INFO  : BSP regenerated successfully
+16:18:47 INFO  : BSP regeneration finished successfully
+16:18:47 INFO  : cmd.exe, /C, lopper.bat -O  . C:\projects\amd\test_project\vitis_files\platform_pll\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx psu_pmu_0 C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:18:48 INFO  : Supported Library List generated.
+16:18:57 INFO  : connect -url tcp:127.0.0.1:3121
+16:18:57 INFO  : bpremove -all
+16:18:57 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:18:58 INFO  : Context for 'APU' is selected.
+16:18:58 INFO  : System reset is completed.
+16:19:01 INFO  : 'after 3000' command is executed.
+16:19:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:19:02 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/_ide/bitstream/mdesign_wrapper.bit"
+16:19:03 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:19:03 INFO  : catch {disable_pmu_gate}
+16:19:03 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:19:07 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:19:07 INFO  : configparams force-mem-access 1
+16:19:07 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:19:07 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:19:07 INFO  : Boot mode is read from the target.
+16:19:07 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:19:07 INFO  : rst -processor
+16:19:07 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:19:07 INFO  : set bp_19_7_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:19:08 INFO  : con -block -timeout 60
+16:19:08 INFO  : bpremove $bp_19_7_fsbl_bp
+16:19:09 INFO  : targets -set -nocase -filter {name =~ "MicroBlaze*PMU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}
+16:19:09 INFO  : rst -processor
+16:19:09 INFO  : dow C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/build/zynqmp_pmufw.elf
+16:19:09 INFO  : con
+16:19:09 INFO  : configparams force-mem-access 0
+16:19:10 INFO  : Testing the connection for 127.0.0.1
+16:23:59 INFO  : connect -url tcp:127.0.0.1:3121
+16:23:59 INFO  : bpremove -all
+16:23:59 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:23:59 INFO  : Context for 'APU' is selected.
+16:23:59 INFO  : System reset is completed.
+16:23:59 INFO  : disconnect
+16:24:02 INFO  : 'after 3000' command is executed.
+16:24:02 ERROR : Failed to initialize the hardware Invalid target. Use "connect" command to connect to hw_server/TCF agent
+16:24:18 INFO  : connect -url tcp:127.0.0.1:3121
+16:24:18 INFO  : bpremove -all
+16:24:18 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:24:19 INFO  : Context for 'APU' is selected.
+16:24:19 INFO  : System reset is completed.
+16:24:22 INFO  : 'after 3000' command is executed.
+16:24:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:24:24 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:24:24 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:24:24 INFO  : catch {disable_pmu_gate}
+16:24:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:24:24 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:24:24 INFO  : configparams force-mem-access 1
+16:24:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:24:24 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:24:24 INFO  : Boot mode is read from the target.
+16:24:24 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:24:24 INFO  : rst -processor
+16:24:25 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:24:25 INFO  : set bp_24_25_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:24:26 INFO  : con -block -timeout 60
+16:24:26 INFO  : bpremove $bp_24_25_fsbl_bp
+16:24:26 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:24:26 INFO  : rst -processor
+16:24:26 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:24:26 INFO  : con
+16:24:26 INFO  : configparams force-mem-access 0
+16:24:27 INFO  : Testing the connection for 127.0.0.1
+16:25:06 INFO  : disconnect
+16:25:37 INFO  : connect -url tcp:127.0.0.1:3121
+16:25:37 INFO  : bpremove -all
+16:25:37 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:25:39 INFO  : Context for 'APU' is selected.
+16:25:39 INFO  : System reset is completed.
+16:25:42 INFO  : 'after 3000' command is executed.
+16:25:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:25:44 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:25:44 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:25:44 INFO  : catch {disable_pmu_gate}
+16:25:44 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:25:44 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:25:44 INFO  : configparams force-mem-access 1
+16:25:44 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:25:44 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:25:44 INFO  : Boot mode is read from the target.
+16:25:49 INFO  : Boot mode of the target is set to jtag.
+16:25:49 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:25:49 INFO  : rst -processor
+16:25:49 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:25:49 INFO  : set bp_25_49_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:25:50 INFO  : con -block -timeout 60
+16:25:50 INFO  : bpremove $bp_25_49_fsbl_bp
+16:25:50 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:25:50 INFO  : rst -processor
+16:25:51 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:25:51 INFO  : con
+16:25:51 INFO  : configparams force-mem-access 0
+16:25:52 INFO  : Testing the connection for 127.0.0.1
+16:26:15 INFO  : disconnect
+16:26:18 INFO  : connect -url tcp:127.0.0.1:3121
+16:26:18 INFO  : bpremove -all
+16:26:18 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:26:19 INFO  : Context for 'APU' is selected.
+16:26:20 INFO  : System reset is completed.
+16:26:23 INFO  : 'after 3000' command is executed.
+16:26:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:26:24 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+16:26:24 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:24 INFO  : catch {disable_pmu_gate}
+16:26:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:24 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:26:24 INFO  : configparams force-mem-access 1
+16:26:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:24 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:26:25 INFO  : Boot mode is read from the target.
+16:26:29 INFO  : Boot mode of the target is set to jtag.
+16:26:29 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:26:29 INFO  : rst -processor
+16:26:30 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:26:30 INFO  : set bp_26_30_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:26:31 INFO  : con -block -timeout 60
+16:26:31 INFO  : bpremove $bp_26_30_fsbl_bp
+16:26:31 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:31 INFO  : rst -processor
+16:26:31 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+16:26:31 INFO  : con
+16:26:31 INFO  : configparams force-mem-access 0
+16:26:32 INFO  : Testing the connection for 127.0.0.1
+16:26:39 INFO  : connect -url tcp:127.0.0.1:3121
+16:26:39 INFO  : bpremove -all
+16:26:39 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:26:39 INFO  : Context for 'APU' is selected.
+16:26:39 INFO  : System reset is completed.
+16:26:39 INFO  : disconnect
+16:26:42 INFO  : 'after 3000' command is executed.
+16:26:42 ERROR : Failed to initialize the hardware Invalid target. Use "connect" command to connect to hw_server/TCF agent
+16:26:53 INFO  : connect -url tcp:127.0.0.1:3121
+16:26:53 INFO  : bpremove -all
+16:26:53 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:26:54 INFO  : Context for 'APU' is selected.
+16:26:54 INFO  : System reset is completed.
+16:26:57 INFO  : 'after 3000' command is executed.
+16:26:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:26:59 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/_ide/bitstream/mdesign_wrapper.bit"
+16:26:59 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:59 INFO  : catch {disable_pmu_gate}
+16:26:59 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:59 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:26:59 INFO  : configparams force-mem-access 1
+16:26:59 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:26:59 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:26:59 INFO  : Boot mode is read from the target.
+16:27:04 INFO  : Boot mode of the target is set to jtag.
+16:27:04 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:27:04 INFO  : rst -processor
+16:27:04 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:27:04 INFO  : set bp_27_4_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:27:05 INFO  : con -block -timeout 60
+16:27:05 INFO  : bpremove $bp_27_4_fsbl_bp
+16:27:08 ERROR : no targets found with "name =~ "MicroBlaze*PMU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"". available targets:
+  1  PS TAP
+     2  PMU
+     3  PL
+  4  PSU
+     5  RPU (Reset)
+        6  Cortex-R5 #0 (RPU Reset)
+        7  Cortex-R5 #1 (RPU Reset)
+     8  APU
+        9* Cortex-A53 #0 (Breakpoint, EL3(S)/A64)
+       10  Cortex-A53 #1 (Power On Reset)
+16:27:08 ERROR : Failed to initialize the hardware no targets found with "name =~ "MicroBlaze*PMU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"". available targets:
+  1  PS TAP
+     2  PMU
+     3  PL
+  4  PSU
+     5  RPU (Reset)
+        6  Cortex-R5 #0 (RPU Reset)
+        7  Cortex-R5 #1 (RPU Reset)
+     8  APU
+        9* Cortex-A53 #0 (Breakpoint, EL3(S)/A64)
+       10  Cortex-A53 #1 (Power On Reset)
+16:27:24 INFO  : connect -url tcp:127.0.0.1:3121
+16:27:24 INFO  : bpremove -all
+16:27:24 INFO  : source C:/Xilinx/2025.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+16:27:24 INFO  : Context for 'APU' is selected.
+16:27:25 INFO  : System reset is completed.
+16:27:28 INFO  : 'after 3000' command is executed.
+16:27:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+16:27:30 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/_ide/bitstream/mdesign_wrapper.bit"
+16:27:30 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:27:30 INFO  : catch {disable_pmu_gate}
+16:27:30 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:27:30 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+16:27:30 INFO  : configparams force-mem-access 1
+16:27:30 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+16:27:30 INFO  : source C:/Xilinx/2025.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+16:27:30 INFO  : Boot mode is read from the target.
+16:27:30 INFO  : targets -set -nocase -filter {name =~ "*A53*#0"}
+16:27:30 INFO  : rst -processor
+16:27:30 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+16:27:30 INFO  : set bp_27_30_fsbl_bp [bpadd -addr &XFsbl_Exit]
+16:27:31 INFO  : con -block -timeout 60
+16:27:31 INFO  : bpremove $bp_27_30_fsbl_bp
+16:27:32 INFO  : targets -set -nocase -filter {name =~ "MicroBlaze*PMU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}
+16:27:32 INFO  : rst -processor
+16:27:32 INFO  : dow C:/projects/amd/test_project/vitis_files/zynqmp_pmufw/build/zynqmp_pmufw.elf
+16:27:32 INFO  : con
+16:27:32 INFO  : configparams force-mem-access 0
+16:27:33 INFO  : Testing the connection for 127.0.0.1
+16:32:18 INFO  : connection terminated
+16:32:18 INFO  : connection terminated
+16:32:18 INFO  : scheduling shutdown timer for 2 seconds ...
+16:32:20 INFO  : Terminating Vitis C++ Server
+16:32:20 INFO  : Vitis C++ Server terminated
+16:32:44 INFO  : updated workspace path: C:\projects\amd\test_project\vitis_files
+16:32:44 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\kai\AppData\Local\Temp\rigel_lopper_kai10035432172777495221 -r C:\projects\amd\test_project\vitis_files\_ide\.wsdata\.repo.yaml
+16:32:45 INFO  : Embedded Template List generated successfully
+16:38:40 INFO  : connection terminated
+16:38:40 INFO  : connection terminated
+16:38:40 INFO  : scheduling shutdown timer for 2 seconds ...
+16:38:42 INFO  : Terminating Vitis C++ Server
+16:38:42 INFO  : Vitis C++ Server terminated
