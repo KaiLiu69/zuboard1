@@ -1,4 +1,0 @@
-domain_path: /home/kai/projects/amd/zuboard/vitis_files/pll_connect/export/pll_connect/sw/standalone_psu_cortexr5_0
-app_src_dir: /home/kai/xilinx/2025.1/Vitis/data/embeddedsw/lib/sw_apps/hello_world
-template: hello_world
-lang: c

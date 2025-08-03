@@ -1,3 +1,0 @@
-/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
-/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
-/home/kai/projects/amd/zuboard/vitis_files/pll_connect/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir
