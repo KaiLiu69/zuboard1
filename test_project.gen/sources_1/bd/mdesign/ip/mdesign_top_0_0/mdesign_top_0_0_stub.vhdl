@@ -1,11 +1,11 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2025.1 (lin64) Build 6140274 Wed May 21 22:58:25 MDT 2025
--- Date        : Sat Aug  2 17:38:38 2025
--- Host        : kbuntu running 64-bit Ubuntu 24.04.2 LTS
+-- Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+-- Date        : Sun Aug  3 14:54:14 2025
+-- Host        : slim5 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/ip/mdesign_top_0_0/mdesign_top_0_0_stub.vhdl
+--               c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/ip/mdesign_top_0_0/mdesign_top_0_0_stub.vhdl
 -- Design      : mdesign_top_0_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu1cg-sbva484-1-e
@@ -43,7 +43,7 @@ architecture stub of mdesign_top_0_0 is
   attribute X_INTERFACE_PARAMETER of clk : signal is "XIL_INTERFACENAME clk, ASSOCIATED_RESET rst, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN mdesign_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of rst : signal is "xilinx.com:signal:reset:1.0 rst RST";
   attribute X_INTERFACE_MODE of rst : signal is "slave";
-  attribute X_INTERFACE_PARAMETER of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_HIGH, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of rst : signal is "XIL_INTERFACENAME rst, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   attribute X_CORE_INFO : string;
   attribute X_CORE_INFO of stub : architecture is "top,Vivado 2025.1";
 begin

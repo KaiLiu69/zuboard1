@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Aug  2 17:38:11 2025" VIVADOVERSION="2025.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Aug  3 14:53:20 2025" VIVADOVERSION="2025.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="avnet.com:zuboard_1cg:part0:1.0" DEVICE="xczu1cg" NAME="mdesign" PACKAGE="sbva484" SPEEDGRADE="-1"/>
 
@@ -14,51 +14,6 @@
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE COREREVISION="17" FULLNAME="/proc_sys_reset_0" HWVERSION="5.0" INSTANCE="proc_sys_reset_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="proc_sys_reset" VLNV="xilinx.com:ip:proc_sys_reset:5.0">
-      <DOCUMENTS>
-        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=proc_sys_reset;v=v5_0;d=pg164-proc-sys-reset.pdf"/>
-      </DOCUMENTS>
-      <PARAMETERS>
-        <PARAMETER NAME="C_AUX_RESET_HIGH" VALUE="0"/>
-        <PARAMETER NAME="C_AUX_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_EXT_RESET_HIGH" VALUE="0"/>
-        <PARAMETER NAME="C_EXT_RST_WIDTH" VALUE="4"/>
-        <PARAMETER NAME="C_FAMILY" VALUE="zynquplus"/>
-        <PARAMETER NAME="C_NUM_BUS_RST" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_INTERCONNECT_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_ARESETN" VALUE="1"/>
-        <PARAMETER NAME="C_NUM_PERP_RST" VALUE="1"/>
-        <PARAMETER NAME="Component_Name" VALUE="mdesign_proc_sys_reset_0_0"/>
-        <PARAMETER NAME="RESET_BOARD_INTERFACE" VALUE="Custom"/>
-        <PARAMETER NAME="USE_BOARD_FLOW" VALUE="false"/>
-        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
-      </PARAMETERS>
-      <PORTS>
-        <PORT DIR="I" NAME="aux_reset_in" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="bus_struct_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="I" NAME="dcm_locked" SIGIS="undef"/>
-        <PORT DIR="I" NAME="ext_reset_in" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="zynq_ultra_ps_e_0_pl_resetn0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_resetn0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="interconnect_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="I" NAME="mb_debug_sys_rst" POLARITY="ACTIVE_HIGH" SIGIS="rst"/>
-        <PORT DIR="O" NAME="mb_reset" POLARITY="ACTIVE_HIGH" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_aresetn" POLARITY="ACTIVE_LOW" RIGHT="0" SIGIS="rst"/>
-        <PORT DIR="O" LEFT="0" NAME="peripheral_reset" POLARITY="ACTIVE_HIGH" RIGHT="0" SIGIS="rst" SIGNAME="proc_sys_reset_0_peripheral_reset">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="top_0" PORT="rst"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="slowest_sync_clk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
-          </CONNECTIONS>
-        </PORT>
-      </PORTS>
-      <BUSINTERFACES/>
-    </MODULE>
     <MODULE COREREVISION="1" FULLNAME="/top_0" HWVERSION="1.0" INSTANCE="top_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="top" VLNV="xilinx.com:module_ref:top:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
@@ -77,9 +32,9 @@
             <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="proc_sys_reset_0_peripheral_reset">
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="zynq_ultra_ps_e_0_pl_resetn0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="peripheral_reset"/>
+            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_resetn0"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -837,7 +792,7 @@
         <PARAMETER NAME="PSU__CRL_APB__GEM2_REF_CTRL__DIVISOR1" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM2_REF_CTRL__FREQMHZ" VALUE="125"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM2_REF_CTRL__SRCSEL" VALUE="IOPLL"/>
-        <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__ACT_FREQMHZ" VALUE="125.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__ACT_FREQMHZ" VALUE="125"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__DIVISOR0" VALUE="12"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__DIVISOR1" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__GEM3_REF_CTRL__FREQMHZ" VALUE="125"/>
@@ -950,12 +905,12 @@
         <PARAMETER NAME="PSU__CRL_APB__UART0_REF_CTRL__DIVISOR1" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__UART0_REF_CTRL__FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__UART0_REF_CTRL__SRCSEL" VALUE="IOPLL"/>
-        <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ" VALUE="100.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__DIVISOR0" VALUE="15"/>
         <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__DIVISOR1" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__FREQMHZ" VALUE="100"/>
         <PARAMETER NAME="PSU__CRL_APB__UART1_REF_CTRL__SRCSEL" VALUE="IOPLL"/>
-        <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__ACT_FREQMHZ" VALUE="250.000000"/>
+        <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__ACT_FREQMHZ" VALUE="250"/>
         <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__DIVISOR0" VALUE="6"/>
         <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__DIVISOR1" VALUE="1"/>
         <PARAMETER NAME="PSU__CRL_APB__USB0_BUS_REF_CTRL__FREQMHZ" VALUE="250"/>
@@ -1771,8 +1726,8 @@
         <PARAMETER NAME="PSU__USE__IRQ" VALUE="0"/>
         <PARAMETER NAME="PSU__USE__IRQ0" VALUE="0"/>
         <PARAMETER NAME="PSU__USE__IRQ1" VALUE="0"/>
-        <PARAMETER NAME="PSU__USE__M_AXI_GP0" VALUE="1"/>
-        <PARAMETER NAME="PSU__USE__M_AXI_GP1" VALUE="1"/>
+        <PARAMETER NAME="PSU__USE__M_AXI_GP0" VALUE="0"/>
+        <PARAMETER NAME="PSU__USE__M_AXI_GP1" VALUE="0"/>
         <PARAMETER NAME="PSU__USE__M_AXI_GP2" VALUE="0"/>
         <PARAMETER NAME="PSU__USE__PROC_EVENT_BUS" VALUE="0"/>
         <PARAMETER NAME="PSU__USE__RPU_LEGACY_INTERRUPT" VALUE="0"/>
@@ -1820,258 +1775,18 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="O" LEFT="39" NAME="maxigp0_araddr" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="1" NAME="maxigp0_arburst" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp0_arcache" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_arid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="7" NAME="maxigp0_arlen" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_arlock" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp0_arprot" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp0_arqos" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_arready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp0_arsize" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_aruser" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_arvalid" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="39" NAME="maxigp0_awaddr" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="1" NAME="maxigp0_awburst" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp0_awcache" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_awid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="7" NAME="maxigp0_awlen" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_awlock" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp0_awprot" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp0_awqos" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_awready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp0_awsize" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_awuser" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_awvalid" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="15" NAME="maxigp0_bid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_bready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="1" NAME="maxigp0_bresp" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_bvalid" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="127" NAME="maxigp0_rdata" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="15" NAME="maxigp0_rid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_rlast" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_rready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="1" NAME="maxigp0_rresp" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_rvalid" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="127" NAME="maxigp0_wdata" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_wlast" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp0_wready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp0_wstrb" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp0_wvalid" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="39" NAME="maxigp1_araddr" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="1" NAME="maxigp1_arburst" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp1_arcache" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp1_arid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="7" NAME="maxigp1_arlen" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_arlock" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp1_arprot" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp1_arqos" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_arready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp1_arsize" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp1_aruser" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_arvalid" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="39" NAME="maxigp1_awaddr" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="1" NAME="maxigp1_awburst" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp1_awcache" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp1_awid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="7" NAME="maxigp1_awlen" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_awlock" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp1_awprot" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="3" NAME="maxigp1_awqos" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_awready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="2" NAME="maxigp1_awsize" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp1_awuser" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_awvalid" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="15" NAME="maxigp1_bid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_bready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="1" NAME="maxigp1_bresp" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_bvalid" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="127" NAME="maxigp1_rdata" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="15" NAME="maxigp1_rid" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_rlast" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_rready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="1" NAME="maxigp1_rresp" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_rvalid" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="127" NAME="maxigp1_wdata" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_wlast" SIGIS="undef"/>
-        <PORT DIR="I" NAME="maxigp1_wready" SIGIS="undef"/>
-        <PORT DIR="O" LEFT="15" NAME="maxigp1_wstrb" RIGHT="0" SIGIS="undef"/>
-        <PORT DIR="O" NAME="maxigp1_wvalid" SIGIS="undef"/>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="maxihpm0_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="maxihpm1_fpd_aclk" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="pl_clk0"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT CLKFREQUENCY="100000000" DIR="O" NAME="pl_clk0" SIGIS="clk" SIGNAME="zynq_ultra_ps_e_0_pl_clk0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="slowest_sync_clk"/>
             <CONNECTION INSTANCE="top_0" PORT="clk"/>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxihpm1_fpd_aclk"/>
-            <CONNECTION INSTANCE="zynq_ultra_ps_e_0" PORT="maxihpm0_fpd_aclk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="pl_resetn0" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="zynq_ultra_ps_e_0_pl_resetn0">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="proc_sys_reset_0" PORT="ext_reset_in"/>
+            <CONNECTION INSTANCE="top_0" PORT="rst"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
-      <BUSINTERFACES>
-        <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="128" NAME="M_AXI_HPM0_FPD" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
-          <PARAMETER NAME="ADDR_WIDTH" VALUE="40"/>
-          <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="mdesign_zynq_ultra_ps_e_0_0_pl_clk0"/>
-          <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="100000000"/>
-          <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
-          <PARAMETER NAME="HAS_BURST" VALUE="1"/>
-          <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
-          <PARAMETER NAME="HAS_LOCK" VALUE="1"/>
-          <PARAMETER NAME="HAS_PROT" VALUE="1"/>
-          <PARAMETER NAME="HAS_QOS" VALUE="1"/>
-          <PARAMETER NAME="HAS_REGION" VALUE="0"/>
-          <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
-          <PARAMETER NAME="HAS_WSTRB" VALUE="1"/>
-          <PARAMETER NAME="ID_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
-          <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="256"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="8"/>
-          <PARAMETER NAME="NUM_READ_THREADS" VALUE="4"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="8"/>
-          <PARAMETER NAME="NUM_WRITE_THREADS" VALUE="4"/>
-          <PARAMETER NAME="PHASE" VALUE="0.0"/>
-          <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
-          <PARAMETER NAME="RUSER_BITS_PER_BYTE" VALUE="0"/>
-          <PARAMETER NAME="RUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="1"/>
-          <PARAMETER NAME="WUSER_BITS_PER_BYTE" VALUE="0"/>
-          <PARAMETER NAME="WUSER_WIDTH" VALUE="0"/>
-          <PORTMAPS>
-            <PORTMAP LOGICAL="ARADDR" PHYSICAL="maxigp0_araddr"/>
-            <PORTMAP LOGICAL="ARBURST" PHYSICAL="maxigp0_arburst"/>
-            <PORTMAP LOGICAL="ARCACHE" PHYSICAL="maxigp0_arcache"/>
-            <PORTMAP LOGICAL="ARID" PHYSICAL="maxigp0_arid"/>
-            <PORTMAP LOGICAL="ARLEN" PHYSICAL="maxigp0_arlen"/>
-            <PORTMAP LOGICAL="ARLOCK" PHYSICAL="maxigp0_arlock"/>
-            <PORTMAP LOGICAL="ARPROT" PHYSICAL="maxigp0_arprot"/>
-            <PORTMAP LOGICAL="ARQOS" PHYSICAL="maxigp0_arqos"/>
-            <PORTMAP LOGICAL="ARREADY" PHYSICAL="maxigp0_arready"/>
-            <PORTMAP LOGICAL="ARSIZE" PHYSICAL="maxigp0_arsize"/>
-            <PORTMAP LOGICAL="ARUSER" PHYSICAL="maxigp0_aruser"/>
-            <PORTMAP LOGICAL="ARVALID" PHYSICAL="maxigp0_arvalid"/>
-            <PORTMAP LOGICAL="AWADDR" PHYSICAL="maxigp0_awaddr"/>
-            <PORTMAP LOGICAL="AWBURST" PHYSICAL="maxigp0_awburst"/>
-            <PORTMAP LOGICAL="AWCACHE" PHYSICAL="maxigp0_awcache"/>
-            <PORTMAP LOGICAL="AWID" PHYSICAL="maxigp0_awid"/>
-            <PORTMAP LOGICAL="AWLEN" PHYSICAL="maxigp0_awlen"/>
-            <PORTMAP LOGICAL="AWLOCK" PHYSICAL="maxigp0_awlock"/>
-            <PORTMAP LOGICAL="AWPROT" PHYSICAL="maxigp0_awprot"/>
-            <PORTMAP LOGICAL="AWQOS" PHYSICAL="maxigp0_awqos"/>
-            <PORTMAP LOGICAL="AWREADY" PHYSICAL="maxigp0_awready"/>
-            <PORTMAP LOGICAL="AWSIZE" PHYSICAL="maxigp0_awsize"/>
-            <PORTMAP LOGICAL="AWUSER" PHYSICAL="maxigp0_awuser"/>
-            <PORTMAP LOGICAL="AWVALID" PHYSICAL="maxigp0_awvalid"/>
-            <PORTMAP LOGICAL="BID" PHYSICAL="maxigp0_bid"/>
-            <PORTMAP LOGICAL="BREADY" PHYSICAL="maxigp0_bready"/>
-            <PORTMAP LOGICAL="BRESP" PHYSICAL="maxigp0_bresp"/>
-            <PORTMAP LOGICAL="BVALID" PHYSICAL="maxigp0_bvalid"/>
-            <PORTMAP LOGICAL="RDATA" PHYSICAL="maxigp0_rdata"/>
-            <PORTMAP LOGICAL="RID" PHYSICAL="maxigp0_rid"/>
-            <PORTMAP LOGICAL="RLAST" PHYSICAL="maxigp0_rlast"/>
-            <PORTMAP LOGICAL="RREADY" PHYSICAL="maxigp0_rready"/>
-            <PORTMAP LOGICAL="RRESP" PHYSICAL="maxigp0_rresp"/>
-            <PORTMAP LOGICAL="RVALID" PHYSICAL="maxigp0_rvalid"/>
-            <PORTMAP LOGICAL="WDATA" PHYSICAL="maxigp0_wdata"/>
-            <PORTMAP LOGICAL="WLAST" PHYSICAL="maxigp0_wlast"/>
-            <PORTMAP LOGICAL="WREADY" PHYSICAL="maxigp0_wready"/>
-            <PORTMAP LOGICAL="WSTRB" PHYSICAL="maxigp0_wstrb"/>
-            <PORTMAP LOGICAL="WVALID" PHYSICAL="maxigp0_wvalid"/>
-          </PORTMAPS>
-        </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="128" NAME="M_AXI_HPM1_FPD" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
-          <PARAMETER NAME="ADDR_WIDTH" VALUE="40"/>
-          <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="CLK_DOMAIN" VALUE="mdesign_zynq_ultra_ps_e_0_0_pl_clk0"/>
-          <PARAMETER NAME="DATA_WIDTH" VALUE="128"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="100000000"/>
-          <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
-          <PARAMETER NAME="HAS_BURST" VALUE="1"/>
-          <PARAMETER NAME="HAS_CACHE" VALUE="1"/>
-          <PARAMETER NAME="HAS_LOCK" VALUE="1"/>
-          <PARAMETER NAME="HAS_PROT" VALUE="1"/>
-          <PARAMETER NAME="HAS_QOS" VALUE="1"/>
-          <PARAMETER NAME="HAS_REGION" VALUE="0"/>
-          <PARAMETER NAME="HAS_RRESP" VALUE="1"/>
-          <PARAMETER NAME="HAS_WSTRB" VALUE="1"/>
-          <PARAMETER NAME="ID_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="INSERT_VIP" VALUE="0"/>
-          <PARAMETER NAME="MAX_BURST_LENGTH" VALUE="256"/>
-          <PARAMETER NAME="NUM_READ_OUTSTANDING" VALUE="8"/>
-          <PARAMETER NAME="NUM_READ_THREADS" VALUE="4"/>
-          <PARAMETER NAME="NUM_WRITE_OUTSTANDING" VALUE="8"/>
-          <PARAMETER NAME="NUM_WRITE_THREADS" VALUE="4"/>
-          <PARAMETER NAME="PHASE" VALUE="0.0"/>
-          <PARAMETER NAME="PROTOCOL" VALUE="AXI4"/>
-          <PARAMETER NAME="READ_WRITE_MODE" VALUE="READ_WRITE"/>
-          <PARAMETER NAME="RUSER_BITS_PER_BYTE" VALUE="0"/>
-          <PARAMETER NAME="RUSER_WIDTH" VALUE="0"/>
-          <PARAMETER NAME="SUPPORTS_NARROW_BURST" VALUE="1"/>
-          <PARAMETER NAME="WUSER_BITS_PER_BYTE" VALUE="0"/>
-          <PARAMETER NAME="WUSER_WIDTH" VALUE="0"/>
-          <PORTMAPS>
-            <PORTMAP LOGICAL="ARADDR" PHYSICAL="maxigp1_araddr"/>
-            <PORTMAP LOGICAL="ARBURST" PHYSICAL="maxigp1_arburst"/>
-            <PORTMAP LOGICAL="ARCACHE" PHYSICAL="maxigp1_arcache"/>
-            <PORTMAP LOGICAL="ARID" PHYSICAL="maxigp1_arid"/>
-            <PORTMAP LOGICAL="ARLEN" PHYSICAL="maxigp1_arlen"/>
-            <PORTMAP LOGICAL="ARLOCK" PHYSICAL="maxigp1_arlock"/>
-            <PORTMAP LOGICAL="ARPROT" PHYSICAL="maxigp1_arprot"/>
-            <PORTMAP LOGICAL="ARQOS" PHYSICAL="maxigp1_arqos"/>
-            <PORTMAP LOGICAL="ARREADY" PHYSICAL="maxigp1_arready"/>
-            <PORTMAP LOGICAL="ARSIZE" PHYSICAL="maxigp1_arsize"/>
-            <PORTMAP LOGICAL="ARUSER" PHYSICAL="maxigp1_aruser"/>
-            <PORTMAP LOGICAL="ARVALID" PHYSICAL="maxigp1_arvalid"/>
-            <PORTMAP LOGICAL="AWADDR" PHYSICAL="maxigp1_awaddr"/>
-            <PORTMAP LOGICAL="AWBURST" PHYSICAL="maxigp1_awburst"/>
-            <PORTMAP LOGICAL="AWCACHE" PHYSICAL="maxigp1_awcache"/>
-            <PORTMAP LOGICAL="AWID" PHYSICAL="maxigp1_awid"/>
-            <PORTMAP LOGICAL="AWLEN" PHYSICAL="maxigp1_awlen"/>
-            <PORTMAP LOGICAL="AWLOCK" PHYSICAL="maxigp1_awlock"/>
-            <PORTMAP LOGICAL="AWPROT" PHYSICAL="maxigp1_awprot"/>
-            <PORTMAP LOGICAL="AWQOS" PHYSICAL="maxigp1_awqos"/>
-            <PORTMAP LOGICAL="AWREADY" PHYSICAL="maxigp1_awready"/>
-            <PORTMAP LOGICAL="AWSIZE" PHYSICAL="maxigp1_awsize"/>
-            <PORTMAP LOGICAL="AWUSER" PHYSICAL="maxigp1_awuser"/>
-            <PORTMAP LOGICAL="AWVALID" PHYSICAL="maxigp1_awvalid"/>
-            <PORTMAP LOGICAL="BID" PHYSICAL="maxigp1_bid"/>
-            <PORTMAP LOGICAL="BREADY" PHYSICAL="maxigp1_bready"/>
-            <PORTMAP LOGICAL="BRESP" PHYSICAL="maxigp1_bresp"/>
-            <PORTMAP LOGICAL="BVALID" PHYSICAL="maxigp1_bvalid"/>
-            <PORTMAP LOGICAL="RDATA" PHYSICAL="maxigp1_rdata"/>
-            <PORTMAP LOGICAL="RID" PHYSICAL="maxigp1_rid"/>
-            <PORTMAP LOGICAL="RLAST" PHYSICAL="maxigp1_rlast"/>
-            <PORTMAP LOGICAL="RREADY" PHYSICAL="maxigp1_rready"/>
-            <PORTMAP LOGICAL="RRESP" PHYSICAL="maxigp1_rresp"/>
-            <PORTMAP LOGICAL="RVALID" PHYSICAL="maxigp1_rvalid"/>
-            <PORTMAP LOGICAL="WDATA" PHYSICAL="maxigp1_wdata"/>
-            <PORTMAP LOGICAL="WLAST" PHYSICAL="maxigp1_wlast"/>
-            <PORTMAP LOGICAL="WREADY" PHYSICAL="maxigp1_wready"/>
-            <PORTMAP LOGICAL="WSTRB" PHYSICAL="maxigp1_wstrb"/>
-            <PORTMAP LOGICAL="WVALID" PHYSICAL="maxigp1_wvalid"/>
-          </PORTMAPS>
-        </BUSINTERFACE>
-      </BUSINTERFACES>
+      <BUSINTERFACES/>
       <MEMORYMAP/>
       <PERIPHERALS/>
     </MODULE>

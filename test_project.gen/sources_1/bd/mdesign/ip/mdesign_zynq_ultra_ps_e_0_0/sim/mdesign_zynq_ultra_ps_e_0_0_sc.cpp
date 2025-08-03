@@ -101,12 +101,6 @@ mdesign_zynq_ultra_ps_e_0_0_sc::mdesign_zynq_ultra_ps_e_0_0_sc(const sc_core::sc
     model_param_props.addString("COMPONENT_NAME", "mdesign_zynq_ultra_ps_e_0_0");
 
   mp_impl = new zynq_ultra_ps_e_tlm("inst", model_param_props);
-
-  // initialize AXI sockets
-  M_AXI_HPM0_FPD_rd_socket = mp_impl->M_AXI_HPM0_FPD_rd_socket;
-  M_AXI_HPM0_FPD_wr_socket = mp_impl->M_AXI_HPM0_FPD_wr_socket;
-  M_AXI_HPM1_FPD_rd_socket = mp_impl->M_AXI_HPM1_FPD_rd_socket;
-  M_AXI_HPM1_FPD_wr_socket = mp_impl->M_AXI_HPM1_FPD_wr_socket;
 }
 
 mdesign_zynq_ultra_ps_e_0_0_sc::~mdesign_zynq_ultra_ps_e_0_0_sc()

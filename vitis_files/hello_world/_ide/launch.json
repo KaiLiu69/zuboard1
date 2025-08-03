@@ -27,21 +27,21 @@
           "plDevice": "Auto Detect",
           "psDevice": "Auto Detect"
         },
-        "enableRPUSplitMode": true,
+        "enableRPUSplitMode": false,
         "resetAPU": false,
         "resetRPU": false,
-        "bitstreamFile": "${workspaceFolder}/hello_world/_ide/bitstream/mdesign_wrapper.bit",
+        "bitstreamFile": "${workspaceFolder}\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit",
         "zuInitialization": {
           "isFsbl": true,
           "usingFSBL": {
             "initWithFSBL": true,
-            "fsblFile": "${workspaceFolder}/pll_connect/export/pll_connect/sw/boot/fsbl.elf",
+            "fsblFile": "${workspaceFolder}\\pll_platform\\export\\pll_platform\\sw\\boot\\fsbl.elf",
             "fsblExitSymbol": "XFsbl_Exit"
           },
           "usingPsuInit": {
             "runPsuInit": true,
             "plPowerup": true,
-            "psuInitTclFile": "${workspaceFolder}/hello_world/_ide/psinit/psu_init.tcl"
+            "psuInitTclFile": "${workspaceFolder}\\hello_world\\_ide\\psinit\\psu_init.tcl"
           }
         },
         "zuTraceOptions": {
@@ -52,9 +52,9 @@
         },
         "downloadElf": [
           {
-            "core": "psu_cortexr5_0",
+            "core": "psu_cortexa53_0",
             "resetProcessor": true,
-            "elfFile": "${workspaceFolder}/hello_world/build/hello_world.elf",
+            "elfFile": "${workspaceFolder}\\hello_world\\build\\hello_world.elf",
             "stopAtEntry": false,
             "isSelfRelocatingApp": false,
             "relativeAddress": ""

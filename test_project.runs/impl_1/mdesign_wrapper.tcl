@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "/home/kai/projects/amd/zuboard/test_project.runs/impl_1/mdesign_wrapper.tcl"
+  variable script "C:/projects/amd/test_project/test_project.runs/impl_1/mdesign_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -98,6 +98,8 @@ OPTRACE "impl_1" END { }
 }
 
 set_msg_config -id {HDL-1065} -limit 10000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -107,29 +109,34 @@ set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 4
   set_param general.usePosixSpawnForFork 1
-  set_param runs.launchOptions { -jobs 16  }
+  set_param power.BramSDPPropagationFix 1
+  set_param power.enableUnconnectedCarry8PinPower 1
+  set_param power.enableCarry8RouteBelPower 1
+  set_param synth.incrementalSynthesisCache C:/projects/amd/test_project/test_project.srcs/sources_1/new/.Xil/Vivado-29708-slim5/incrSyn
+  set_param checkpoint.writeSynthRtdsInDcp 1
+  set_param power.enableLutRouteBelPower 1
+  set_param runs.launchOptions { -jobs 8  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xczu1cg-sbva484-1-e
-  set_property board_part_repo_paths {/home/kai/.Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store} [current_project]
+  set_property board_part_repo_paths {C:/Users/kai/AppData/Roaming/Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store} [current_project]
   set_property board_part avnet.com:zuboard_1cg:part0:1.0 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir /home/kai/projects/amd/zuboard/test_project.cache/wt [current_project]
-  set_property parent.project_path /home/kai/projects/amd/zuboard/test_project.xpr [current_project]
-  set_property ip_output_repo /home/kai/projects/amd/zuboard/test_project.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/projects/amd/test_project/test_project.cache/wt [current_project]
+  set_property parent.project_path C:/projects/amd/test_project/test_project.xpr [current_project]
+  set_property ip_output_repo C:/projects/amd/test_project/test_project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet /home/kai/projects/amd/zuboard/test_project.runs/synth_1/mdesign_wrapper.dcp
+  add_files -quiet C:/projects/amd/test_project/test_project.runs/synth_1/mdesign_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files /home/kai/projects/amd/zuboard/test_project.srcs/sources_1/bd/mdesign/mdesign.bd
+  add_files C:/projects/amd/test_project/test_project.srcs/sources_1/bd/mdesign/mdesign.bd
   set_param project.isImplRun false
 OPTRACE "read constraints: implementation" START { }
-  read_xdc /home/kai/projects/amd/zuboard/test_project.srcs/constrs_1/new/m_constraint.xdc
+  read_xdc C:/projects/amd/test_project/test_project.srcs/constrs_1/new/m_constraint.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }
@@ -297,7 +304,6 @@ set rc [catch {
   create_msg_db write_bitstream.pb
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
-  set_property XPM_LIBRARIES XPM_CDC [current_project]
   catch { write_mem_info -force -no_partial_mmi mdesign_wrapper.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }

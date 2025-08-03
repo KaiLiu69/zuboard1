@@ -1,5 +1,0 @@
-vhdl xil_defaultlib  \
-"../../../bd/mdesign/ip/mdesign_proc_sys_reset_0_0/sim/mdesign_proc_sys_reset_0_0.vhd" \
-
-# Do not sort compile order
-nosort

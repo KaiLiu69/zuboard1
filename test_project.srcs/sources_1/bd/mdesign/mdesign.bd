@@ -12,8 +12,7 @@
     },
     "design_tree": {
       "zynq_ultra_ps_e_0": "",
-      "top_0": "",
-      "proc_sys_reset_0": ""
+      "top_0": ""
     },
     "ports": {
       "blinky_0": {
@@ -25,7 +24,7 @@
         "vlnv": "xilinx.com:ip:zynq_ultra_ps_e:3.5",
         "ip_revision": "7",
         "xci_name": "mdesign_zynq_ultra_ps_e_0_0",
-        "xci_path": "ip/mdesign_zynq_ultra_ps_e_0_0/mdesign_zynq_ultra_ps_e_0_0.xci",
+        "xci_path": "ip\\mdesign_zynq_ultra_ps_e_0_0\\mdesign_zynq_ultra_ps_e_0_0.xci",
         "inst_hier_path": "zynq_ultra_ps_e_0",
         "has_run_ip_tcl": "true",
         "parameters": {
@@ -524,7 +523,7 @@
             "value": "IOPLL"
           },
           "PSU__CRL_APB__GEM3_REF_CTRL__ACT_FREQMHZ": {
-            "value": "125.000000"
+            "value": "125"
           },
           "PSU__CRL_APB__GEM3_REF_CTRL__DIVISOR0": {
             "value": "12"
@@ -758,7 +757,7 @@
             "value": "IOPLL"
           },
           "PSU__CRL_APB__UART1_REF_CTRL__ACT_FREQMHZ": {
-            "value": "100.000000"
+            "value": "100"
           },
           "PSU__CRL_APB__UART1_REF_CTRL__DIVISOR0": {
             "value": "15"
@@ -770,7 +769,7 @@
             "value": "IOPLL"
           },
           "PSU__CRL_APB__USB0_BUS_REF_CTRL__ACT_FREQMHZ": {
-            "value": "250.000000"
+            "value": "250"
           },
           "PSU__CRL_APB__USB0_BUS_REF_CTRL__DIVISOR0": {
             "value": "6"
@@ -1038,12 +1037,6 @@
           },
           "PSU__LPD_SLCR__CSUPMU__ACT_FREQMHZ": {
             "value": "100.000000"
-          },
-          "PSU__MAXIGP0__DATA_WIDTH": {
-            "value": "128"
-          },
-          "PSU__MAXIGP1__DATA_WIDTH": {
-            "value": "128"
           },
           "PSU__NAND__PERIPHERAL__ENABLE": {
             "value": "0"
@@ -1325,117 +1318,13 @@
             "value": "0"
           },
           "PSU__USE__M_AXI_GP0": {
-            "value": "1"
+            "value": "0"
           },
           "PSU__USE__M_AXI_GP1": {
-            "value": "1"
+            "value": "0"
           },
           "PSU__USE__M_AXI_GP2": {
             "value": "0"
-          }
-        },
-        "interface_ports": {
-          "M_AXI_HPM0_FPD": {
-            "bd_attributes": {
-              "TYPE": {
-                "value": "END_POINT",
-                "value_src": "auto"
-              }
-            },
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data",
-            "base_address": {
-              "minimum": "0xA0000000",
-              "maximum": "0x0047FFFFFFFF",
-              "width": "40"
-            }
-          },
-          "M_AXI_HPM1_FPD": {
-            "bd_attributes": {
-              "TYPE": {
-                "value": "END_POINT",
-                "value_src": "auto"
-              }
-            },
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "Data",
-            "base_address": {
-              "minimum": "0xB0000000",
-              "maximum": "0x007FFFFFFFFF",
-              "width": "40"
-            }
-          }
-        },
-        "addressing": {
-          "address_spaces": {
-            "Data": {
-              "range": "1T",
-              "width": "64",
-              "local_memory_map": {
-                "name": "Data",
-                "description": "Address Space Segments",
-                "address_blocks": {
-                  "M_AXI_HPM0_LPD:LPD_AFI_FS": {
-                    "name": "M_AXI_HPM0_LPD:LPD_AFI_FS",
-                    "display_name": "M_AXI_HPM0_LPD/LPD_AFI_FS",
-                    "base_address": "0x80000000",
-                    "range": "512M",
-                    "width": "32",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM1_FPD:FPD_AFI_FS0_00": {
-                    "name": "M_AXI_HPM1_FPD:FPD_AFI_FS0_00",
-                    "display_name": "M_AXI_HPM1_FPD/FPD_AFI_FS0_00",
-                    "base_address": "0xB0000000",
-                    "range": "256M",
-                    "width": "32",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM1_FPD:FPD_AFI_FS0_01": {
-                    "name": "M_AXI_HPM1_FPD:FPD_AFI_FS0_01",
-                    "display_name": "M_AXI_HPM1_FPD/FPD_AFI_FS0_01",
-                    "base_address": "0x000500000000",
-                    "range": "4G",
-                    "width": "35",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM1_FPD:FPD_AFI_FS0_10": {
-                    "name": "M_AXI_HPM1_FPD:FPD_AFI_FS0_10",
-                    "display_name": "M_AXI_HPM1_FPD/FPD_AFI_FS0_10",
-                    "base_address": "0x004800000000",
-                    "range": "224G",
-                    "width": "39",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM0_FPD:FPD_AFI_FS1_00": {
-                    "name": "M_AXI_HPM0_FPD:FPD_AFI_FS1_00",
-                    "display_name": "M_AXI_HPM0_FPD/FPD_AFI_FS1_00",
-                    "base_address": "0xA0000000",
-                    "range": "256M",
-                    "width": "32",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM0_FPD:FPD_AFI_FS1_01": {
-                    "name": "M_AXI_HPM0_FPD:FPD_AFI_FS1_01",
-                    "display_name": "M_AXI_HPM0_FPD/FPD_AFI_FS1_01",
-                    "base_address": "0x000400000000",
-                    "range": "4G",
-                    "width": "35",
-                    "usage": "register"
-                  },
-                  "M_AXI_HPM0_FPD:FPD_AFI_FS1_10": {
-                    "name": "M_AXI_HPM0_FPD:FPD_AFI_FS1_10",
-                    "display_name": "M_AXI_HPM0_FPD/FPD_AFI_FS1_10",
-                    "base_address": "0x001000000000",
-                    "range": "224G",
-                    "width": "39",
-                    "usage": "register"
-                  }
-                }
-              }
-            }
           }
         }
       },
@@ -1443,7 +1332,7 @@
         "vlnv": "xilinx.com:module_ref:top:1.0",
         "ip_revision": "1",
         "xci_name": "mdesign_top_0_0",
-        "xci_path": "ip/mdesign_top_0_0/mdesign_top_0_0.xci",
+        "xci_path": "ip\\mdesign_top_0_0\\mdesign_top_0_0.xci",
         "inst_hier_path": "top_0",
         "has_run_ip_tcl": "true",
         "reference_info": {
@@ -1472,35 +1361,15 @@
           },
           "rst": {
             "type": "rst",
-            "direction": "I",
-            "parameters": {
-              "POLARITY": {
-                "value": "ACTIVE_HIGH",
-                "value_src": "const_prop"
-              }
-            }
+            "direction": "I"
           },
           "blinky": {
             "direction": "O"
           }
         }
-      },
-      "proc_sys_reset_0": {
-        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "ip_revision": "17",
-        "xci_name": "mdesign_proc_sys_reset_0_0",
-        "xci_path": "ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0.xci",
-        "inst_hier_path": "proc_sys_reset_0",
-        "has_run_ip_tcl": "true"
       }
     },
     "nets": {
-      "proc_sys_reset_0_peripheral_reset": {
-        "ports": [
-          "proc_sys_reset_0/peripheral_reset",
-          "top_0/rst"
-        ]
-      },
       "top_0_blinky": {
         "ports": [
           "top_0/blinky",
@@ -1510,16 +1379,13 @@
       "zynq_ultra_ps_e_0_pl_clk0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_clk0",
-          "proc_sys_reset_0/slowest_sync_clk",
-          "top_0/clk",
-          "zynq_ultra_ps_e_0/maxihpm1_fpd_aclk",
-          "zynq_ultra_ps_e_0/maxihpm0_fpd_aclk"
+          "top_0/clk"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_resetn0",
-          "proc_sys_reset_0/ext_reset_in"
+          "top_0/rst"
         ]
       }
     }

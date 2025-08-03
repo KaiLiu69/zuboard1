@@ -12,7 +12,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mdesign_zyn
 # IP: bd/mdesign/ip/mdesign_top_0_0/mdesign_top_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mdesign_top_0_0 || ORIG_REF_NAME==mdesign_top_0_0} -quiet] -quiet
 
-# IP: bd/mdesign/ip/mdesign_proc_sys_reset_0_0/mdesign_proc_sys_reset_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mdesign_proc_sys_reset_0_0 || ORIG_REF_NAME==mdesign_proc_sys_reset_0_0} -quiet] -quiet
-
-# XDC: /home/kai/projects/amd/zuboard/test_project.gen/sources_1/bd/mdesign/mdesign_ooc.xdc
+# XDC: c:/projects/amd/test_project/test_project.gen/sources_1/bd/mdesign/mdesign_ooc.xdc

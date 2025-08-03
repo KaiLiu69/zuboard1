@@ -31,3 +31,4 @@ int main()
     cleanup_platform();
     return 0;
 }
+
