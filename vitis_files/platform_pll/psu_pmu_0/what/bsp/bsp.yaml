@@ -1,6 +1,6 @@
 sdt: hw_artifacts\psu_pmu_0_baremetal.dts
 family: ZynqMP
-path: C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+path: C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp
 config: None
 os: standalone
 os_info:

@@ -17853,3 +17853,1467 @@ error in debug adapter session: 'b88cb86f-58ea-4d06-859c-5979773be52b': {"errno"
 2026-09-15 22:15:11 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
 2026-09-15 22:15:11 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
 2026-09-15 22:15:11 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:15:13 [debug] : [Debugger Server] In 'setupSystemLaunchJson' with connection:[object Object] request:{"applicationpath":"","componentpath":"C:\\projects\\amd\\test_project\\vitis_files\\hello_world","createnew":false,"emulatorstarted":false,"debugport":"","target":"","debug":false,"launchname":"hello_world_app_hw_1","qemugdbport":"","plmgdbport":"","id":"8c8f32e4-06e6-4e6b-aa9a-654eda709ac4"} 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : RIGEL SERVER 22:15:13 INFO  : connect -url tcp:127.0.0.1:3121 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : RIGEL SERVER 22:15:13 INFO  : bpremove -all 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : RIGEL SERVER 22:15:13 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:13 [debug] : RIGEL SERVER 22:15:13 INFO  : Context for 'APU' is selected. 
+2026-09-15 22:15:13 [debug] : RIGEL SERVER 22:15:13 INFO  : System reset is completed. 
+2026-09-15 22:15:16 [debug] : RIGEL SERVER 22:15:16 INFO  : 'after 3000' command is executed. 
+2026-09-15 22:15:16 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:16 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:17 [debug] : RIGEL SERVER 22:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed. 
+2026-09-15 22:15:18 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:15:18 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit" 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"} 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : catch {disable_pmu_gate} 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"} 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}] 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : configparams force-mem-access 1 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"} 
+2026-09-15 22:15:18 [debug] : RIGEL SERVER 22:15:18 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/vitis-server/scripts/jtag_reg.tcl 
+2026-09-15 22:15:19 [debug] : RIGEL SERVER 22:15:19 INFO  : Boot mode is read from the target. 
+2026-09-15 22:15:19 [debug] : RIGEL SERVER 22:15:19 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"} 
+2026-09-15 22:15:19 [debug] : RIGEL SERVER 22:15:19 INFO  : rst -processor 
+2026-09-15 22:15:19 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:19 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:19 [debug] : RIGEL SERVER 22:15:19 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf 
+2026-09-15 22:15:19 [debug] : RIGEL SERVER 22:15:19 INFO  : set bp_15_19_fsbl_bp [bpadd -addr &XFsbl_Exit] 
+2026-09-15 22:15:19 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:19 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:20 [debug] : RIGEL SERVER 22:15:20 INFO  : con -block -timeout 60 
+2026-09-15 22:15:20 [debug] : RIGEL SERVER 22:15:20 INFO  : bpremove $bp_15_19_fsbl_bp 
+2026-09-15 22:15:20 [debug] : RIGEL SERVER 22:15:20 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"} 
+2026-09-15 22:15:20 [debug] : RIGEL SERVER 22:15:20 INFO  : rst -processor 
+2026-09-15 22:15:20 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:20 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:21 [debug] : RIGEL SERVER 22:15:21 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf 
+2026-09-15 22:15:21 [debug] : RIGEL SERVER 22:15:21 INFO  : con 
+2026-09-15 22:15:21 [debug] : RIGEL SERVER 22:15:21 INFO  : configparams force-mem-access 0 
+2026-09-15 22:15:21 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:21 [debug] : Received event from notification service: ON_BAREMETAL_DEBUG_PROGRESS. 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Configuration: hello_world_app_hw_1 [hello_world] 
+2026-09-15 22:15:22 [debug] : [Debugger Server] In 'List target connections' with connection:[object Object] request:{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}} 
+2026-09-15 22:15:22 [debug] : [Debugger Server] In 'Test target connection' with connection:[object Object] request:{"wrappers_":{"10":[],"11":[]},"arrayIndexOffset_":-1,"array":["Local","127.0.0.1","3121",null,1,true,null,null,null,[],[]],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}} 
+2026-09-15 22:15:22 [debug] : RIGEL SERVER 22:15:22 INFO  : Testing the connection for 127.0.0.1 
+2026-09-15 22:15:22 [info] : [Debug Manager] Successfully verified the target connection used  Local 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Validating the launch configuration  'hello_world_app_hw_1 [hello_world]'. 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Updated the launch configuration 'hello_world_app_hw_1 [hello_world]' to override the 'ENABLE_KERNEL_DEBUG' to false in 'run' mode. 
+2026-09-15 22:15:22 [info] : [Debug Manager] Starting launch in 'run' mode using configuration: {"type":"tcf-debug","request":"launch","name":"hello_world_app_hw_1","debugType":"baremetal-zu","attachToRunningTargetOptions":{"targetSetupMode":"standalone","executeScript":true,"scriptPath":""},"autoAttachProcessChildren":false,"target":{"targetConnectionId":"Local","peersIniPath":"../../_ide/.peers.ini","context":"ZUPlus"},"pathMap":[],"targetSetup":{"resetSystem":true,"programDevice":true,"partialBitstream":false,"skipRevisionCheck":false,"device":{"plDevice":"Auto Detect","psDevice":"Auto Detect"},"enableRPUSplitMode":false,"resetAPU":false,"resetRPU":false,"bitstreamFile":"${workspaceFolder}\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit","zuInitialization":{"isFsbl":true,"usingFSBL":{"initWithFSBL":true,"fsblFile":"${workspaceFolder}\\platform_pll\\export\\platform_pll\\sw\\boot\\fsbl.elf","fsblExitSymbol":"XFsbl_Exit"},"usingPsuInit":{"runPsuInit":true,"plPowerup":true,"psuInitTclFile":"${workspaceFolder}\\hello_world\\_ide\\psinit\\psu_init.tcl"}},"zuTraceOptions":{"isSelected":false,"scratchAddress":"0x60000","scratchSize":"0x60000","traceOutputPath":""},"downloadElf":[{"core":"psu_cortexa53_0","resetProcessor":true,"elfFile":"${workspaceFolder}\\hello_world\\build\\hello_world.elf","stopAtEntry":false,"isSelfRelocatingApp":false,"relativeAddress":""}],"crossTriggerBreakpoints":{"isSelected":false,"breakpoints":[]}},"internalConsoleOptions":"openOnSessionStart","__configUri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json"} 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Selecting the launch 'hello_world_app_hw_1 [hello_world]' in debug configuration UI 
+2026-09-15 22:15:22 [debug] : PLUGIN_HOST(43620): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2.1\Vitis\ide\electron-app\win64\resources\app\plugins\tcf-debug-0.0.1\extension\dist\extension.js) 
+2026-09-15 22:15:22 [debug] : Debug configuration provider has been registered: tcf-debug, trigger: 1 
+2026-09-15 22:15:22 [debug] : false 
+2026-09-15 22:15:22 [debug] : false 
+2026-09-15 22:15:22 [debug] : Calling activation function on plugin TCF Debug Adapter 
+2026-09-15 22:15:22 [debug] : Creating local connection: 0577c725-2a4d-4fcd-a2db-494c7e811c70 
+2026-09-15 22:15:22 [debug] : Creating plugin connection: 0577c725-2a4d-4fcd-a2db-494c7e811c70 
+2026-09-15 22:15:22 [debug] : [TCF-Adapter] [0577c725-2a4d-4fcd-a2db-494c7e811c70] startDebugAdapter 
+2026-09-15 22:15:22 [debug] : starting debug adapter session '0577c725-2a4d-4fcd-a2db-494c7e811c70' 
+2026-09-15 22:15:22 [debug] : Creating local connection: 0577c725-2a4d-4fcd-a2db-494c7e811c70 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Received pre launch event on configuration:hello_world_app_hw_1 [hello_world] 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Event{"type":"tcf-debug","request":"launch","name":"hello_world_app_hw_1","debugType":"baremetal-zu","attachToRunningTargetOptions":{"targetSetupMode":"standalone","executeScript":true,"scriptPath":""},"autoAttachProcessChildren":false,"target":{"targetConnectionId":"Local","peersIniPath":"../../_ide/.peers.ini","context":"ZUPlus"},"pathMap":[],"targetSetup":{"resetSystem":true,"programDevice":true,"partialBitstream":false,"skipRevisionCheck":false,"device":{"plDevice":"Auto Detect","psDevice":"Auto Detect"},"enableRPUSplitMode":false,"resetAPU":false,"resetRPU":false,"bitstreamFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit","zuInitialization":{"isFsbl":true,"usingFSBL":{"initWithFSBL":true,"fsblFile":"c:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\export\\platform_pll\\sw\\boot\\fsbl.elf","fsblExitSymbol":"XFsbl_Exit"},"usingPsuInit":{"runPsuInit":true,"plPowerup":true,"psuInitTclFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\psinit\\psu_init.tcl"}},"zuTraceOptions":{"isSelected":false,"scratchAddress":"0x60000","scratchSize":"0x60000","traceOutputPath":""},"downloadElf":[{"core":"psu_cortexa53_0","resetProcessor":true,"elfFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\build\\hello_world.elf","stopAtEntry":false,"isSelfRelocatingApp":false,"relativeAddress":""}],"crossTriggerBreakpoints":{"isSelected":false,"breakpoints":[]}},"internalConsoleOptions":"openOnSessionStart","__configUri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json","env":{},"noDebug":true} 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Validating the launch configuration  'hello_world_app_hw_1 [hello_world]'. 
+2026-09-15 22:15:22 [info] : [Debug Manager] Disabling breakpoints in the tool to enable run mode for 'hello_world_app_hw_1 [hello_world]'. 
+2026-09-15 22:15:22 [debug] : [Debug Manager] Started debug session: hello_world_app_hw_1 [hello_world] 
+2026-09-15 22:15:22 [debug] : Creating plugin connection: 0577c725-2a4d-4fcd-a2db-494c7e811c70 
+2026-09-15 22:15:22 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 1,
+  "type": "request",
+  "command": "initialize",
+  "arguments": {
+    "clientID": "Theia",
+    "clientName": "Theia IDE",
+    "adapterID": "tcf-debug",
+    "locale": "en-US",
+    "linesStartAt1": true,
+    "columnsStartAt1": true,
+    "pathFormat": "path",
+    "supportsVariableType": false,
+    "supportsVariablePaging": false,
+    "supportsRunInTerminalRequest": true
+  }
+} 
+2026-09-15 22:15:22 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 2,
+  "type": "request",
+  "command": "launch",
+  "arguments": {
+    "type": "tcf-debug",
+    "request": "launch",
+    "name": "hello_world_app_hw_1",
+    "debugType": "baremetal-zu",
+    "attachToRunningTargetOptions": {
+      "targetSetupMode": "standalone",
+      "executeScript": true,
+      "scriptPath": ""
+    },
+    "autoAttachProcessChildren": false,
+    "target": {
+      "targetConnectionId": "Local",
+      "peersIniPath": "../../_ide/.peers.ini",
+      "context": "ZUPlus"
+    },
+    "pathMap": [],
+    "targetSetup": {
+      "resetSystem": true,
+      "programDevice": true,
+      "partialBitstream": false,
+      "skipRevisionCheck": false,
+      "device": {
+        "plDevice": "Auto Detect",
+        "psDevice": "Auto Detect"
+      },
+      "enableRPUSplitMode": false,
+      "resetAPU": false,
+      "resetRPU": false,
+      "bitstreamFile": "c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit",
+      "zuInitialization": {
+        "isFsbl": true,
+        "usingFSBL": {
+          "initWithFSBL": true,
+          "fsblFile": "c:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\export\\platform_pll\\sw\\boot\\fsbl.elf",
+          "fsblExitSymbol": "XFsbl_Exit"
+        },
+        "usingPsuInit": {
+          "runPsuInit": true,
+          "plPowerup": true,
+          "psuInitTclFile": "c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\psinit\\psu_init.tcl"
+        }
+      },
+      "zuTraceOptions": {
+        "isSelected": false,
+        "scratchAddress": "0x60000",
+        "scratchSize": "0x60000",
+        "traceOutputPath": ""
+      },
+      "downloadElf": [
+        {
+          "core": "psu_cortexa53_0",
+          "resetProcessor": true,
+          "elfFile": "c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\build\\hello_world.elf",
+          "stopAtEntry": false,
+          "isSelfRelocatingApp": false,
+          "relativeAddress": ""
+        }
+      ],
+      "crossTriggerBreakpoints": {
+        "isSelected": false,
+        "breakpoints": []
+      }
+    },
+    "internalConsoleOptions": "openOnSessionStart",
+    "__configUri": "file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json",
+    "env": {},
+    "noDebug": true
+  }
+} 
+2026-09-15 22:15:22 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 1,
+  "request_seq": 1,
+  "command": "initialize",
+  "success": true,
+  "body": {
+    "supportsFunctionBreakpoints": true,
+    "supportsConditionalBreakpoints": true,
+    "supportsHitConditionalBreakpoints": true,
+    "supportsEvaluateForHovers": true,
+    "supportsSetVariable": true,
+    "supportsSetExpression": true,
+    "supportsTerminateRequest": true,
+    "supportsDataBreakpoints": true,
+    "supportsDisassembleRequest": true,
+    "supportsInstructionBreakpoints": true
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 2,
+  "event": "initialized"
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 3,
+  "type": "request",
+  "command": "setFunctionBreakpoints",
+  "arguments": {
+    "breakpoints": []
+  }
+} 
+2026-09-15 22:15:23 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["1e060909-406e-44cf-a2e3-2a4e062045b1",null,26,null,null,null,null,"{\"type\":\"tcf-debug\",\"request\":\"launch\",\"name\":\"hello_world_app_hw_1\",\"debugType\":\"baremetal-zu\",\"attachToRunningTargetOptions\":{\"targetSetupMode\":\"standalone\",\"executeScript\":true,\"scriptPath\":\"\"},\"autoAttachProcessChildren\":false,\"target\":{\"targetConnectionId\":\"Local\",\"peersIniPath\":\"../../_ide/.peers.ini\",\"context\":\"ZUPlus\"},\"pathMap\":[],\"targetSetup\":{\"resetSystem\":true,\"programDevice\":true,\"partialBitstream\":false,\"skipRevisionCheck\":false,\"device\":{\"plDevice\":\"Auto Detect\",\"psDevice\":\"Auto Detect\"},\"enableRPUSplitMode\":false,\"resetAPU\":false,\"resetRPU\":false,\"bitstreamFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\_ide\\\\bitstream\\\\mdesign_wrapper.bit\",\"zuInitialization\":{\"isFsbl\":true,\"usingFSBL\":{\"initWithFSBL\":true,\"fsblFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\platform_pll\\\\export\\\\platform_pll\\\\sw\\\\boot\\\\fsbl.elf\",\"fsblExitSymbol\":\"XFsbl_Exit\"},\"usingPsuInit\":{\"runPsuInit\":true,\"plPowerup\":true,\"psuInitTclFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\_ide\\\\psinit\\\\psu_init.tcl\"}},\"zuTraceOptions\":{\"isSelected\":false,\"scratchAddress\":\"0x60000\",\"scratchSize\":\"0x60000\",\"traceOutputPath\":\"\"},\"downloadElf\":[{\"core\":\"psu_cortexa53_0\",\"resetProcessor\":true,\"elfFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\build\\\\hello_world.elf\",\"stopAtEntry\":false,\"isSelfRelocatingApp\":false,\"relativeAddress\":\"\"}],\"crossTriggerBreakpoints\":{\"isSelected\":false,\"breakpoints\":[]}},\"internalConsoleOptions\":\"openOnSessionStart\",\"__configUri\":\"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json\",\"env\":{},\"noDebug\":true}"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 3,
+  "request_seq": 2,
+  "command": "launch",
+  "success": true
+} 
+2026-09-15 22:15:23 [info] : [Debug Manager] Launch session has started on the configuration 'hello_world_app_hw_1 [hello_world]' 
+2026-09-15 22:15:23 [debug] : [Debug Manager] Start event received for launch configuration JSON: {"type":"tcf-debug","request":"launch","name":"hello_world_app_hw_1","debugType":"baremetal-zu","attachToRunningTargetOptions":{"targetSetupMode":"standalone","executeScript":true,"scriptPath":""},"autoAttachProcessChildren":false,"target":{"targetConnectionId":"Local","peersIniPath":"../../_ide/.peers.ini","context":"ZUPlus"},"pathMap":[],"targetSetup":{"resetSystem":true,"programDevice":true,"partialBitstream":false,"skipRevisionCheck":false,"device":{"plDevice":"Auto Detect","psDevice":"Auto Detect"},"enableRPUSplitMode":false,"resetAPU":false,"resetRPU":false,"bitstreamFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit","zuInitialization":{"isFsbl":true,"usingFSBL":{"initWithFSBL":true,"fsblFile":"c:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\export\\platform_pll\\sw\\boot\\fsbl.elf","fsblExitSymbol":"XFsbl_Exit"},"usingPsuInit":{"runPsuInit":true,"plPowerup":true,"psuInitTclFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\psinit\\psu_init.tcl"}},"zuTraceOptions":{"isSelected":false,"scratchAddress":"0x60000","scratchSize":"0x60000","traceOutputPath":""},"downloadElf":[{"core":"psu_cortexa53_0","resetProcessor":true,"elfFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\build\\hello_world.elf","stopAtEntry":false,"isSelfRelocatingApp":false,"relativeAddress":""}],"crossTriggerBreakpoints":{"isSelected":false,"breakpoints":[]}},"internalConsoleOptions":"openOnSessionStart","__configUri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json","env":{},"noDebug":true} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 4,
+  "request_seq": 3,
+  "command": "setFunctionBreakpoints",
+  "success": true,
+  "body": {}
+} 
+2026-09-15 22:15:23 [debug] : Error setting breakpoints: Cannot read properties of undefined (reading 'forEach') 
+2026-09-15 22:15:23 [debug] : [Debug Manager] Launch event posted to server using notification service - ON_DID_EDGE_HOST_LAUNCH_START 
+2026-09-15 22:15:23 [debug] : Received event from notification service: ON_DID_EDGE_HOST_LAUNCH_START. 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 4,
+  "type": "request",
+  "command": "setExceptionBreakpoints",
+  "arguments": {
+    "filters": []
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 5,
+  "request_seq": 4,
+  "command": "setExceptionBreakpoints",
+  "success": true,
+  "body": {
+    "breakpoints": []
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 5,
+  "type": "request",
+  "command": "setInstructionBreakpoints",
+  "arguments": {
+    "breakpoints": []
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 6,
+  "request_seq": 5,
+  "command": "setInstructionBreakpoints",
+  "success": true,
+  "body": {
+    "breakpoints": []
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 6,
+  "type": "request",
+  "command": "threads",
+  "arguments": {}
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 7,
+  "request_seq": 6,
+  "command": "threads",
+  "success": true,
+  "body": {
+    "threads": [
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 100,
+        "name": "oj1A/PS TAP"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 101,
+        "name": "oj1A/PSU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 102,
+        "name": "oj1A/PS TAP/PMU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 103,
+        "name": "oj1A/PS TAP/PL"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 104,
+        "name": "oj1A/PSU/RPU  (Reset)"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 105,
+        "name": "oj1A/PSU/APU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 106,
+        "name": "oj1A/PS TAP/PMU/MicroBlaze PMU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 107,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 108,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #1"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 109,
+        "name": "oj1A/PSU/APU/Cortex-A53 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 110,
+        "name": "oj1A/PSU/APU/Cortex-A53 #1"
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 7,
+  "type": "request",
+  "command": "stackTrace",
+  "arguments": {
+    "startFrame": 0,
+    "levels": 20,
+    "threadId": 100
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 8,
+  "request_seq": 7,
+  "command": "stackTrace",
+  "success": true,
+  "body": {
+    "stackFrames": [
+      {
+        "id": 0,
+        "name": "No Stack for Thread 100",
+        "line": 0,
+        "column": 0,
+        "presentationHint": "label"
+      }
+    ],
+    "totalFrames": 1
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 8,
+  "type": "request",
+  "command": "scopes",
+  "arguments": {
+    "frameId": 0
+  }
+} 
+2026-09-15 22:15:23 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 9,
+  "request_seq": 8,
+  "command": "scopes",
+  "success": true,
+  "body": {
+    "scopes": [
+      {
+        "name": "Locals",
+        "presentationHint": "locals",
+        "variablesReference": 0,
+        "expensive": false
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 10,
+  "event": "stopped",
+  "body": {
+    "reason": "Sleeping. No clock",
+    "threadId": 106
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 11,
+  "event": "stopped",
+  "body": {
+    "reason": "RPU Reset",
+    "threadId": 107
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 12,
+  "event": "stopped",
+  "body": {
+    "reason": "RPU Reset",
+    "threadId": 108
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 13,
+  "event": "stopped",
+  "body": {
+    "reason": "Power On Reset",
+    "threadId": 110
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 9,
+  "type": "request",
+  "command": "threads",
+  "arguments": {}
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 14,
+  "request_seq": 9,
+  "command": "threads",
+  "success": true,
+  "body": {
+    "threads": [
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 100,
+        "name": "oj1A/PS TAP"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 101,
+        "name": "oj1A/PSU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 102,
+        "name": "oj1A/PS TAP/PMU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 103,
+        "name": "oj1A/PS TAP/PL"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 104,
+        "name": "oj1A/PSU/RPU  (Reset)"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 105,
+        "name": "oj1A/PSU/APU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 106,
+        "name": "oj1A/PS TAP/PMU/MicroBlaze PMU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 107,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 108,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #1"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 109,
+        "name": "oj1A/PSU/APU/Cortex-A53 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 110,
+        "name": "oj1A/PSU/APU/Cortex-A53 #1"
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 10,
+  "type": "request",
+  "command": "threads",
+  "arguments": {}
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 15,
+  "request_seq": 10,
+  "command": "threads",
+  "success": true,
+  "body": {
+    "threads": [
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 100,
+        "name": "oj1A/PS TAP"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 101,
+        "name": "oj1A/PSU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 102,
+        "name": "oj1A/PS TAP/PMU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 103,
+        "name": "oj1A/PS TAP/PL"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 104,
+        "name": "oj1A/PSU/RPU  (Reset)"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 105,
+        "name": "oj1A/PSU/APU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 106,
+        "name": "oj1A/PS TAP/PMU/MicroBlaze PMU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 107,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 108,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #1"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 109,
+        "name": "oj1A/PSU/APU/Cortex-A53 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 110,
+        "name": "oj1A/PSU/APU/Cortex-A53 #1"
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 11,
+  "type": "request",
+  "command": "stackTrace",
+  "arguments": {
+    "startFrame": 0,
+    "levels": 20,
+    "threadId": 107
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 12,
+  "type": "request",
+  "command": "threads",
+  "arguments": {}
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 16,
+  "request_seq": 11,
+  "command": "stackTrace",
+  "success": true,
+  "body": {
+    "stackFrames": [
+      {
+        "id": 0,
+        "name": "No Stack for Thread 107",
+        "line": 0,
+        "column": 0,
+        "presentationHint": "label"
+      }
+    ],
+    "totalFrames": 1
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 17,
+  "request_seq": 12,
+  "command": "threads",
+  "success": true,
+  "body": {
+    "threads": [
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 100,
+        "name": "oj1A/PS TAP"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 101,
+        "name": "oj1A/PSU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 102,
+        "name": "oj1A/PS TAP/PMU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 103,
+        "name": "oj1A/PS TAP/PL"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 104,
+        "name": "oj1A/PSU/RPU  (Reset)"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 105,
+        "name": "oj1A/PSU/APU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 106,
+        "name": "oj1A/PS TAP/PMU/MicroBlaze PMU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 107,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 108,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #1"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 109,
+        "name": "oj1A/PSU/APU/Cortex-A53 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 110,
+        "name": "oj1A/PSU/APU/Cortex-A53 #1"
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 13,
+  "type": "request",
+  "command": "stackTrace",
+  "arguments": {
+    "startFrame": 0,
+    "levels": 20,
+    "threadId": 108
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 14,
+  "type": "request",
+  "command": "threads",
+  "arguments": {}
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 18,
+  "request_seq": 13,
+  "command": "stackTrace",
+  "success": true,
+  "body": {
+    "stackFrames": [
+      {
+        "id": 0,
+        "name": "No Stack for Thread 108",
+        "line": 0,
+        "column": 0,
+        "presentationHint": "label"
+      }
+    ],
+    "totalFrames": 1
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 19,
+  "request_seq": 14,
+  "command": "threads",
+  "success": true,
+  "body": {
+    "threads": [
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 100,
+        "name": "oj1A/PS TAP"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 101,
+        "name": "oj1A/PSU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 102,
+        "name": "oj1A/PS TAP/PMU"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 103,
+        "name": "oj1A/PS TAP/PL"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 104,
+        "name": "oj1A/PSU/RPU  (Reset)"
+      },
+      {
+        "isContainer": true,
+        "canRunProfiling": false,
+        "id": 105,
+        "name": "oj1A/PSU/APU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 106,
+        "name": "oj1A/PS TAP/PMU/MicroBlaze PMU"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 107,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 108,
+        "name": "oj1A/PSU/RPU/Cortex-R5 #1"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 109,
+        "name": "oj1A/PSU/APU/Cortex-A53 #0"
+      },
+      {
+        "isContainer": false,
+        "canRunProfiling": true,
+        "id": 110,
+        "name": "oj1A/PSU/APU/Cortex-A53 #1"
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 15,
+  "type": "request",
+  "command": "stackTrace",
+  "arguments": {
+    "startFrame": 0,
+    "levels": 20,
+    "threadId": 110
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 20,
+  "request_seq": 15,
+  "command": "stackTrace",
+  "success": true,
+  "body": {
+    "stackFrames": [
+      {
+        "id": 0,
+        "name": "No Stack for Thread 110",
+        "line": 0,
+        "column": 0,
+        "presentationHint": "label"
+      }
+    ],
+    "totalFrames": 1
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 16,
+  "type": "request",
+  "command": "scopes",
+  "arguments": {
+    "frameId": 0
+  }
+} 
+2026-09-15 22:15:24 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 21,
+  "request_seq": 16,
+  "command": "scopes",
+  "success": true,
+  "body": {
+    "scopes": [
+      {
+        "name": "Locals",
+        "presentationHint": "locals",
+        "variablesReference": 0,
+        "expensive": false
+      }
+    ]
+  }
+} 
+2026-09-15 22:15:34 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:15:34 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:15:49 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:15:49 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:15:54 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:15:54 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:27:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-15 22:27:56 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 863,
+        "startColumn": 1,
+        "endLineNumber": 863,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "22:15:13 INFO  : connect -url tcp:127.0.0.1:3121\r\n22:15:13 INFO  : bpremove -all\r\n22:15:13 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl\r\n22:15:13 INFO  : Context for 'APU' is selected.\r\n22:15:13 INFO  : System reset is completed.\r\n22:15:16 INFO  : 'after 3000' command is executed.\r\n22:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && level==0 && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-04688093-0\"}' command is executed.\r\n22:15:18 INFO  : Device configured successfully with \"C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit\"\r\n22:15:18 INFO  : targets -set -nocase -filter {name =~\"PSU*\" && jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-5ba00477-0\"}\r\n22:15:18 INFO  : catch {disable_pmu_gate}\r\n22:15:18 INFO  : targets -set -nocase -filter {name =~\"APU*\" && jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-5ba00477-0\"}\r\n22:15:18 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]\r\n22:15:18 INFO  : configparams force-mem-access 1\r\n22:15:18 INFO  : targets -set -nocase -filter {name =~\"APU*\" && jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-5ba00477-0\"}\r\n22:15:18 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/vitis-server/scripts/jtag_reg.tcl\r\n22:15:19 INFO  : Boot mode is read from the target.\r\n22:15:19 INFO  : targets -set -nocase -filter {name =~ \"*A53*#0\" && jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-5ba00477-0\"}\r\n22:15:19 INFO  : rst -processor\r\n22:15:19 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf\r\n22:15:19 INFO  : set bp_15_19_fsbl_bp [bpadd -addr &XFsbl_Exit]\r\n22:15:20 INFO  : con -block -timeout 60\r\n22:15:20 INFO  : bpremove $bp_15_19_fsbl_bp\r\n22:15:20 INFO  : targets -set -nocase -filter {name =~ \"*A53*#0\" && jtag_cable_name =~ \"Avnet ZUBoard1CG 1234-oj1A\" && jtag_device_ctx==\"jsn-ZUBoard1CG-1234-oj1A-5ba00477-0\"}\r\n22:15:20 INFO  : rst -processor\r\n22:15:21 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf\r\n22:15:21 INFO  : con\r\n22:15:21 INFO  : configparams force-mem-access 0\r\n22:15:22 INFO  : Testing the connection for 127.0.0.1\r\n",
+      "rangeOffset": 90231,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 5,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:56 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:27:58 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:28:01 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-09-15 22:28:01 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:03 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:28:19 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:19 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:28:25 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:25 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:28:30 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:30 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:28:31 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:31 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:28:34 [debug] : start navigation 1 
+2026-09-15 22:28:38 [debug] : start navigation 2 
+2026-09-15 22:28:38 [debug] : end navigation 1 
+2026-09-15 22:28:38 [debug] : end navigation 0 
+2026-09-15 22:28:38 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/BOOT.bin","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-09-15 22:28:44 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/BOOT.bin"}
+2026-09-15 22:28:44 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/BOOT.bin"}
+2026-09-15 22:28:44 [debug] : TypeError: Cannot read properties of undefined (reading 'node')
+    at t.ToolbarMenuNodeWrapper.renderMenuItem (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520522)
+    at t.ToolbarMenuNodeWrapper.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520048)
+    at file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131052
+    at Array.map (<anonymous>)
+    at n.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131043)
+    at n.onUpdateRequest (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:6281451)
+    at n.processMessage (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:23512643)
+    at f (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162247)
+    at r (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9161302)
+    at p (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162490) 
+2026-09-15 22:28:44 [debug] : TextEditor is disposed! 
+2026-09-15 22:28:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:28:46 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:29:01 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:01 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:29:04 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:04 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:29:05 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:05 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:29:11 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:11 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:29:20 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:20 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:29:26 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:29:26 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:30:49 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:30:49 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:30:52 [debug] : Starting terminal process {"0":"{\n  \"command\": \"cmd.exe\",\n  \"args\": [],\n  \"options\": {\n    \"name\": \"xterm-256color\",\n    \"cols\": 80,\n    \"rows\": 24,\n    \"cwd\": \"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\",\n    \"env\": {\n      \"COLORTERM\": \"truecolor\",\n      \"ALLUSERSPROFILE\": \"C:\\\\ProgramData\",\n      \"APPDATA\": \"C:\\\\Users\\\\kai\\\\AppData\\\\Roaming\",\n      \"ARR.LENGTH\": \"0\",\n      \"ARR.UBOUND\": \"-1\",\n      \"CMAKE_OBJECT_PATH_MAX\": \"4096\",\n      \"COMMONPROGRAMFILES\": \"C:\\\\Program Files\\\\Common Files\",\n      \"COMMONPROGRAMFILES(X86)\": \"C:\\\\Program Files (x86)\\\\Common Files\",\n      \"COMMONPROGRAMW6432\": \"C:\\\\Program Files\\\\Common Files\",\n      \"COMPUTERNAME\": \"SLIM5\",\n      \"COMSPEC\": \"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\",\n      \"DRIVERDATA\": \"C:\\\\Windows\\\\System32\\\\Drivers\\\\DriverData\",\n      \"EFC_10456_1592913036\": \"1\",\n      \"EFC_10456_4126798990\": \"1\",\n      \"HDI_APPROOT\": \"C:/AMDDesignTools/2025.2.1/Vitis\",\n      \"HOMEDRIVE\": \"C:\",\n      \"HOMEPATH\": \"\\\\Users\\\\kai\",\n      \"HW_SERVER_DJTG_DISABLE\": \"1\",\n      \"HW_SERVER_FTDIMGR_DISABLE\": \"1\",\n      \"IDE_SKIP_SERVER_LICENSE\": \"1\",\n      \"INT_VARIABLE_NAME\": \"XILINX_PATH\",\n      \"JAVA_HOME\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\jre21.0.5_11\",\n      \"LC_NUMERIC\": \"C\",\n      \"LOCALAPPDATA\": \"C:\\\\Users\\\\kai\\\\AppData\\\\Local\",\n      \"LOGONSERVER\": \"\\\\\\\\SLIM5\",\n      \"NOSPLASH\": \"false\",\n      \"NUMBER_OF_PROCESSORS\": \"16\",\n      \"ONEDRIVE\": \"C:\\\\Users\\\\kai\\\\OneDrive\",\n      \"ONEDRIVECONSUMER\": \"C:\\\\Users\\\\kai\\\\OneDrive\",\n      \"ORIGINAL_XDG_CURRENT_DESKTOP\": \"undefined\",\n      \"OS\": \"Windows_NT\",\n      \"PATH\": \"C:/AMDDesignTools/2025.2.1/Vitis\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\microblaze\\\\nt\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\arm\\\\nt\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\microblaze\\\\linux_toolchain\\\\nt64_be\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\microblaze\\\\linux_toolchain\\\\nt64_le\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\aarch32\\\\nt\\\\gcc-arm-linux-gnueabi\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\aarch32\\\\nt\\\\gcc-arm-none-eabi\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\aarch64\\\\nt\\\\aarch64-linux\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\aarch64\\\\nt\\\\aarch64-none\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\armr5\\\\nt\\\\gcc-arm-none-eabi\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\riscv\\\\nt\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\riscv\\\\linux_toolchain\\\\nt64\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis\\\\gnu\\\\riscv\\\\linux_toolchain\\\\nt32\\\\bin;C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\python-3.13.0;C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\git-2.50.0\\\\bin;C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\cmake-3.24.2\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis/win64/tools/vcxx\\\\libexec;C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\jre21.0.5_11\\\\bin;C:/AMDDesignTools/2025.2.1/Vitis/lib/win64.o;C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\libxslt/bin;C:/AMDDesignTools/2025.2.1/Vitis/bin;C:\\\\WINDOWS\\\\system32;C:\\\\WINDOWS;C:\\\\WINDOWS\\\\System32\\\\Wbem;C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\;C:\\\\WINDOWS\\\\System32\\\\OpenSSH\\\\;C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVIDIA App\\\\NvDLISR;C:\\\\Program Files (x86)\\\\NVIDIA Corporation\\\\PhysX\\\\Common;C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Windows Performance Toolkit\\\\;C:\\\\Program Files\\\\dotnet\\\\;C:\\\\Program Files\\\\Git\\\\cmd;C:\\\\Program Files\\\\WezTerm;C:\\\\Program Files\\\\PowerShell\\\\7\\\\;C:\\\\Program Files\\\\usbipd-win\\\\;C:\\\\Users\\\\kai\\\\.cargo\\\\bin;C:\\\\Users\\\\kai\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps;C:\\\\Users\\\\kai\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\bin\",\n      \"PATHEXT\": \".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC\",\n      \"POWERSHELL_DISTRIBUTION_CHANNEL\": \"MSI:Windows 10 Home\",\n      \"PROCESSOR_ARCHITECTURE\": \"AMD64\",\n      \"PROCESSOR_IDENTIFIER\": \"AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD\",\n      \"PROCESSOR_LEVEL\": \"25\",\n      \"PROCESSOR_REVISION\": \"7401\",\n      \"PROGRAMDATA\": \"C:\\\\ProgramData\",\n      \"PROGRAMFILES\": \"C:\\\\Program Files\",\n      \"PROGRAMFILES(X86)\": \"C:\\\\Program Files (x86)\",\n      \"PROGRAMW6432\": \"C:\\\\Program Files\",\n      \"PROMPT\": \"$P$G\",\n      \"PSMODULEPATH\": \"C:\\\\Program Files\\\\WindowsPowerShell\\\\Modules;C:\\\\WINDOWS\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\Modules\",\n      \"PUBLIC\": \"C:\\\\Users\\\\Public\",\n      \"PYTHONPATH\": \"C:/AMDDesignTools/2025.2.1/Vitis\\\\cli;C:/AMDDesignTools/2025.2.1/Vitis\\\\cli\\\\python-packages\\\\win64;C:/AMDDesignTools/2025.2.1/Vitis\\\\cli\\\\python-packages\\\\site-packages;C:/AMDDesignTools/2025.2.1/Vitis\\\\cli\\\\proto;C:/AMDDesignTools/2025.2.1/Vitis\\\\scripts\\\\python_pkg;\",\n      \"RDI_APPROOT\": \"C:/AMDDesignTools/2025.2.1/Vitis\",\n      \"RDI_BASEROOT\": \"C:/AMDDesignTools/2025.2.1\",\n      \"RDI_BINROOT\": \"C:/AMDDesignTools/2025.2.1/Vitis/bin\",\n      \"RDI_CHECK_PROG\": \"True\",\n      \"RDI_DATADIR\": \"C:/AMDDesignTools/2025.2.1/Vitis/data\",\n      \"RDI_INSTALLROOT\": \"C:/AMDDesignTools\",\n      \"RDI_INSTALLVER\": \"Vitis\",\n      \"RDI_INSTALLVERSION\": \"2025.2.1\",\n      \"RDI_NO_JRE\": \"1\",\n      \"RDI_OPT_EXT\": \".o\",\n      \"RDI_OS_ARCH\": \"64\",\n      \"RDI_PROG\": \"buildinfo.exe\",\n      \"RDI_SESSION_INFO\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\bin:SLIM5-15-09-2026_21-52-33.14\",\n      \"RDI_SHARED_DATA\": \"C:/AMDDesignTools/SharedData/Vitis/data\",\n      \"RDI_TEMPINSTALL\": \"C:\\\\AMDDesignTools\\\\2025.2.1\",\n      \"RDI_USE_JDK11\": \"1\",\n      \"SESSIONNAME\": \"Console\",\n      \"SESSION_STRING\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\bin:SLIM5-15-09-2026_21-52-34.12\",\n      \"SUPPORTS_CLASSIC_IDE\": \"true\",\n      \"SYSTEMDRIVE\": \"C:\",\n      \"SYSTEMROOT\": \"C:\\\\WINDOWS\",\n      \"TEMP\": \"C:\\\\Users\\\\kai\\\\AppData\\\\Local\\\\Temp\",\n      \"THEIA_APP_PROJECT_PATH\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\",\n      \"THEIA_DEFAULT_PLUGINS\": \"local-dir:C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\\\\plugins\",\n      \"THEIA_ELECTRON_TOKEN\": \"{\\\"value\\\":\\\"6dfec9e7-fd67-4bb7-9c6b-4c40fec6aba5\\\"}\",\n      \"THEIA_ELECTRON_VERSION\": \"30.1.2\",\n      \"THEIA_PLUGINS\": \"local-dir:C:\\\\Users\\\\kai\\\\.theia\\\\plugins\",\n      \"TMP\": \"C:\\\\Users\\\\kai\\\\AppData\\\\Local\\\\Temp\",\n      \"TOOLDIR\": \"tps\\\\win64\\\\git-2.50.0\",\n      \"TOOLS_CLANGD\": \"C:/AMDDesignTools/2025.2.1/Vitis/win64/tools/vcxx\\\\libexec\",\n      \"TPS_CMAKE\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\cmake-3.24.2\",\n      \"TPS_GIT\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\git-2.50.0\",\n      \"TPS_LIBXSLT\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\libxslt\",\n      \"TPS_PYTHON\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\python-3.13.0\",\n      \"USERDOMAIN\": \"SLIM5\",\n      \"USERDOMAIN_ROAMINGPROFILE\": \"SLIM5\",\n      \"USERNAME\": \"kai\",\n      \"USERPROFILE\": \"C:\\\\Users\\\\kai\",\n      \"VALIDATE_ARGS\": \"\\\"False\\\"\",\n      \"VITISNEW\": \"true\",\n      \"VSCODE_API_VERSION\": \"1.99.3\",\n      \"WINDIR\": \"C:\\\\WINDOWS\",\n      \"XILINX_HLS\": \"C:/AMDDesignTools/2025.2.1/Vitis\",\n      \"XILINX_VCXX\": \"C:/AMDDesignTools/2025.2.1/Vitis/win64/tools/vcxx\",\n      \"XILINX_VERSION_DEFAULT\": \"2025.2.1\",\n      \"XILINX_VERSION_VITIS\": \"2025.2.1\",\n      \"XILINX_VITIS\": \"C:/AMDDesignTools/2025.2.1/Vitis\",\n      \"XILINX_VITIS_GIT\": \"C:/AMDDesignTools/2025.2.1/Vivado\\\\tps\\\\win64\\\\git-2.50.0\\\\bin\",\n      \"XILINX_VITIS_VERSION\": \"Vitis v2025.2.1 (64-bit)\",\n      \"XILINX_VIVADO\": \"C:/AMDDesignTools/2025.2.1/Vivado\",\n      \"XIL_NO_OVERRIDE\": \"0\",\n      \"XIL_SUPPRESS_OVERRIDE_WARNINGS\": \"1\",\n      \"_RDI_DONT_SET_XILINX_AS_PATH\": \"True\",\n      \"_RDI_SETENV_RUN\": \"true\",\n      \"GIT_ASKPASS\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\\\\plugins\\\\vscode.git\\\\extension\\\\dist\\\\askpass.sh\",\n      \"VSCODE_GIT_ASKPASS_NODE\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\ide\\\\electron-app\\\\win64\\\\vitis-ide.exe\",\n      \"VSCODE_GIT_ASKPASS_MAIN\": \"C:\\\\AMDDesignTools\\\\2025.2.1\\\\Vitis\\\\ide\\\\electron-app\\\\win64\\\\resources\\\\app\\\\plugins\\\\vscode.git\\\\extension\\\\dist\\\\askpass-main.js\",\n      \"VSCODE_GIT_IPC_HANDLE\": \"\\\\\\\\.\\\\pipe\\\\vscode-git-2bd9562484-sock\"\n    }\n  }\n}"}
+2026-09-15 22:31:22 [debug] : start navigation 1 
+2026-09-15 22:31:22 [debug] : start navigation 2 
+2026-09-15 22:31:22 [debug] : end navigation 1 
+2026-09-15 22:31:22 [debug] : end navigation 0 
+2026-09-15 22:31:22 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-09-15 22:31:22 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:24 [debug] : start navigation 1 
+2026-09-15 22:31:24 [debug] : end navigation 0 
+2026-09-15 22:31:24 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":32,"character":0}} 
+2026-09-15 22:31:25 [debug] : PLUGIN_HOST(43620): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2.1\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-clangd\extension\out\bundle) 
+2026-09-15 22:31:25 [debug] : PLUGIN_HOST(43620): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2.1\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-verilog-vhdl-support-0.0.1\extension\lib\extension.js) 
+2026-09-15 22:31:25 [debug] : PLUGIN_HOST(43620): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2.1\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-pragma-0.6.0\extension\out\extension.js) 
+2026-09-15 22:31:25 [debug] : PLUGIN_HOST(43620): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2.1\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-l1-library-0.0.1\extension\lib\extension.js) 
+2026-09-15 22:31:25 [debug] : Starting extension "vitis-hls-pragma"! 
+2026-09-15 22:31:25 [debug] : Calling activation function on plugin amd.vitis-hls-verilog-vhdl-support 
+2026-09-15 22:31:25 [debug] : Calling activation function on plugin amd.vitis-hls-l1-library 
+2026-09-15 22:31:25 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:25 [debug] : Calling activation function on plugin amd.vitis-hls-pragma 
+2026-09-15 22:31:25 [debug] : Clang Language Server is now active! 
+2026-09-15 22:31:25 [debug] : Calling activation function on plugin clangd 
+2026-09-15 22:31:25 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:25 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:27 [debug] : start navigation 1 
+2026-09-15 22:31:27 [debug] : end navigation 0 
+2026-09-15 22:31:27 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":59,"character":0}} 
+2026-09-15 22:31:28 [debug] : start navigation 1 
+2026-09-15 22:31:28 [debug] : end navigation 0 
+2026-09-15 22:31:28 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":61,"character":1}} 
+2026-09-15 22:31:29 [debug] : start navigation 1 
+2026-09-15 22:31:29 [debug] : end navigation 0 
+2026-09-15 22:31:29 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":59,"character":0}} 
+2026-09-15 22:31:35 [debug] : start navigation 1 
+2026-09-15 22:31:35 [debug] : end navigation 0 
+2026-09-15 22:31:35 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":24,"character":0}} 
+2026-09-15 22:31:37 [debug] : start navigation 1 
+2026-09-15 22:31:37 [debug] : end navigation 0 
+2026-09-15 22:31:37 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":22,"character":0}} 
+2026-09-15 22:31:39 [debug] : start navigation 1 
+2026-09-15 22:31:39 [debug] : end navigation 0 
+2026-09-15 22:31:39 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":20,"character":16}} 
+2026-09-15 22:31:39 [debug] : start navigation 1 
+2026-09-15 22:31:39 [debug] : end navigation 0 
+2026-09-15 22:31:39 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":19,"character":18}} 
+2026-09-15 22:31:40 [debug] : start navigation 1 
+2026-09-15 22:31:40 [debug] : end navigation 0 
+2026-09-15 22:31:40 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c","type":0,"context":{"line":18,"character":0}} 
+2026-09-15 22:31:44 [debug] : start navigation 1 
+2026-09-15 22:31:44 [debug] : start navigation 2 
+2026-09-15 22:31:44 [debug] : end navigation 1 
+2026-09-15 22:31:44 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2026-09-15 22:31:44 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/helloworld.c"}
+2026-09-15 22:31:44 [debug] : TypeError: Cannot read properties of undefined (reading 'node')
+    at t.ToolbarMenuNodeWrapper.renderMenuItem (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520522)
+    at t.ToolbarMenuNodeWrapper.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520048)
+    at file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131052
+    at Array.map (<anonymous>)
+    at n.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131043)
+    at n.onUpdateRequest (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:6281451)
+    at n.processMessage (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:23512643)
+    at f (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162247)
+    at r (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9161302)
+    at p (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162490) 
+2026-09-15 22:31:44 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:44 [debug] : end navigation 0 
+2026-09-15 22:31:44 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/platform.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-09-15 22:31:44 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:50 [debug] : start navigation 1 
+2026-09-15 22:31:50 [debug] : end navigation 0 
+2026-09-15 22:31:50 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/platform.c","type":0,"context":{"line":11,"character":0}} 
+2026-09-15 22:31:52 [debug] : start navigation 1 
+2026-09-15 22:31:52 [debug] : start navigation 2 
+2026-09-15 22:31:52 [debug] : end navigation 1 
+2026-09-15 22:31:52 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/platform.c"}
+2026-09-15 22:31:52 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/platform.c"}
+2026-09-15 22:31:52 [debug] : TypeError: Cannot read properties of undefined (reading 'node')
+    at t.ToolbarMenuNodeWrapper.renderMenuItem (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520522)
+    at t.ToolbarMenuNodeWrapper.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520048)
+    at file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131052
+    at Array.map (<anonymous>)
+    at n.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131043)
+    at n.onUpdateRequest (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:6281451)
+    at n.processMessage (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:23512643)
+    at f (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162247)
+    at r (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9161302)
+    at p (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162490) 
+2026-09-15 22:31:52 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:52 [debug] : end navigation 0 
+2026-09-15 22:31:52 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/platform.h","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-09-15 22:31:52 [debug] : TextEditor is disposed! 
+2026-09-15 22:31:53 [debug] : start navigation 1 
+2026-09-15 22:31:53 [debug] : end navigation 0 
+2026-09-15 22:31:53 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/platform.h","type":0,"context":{"line":18,"character":0}} 
+2026-09-15 22:31:56 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:31:56 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:31:59 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"}
+2026-09-15 22:31:59 [debug] : [Platform Server] Generate platform requested for platform_pll with internal id '76e56046-7b4f-4221-9046-7c3ece00d22e'. 
+2026-09-15 22:31:59 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-09-15 22:31:59 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-09-15 22:31:59 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-09-15 22:31:59 [debug] : [Platform Output] Generate platform_pll platform with id '76e56046-7b4f-4221-9046-7c3ece00d22e' started. 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_fsbl 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+22:31:59 INFO  : BSP build will be initiated for Domain what
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:31:59 [debug] : RIGEL SERVER 22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Domain reconfigured successfully 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Domain reconfigured successfully 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Domain reconfigured successfully 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp 
+2026-09-15 22:32:07 [debug] : RIGEL SERVER 22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp 
+2026-09-15 22:32:12 [debug] : RIGEL SERVER 22:32:12 INFO  : Domain reconfigured successfully
+22:32:12 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:32:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:32:12 [debug] : RIGEL SERVER 22:32:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:32:20 [debug] : RIGEL SERVER 22:32:20 INFO  : Domain build successfully 
+2026-09-15 22:32:20 [debug] : RIGEL SERVER 22:32:20 INFO  : Domain build successfully 
+2026-09-15 22:32:21 [debug] : RIGEL SERVER 22:32:21 INFO  : Domain build successfully 
+2026-09-15 22:32:24 [debug] : RIGEL SERVER 22:32:24 INFO  : Domain build successfully 
+2026-09-15 22:32:24 [debug] : RIGEL SERVER 22:32:24 INFO  : Generating Boot ELFs 
+2026-09-15 22:32:24 [debug] : RIGEL SERVER 22:32:24 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:32:24 [debug] : RIGEL SERVER 22:32:24 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:32:25 [debug] : RIGEL SERVER 22:32:25 INFO  : [INFO]: Retargeting app 
+2026-09-15 22:32:25 [debug] : RIGEL SERVER 22:32:25 INFO  : [INFO]: Updating link libraries based on new domain
+22:32:25 INFO  : [INFO]: Compiler path changed from C:\Xilinx\2025.1\Vitis\gnu\aarch64\nt\aarch64-none\bin\aarch64-none-elf-gcc-ar.exe to C:\AMDDesignTools\2025.2.1\Vitis\gnu\aarch64\nt\aarch64-none\bin\aarch64-none-elf-gcc-ar.exe. Clearing build directory.
+22:32:25 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl 
+2026-09-15 22:32:25 [debug] : RIGEL SERVER 22:32:25 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:32:25 [debug] : RIGEL SERVER 22:32:25 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : [INFO]: Retargeting app 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : [INFO]: Updating link libraries based on new domain
+22:32:33 INFO  : [INFO]: Compiler path changed from C:\Xilinx\2025.1\Vitis\gnu\microblaze\nt\bin\mb-gcc-ar.exe to C:\AMDDesignTools\2025.2.1\Vitis\gnu\microblaze\nt\bin\mb-gcc-ar.exe. Clearing build directory.
+22:32:33 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:32:33 [debug] : RIGEL SERVER 22:32:33 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:32:40 [debug] : RIGEL SERVER 22:32:40 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:32:40 [debug] : RIGEL SERVER 22:32:40 INFO  : Generating Export directory 
+2026-09-15 22:32:41 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-09-15 22:32:41 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-09-15 22:32:41 [debug] : [Platform Server] Generate platform completed on 'platform_pll' with internal id '76e56046-7b4f-4221-9046-7c3ece00d22e'. 
+2026-09-15 22:32:41 [debug] : [Platform Server] Generate platform status event - label: platform_pll, status_code:0, status_details:. 
+2026-09-15 22:32:41 [debug] : [Platform Server] Generate platform output steam finished on 'platform_pll' with internal id '76e56046-7b4f-4221-9046-7c3ece00d22e'. 
+2026-09-15 22:32:41 [info] : [Platform Server] Generate platform output stream finished - platform_pll. 
+2026-09-15 22:32:41 [debug] : RIGEL SERVER 22:32:41 INFO  : Platform Build Finished successfully. 
+2026-09-15 22:32:41 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-09-15 22:32:41 [debug] : [Platform Output] Generate platform_pll platform with id '76e56046-7b4f-4221-9046-7c3ece00d22e' completed. 
+2026-09-15 22:32:41 [debug] : [Platform Output] Deleting and canceling the build task with id '76e56046-7b4f-4221-9046-7c3ece00d22e'. 
+2026-09-15 22:32:41 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-09-15 22:32:41 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-09-15 22:32:41 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 891,
+        "startColumn": 1,
+        "endLineNumber": 891,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_pmufw\r\n22:31:59 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0\r\n22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_fsbl\r\n22:31:59 INFO  : BSP build will be initiated for Domain what\r\n22:31:59 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:31:59 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:31:59 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:31:59 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:32:07 INFO  : Domain reconfigured successfully\r\n22:32:07 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:32:07 INFO  : Domain reconfigured successfully\r\n22:32:07 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:32:07 INFO  : Domain reconfigured successfully\r\n22:32:07 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:32:12 INFO  : Domain reconfigured successfully\r\n22:32:12 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:32:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:32:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:32:20 INFO  : Domain build successfully\r\n22:32:20 INFO  : Domain build successfully\r\n22:32:21 INFO  : Domain build successfully\r\n22:32:24 INFO  : Domain build successfully\r\n22:32:24 INFO  : Generating Boot ELFs\r\n22:32:24 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:32:24 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:32:25 INFO  : [INFO]: Retargeting app\r\n22:32:25 INFO  : [INFO]: Updating link libraries based on new domain\r\n22:32:25 INFO  : [INFO]: Compiler path changed from C:\\Xilinx\\2025.1\\Vitis\\gnu\\aarch64\\nt\\aarch64-none\\bin\\aarch64-none-elf-gcc-ar.exe to C:\\AMDDesignTools\\2025.2.1\\Vitis\\gnu\\aarch64\\nt\\aarch64-none\\bin\\aarch64-none-elf-gcc-ar.exe. Clearing build directory.\r\n22:32:25 INFO  : Successfully retargeted Application C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\r\n22:32:25 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:32:25 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:32:33 INFO  : Successfully building the baremetal applicationC:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:32:33 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:32:33 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:32:33 INFO  : [INFO]: Retargeting app\r\n22:32:33 INFO  : [INFO]: Updating link libraries based on new domain\r\n22:32:33 INFO  : [INFO]: Compiler path changed from C:\\Xilinx\\2025.1\\Vitis\\gnu\\microblaze\\nt\\bin\\mb-gcc-ar.exe to C:\\AMDDesignTools\\2025.2.1\\Vitis\\gnu\\microblaze\\nt\\bin\\mb-gcc-ar.exe. Clearing build directory.\r\n22:32:33 INFO  : Successfully retargeted Application C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\r\n22:32:33 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:32:33 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:32:40 INFO  : Successfully building the baremetal applicationC:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:32:40 INFO  : Generating Export directory\r\n22:32:41 INFO  : Platform Build Finished successfully.\r\n",
+      "rangeOffset": 92762,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 6,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:41 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:32:52 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:32:52 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:32:54 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:32:54 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:32:57 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:32:57 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 22,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 107
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 23,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 108
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 24,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 104
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 25,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 109
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 26,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 110
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 27,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 105
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 28,
+  "event": "thread",
+  "body": {
+    "reason": "exited",
+    "threadId": 106
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "seq": 29,
+  "event": "terminated",
+  "body": {}
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] <=== {
+  "seq": 17,
+  "type": "request",
+  "command": "disconnect",
+  "arguments": {
+    "restart": false
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "response",
+  "seq": 30,
+  "request_seq": 17,
+  "command": "disconnect",
+  "success": true
+} 
+2026-09-15 22:33:11 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["a87ea9eb-dd04-4d3b-9b28-90e3037c6343",null,27,null,null,null,null,"{\"type\":\"tcf-debug\",\"request\":\"launch\",\"name\":\"hello_world_app_hw_1\",\"debugType\":\"baremetal-zu\",\"attachToRunningTargetOptions\":{\"targetSetupMode\":\"standalone\",\"executeScript\":true,\"scriptPath\":\"\"},\"autoAttachProcessChildren\":false,\"target\":{\"targetConnectionId\":\"Local\",\"peersIniPath\":\"../../_ide/.peers.ini\",\"context\":\"ZUPlus\"},\"pathMap\":[],\"targetSetup\":{\"resetSystem\":true,\"programDevice\":true,\"partialBitstream\":false,\"skipRevisionCheck\":false,\"device\":{\"plDevice\":\"Auto Detect\",\"psDevice\":\"Auto Detect\"},\"enableRPUSplitMode\":false,\"resetAPU\":false,\"resetRPU\":false,\"bitstreamFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\_ide\\\\bitstream\\\\mdesign_wrapper.bit\",\"zuInitialization\":{\"isFsbl\":true,\"usingFSBL\":{\"initWithFSBL\":true,\"fsblFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\platform_pll\\\\export\\\\platform_pll\\\\sw\\\\boot\\\\fsbl.elf\",\"fsblExitSymbol\":\"XFsbl_Exit\"},\"usingPsuInit\":{\"runPsuInit\":true,\"plPowerup\":true,\"psuInitTclFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\_ide\\\\psinit\\\\psu_init.tcl\"}},\"zuTraceOptions\":{\"isSelected\":false,\"scratchAddress\":\"0x60000\",\"scratchSize\":\"0x60000\",\"traceOutputPath\":\"\"},\"downloadElf\":[{\"core\":\"psu_cortexa53_0\",\"resetProcessor\":true,\"elfFile\":\"c:\\\\projects\\\\amd\\\\test_project\\\\vitis_files\\\\hello_world\\\\build\\\\hello_world.elf\",\"stopAtEntry\":false,\"isSelfRelocatingApp\":false,\"relativeAddress\":\"\"}],\"crossTriggerBreakpoints\":{\"isSelected\":false,\"breakpoints\":[]}},\"internalConsoleOptions\":\"openOnSessionStart\",\"__configUri\":\"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json\",\"env\":{},\"noDebug\":true}"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:33:11 [debug] : [TCF-Adapter] clearing the process with pid 20148 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter] [0577c725-2a4d-4fcd-a2db-494c7e811c70] debugAdapterWillStop 
+2026-09-15 22:33:11 [debug] : stopping debug adapter session: '0577c725-2a4d-4fcd-a2db-494c7e811c70' 
+2026-09-15 22:33:11 [debug] : Deleting plugin connection: 0577c725-2a4d-4fcd-a2db-494c7e811c70 
+2026-09-15 22:33:11 [info] : [Debug Manager] Launch session has terminated on the configuration 'hello_world_app_hw_1 [hello_world]' 
+2026-09-15 22:33:11 [debug] : [Debug Manager] Stop event received for launch configuration JSON: {"type":"tcf-debug","request":"launch","name":"hello_world_app_hw_1","debugType":"baremetal-zu","attachToRunningTargetOptions":{"targetSetupMode":"standalone","executeScript":true,"scriptPath":""},"autoAttachProcessChildren":false,"target":{"targetConnectionId":"Local","peersIniPath":"../../_ide/.peers.ini","context":"ZUPlus"},"pathMap":[],"targetSetup":{"resetSystem":true,"programDevice":true,"partialBitstream":false,"skipRevisionCheck":false,"device":{"plDevice":"Auto Detect","psDevice":"Auto Detect"},"enableRPUSplitMode":false,"resetAPU":false,"resetRPU":false,"bitstreamFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\bitstream\\mdesign_wrapper.bit","zuInitialization":{"isFsbl":true,"usingFSBL":{"initWithFSBL":true,"fsblFile":"c:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\export\\platform_pll\\sw\\boot\\fsbl.elf","fsblExitSymbol":"XFsbl_Exit"},"usingPsuInit":{"runPsuInit":true,"plPowerup":true,"psuInitTclFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\_ide\\psinit\\psu_init.tcl"}},"zuTraceOptions":{"isSelected":false,"scratchAddress":"0x60000","scratchSize":"0x60000","traceOutputPath":""},"downloadElf":[{"core":"psu_cortexa53_0","resetProcessor":true,"elfFile":"c:\\projects\\amd\\test_project\\vitis_files\\hello_world\\build\\hello_world.elf","stopAtEntry":false,"isSelfRelocatingApp":false,"relativeAddress":""}],"crossTriggerBreakpoints":{"isSelected":false,"breakpoints":[]}},"internalConsoleOptions":"openOnSessionStart","__configUri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/_ide/launch.json","env":{},"noDebug":true} 
+2026-09-15 22:33:11 [info] : [Debug Manager] Enabling breakpoints after running the application using 'hello_world_app_hw_1 [hello_world]'. 
+2026-09-15 22:33:11 [debug] : RIGEL SERVER 22:33:11 INFO  : disconnect 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter] [0577c725-2a4d-4fcd-a2db-494c7e811c70] debugAdapterError: Error: read ECONNRESET 
+2026-09-15 22:33:11 [debug] : error in debug adapter session: '0577c725-2a4d-4fcd-a2db-494c7e811c70': {"errno":-4077,"code":"ECONNRESET","syscall":"read"} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "event": "error",
+  "seq": -1,
+  "body": {
+    "errno": -4077,
+    "code": "ECONNRESET",
+    "syscall": "read"
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter] [0577c725-2a4d-4fcd-a2db-494c7e811c70] debugAdapterError: Error: read ECONNRESET 
+2026-09-15 22:33:11 [debug] : error in debug adapter session: '0577c725-2a4d-4fcd-a2db-494c7e811c70': {"errno":-4077,"code":"ECONNRESET","syscall":"read"} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter]   [0577c725-2a4d-4fcd-a2db-494c7e811c70] ===> {
+  "type": "event",
+  "event": "error",
+  "seq": -1,
+  "body": {
+    "errno": -4077,
+    "code": "ECONNRESET",
+    "syscall": "read"
+  }
+} 
+2026-09-15 22:33:11 [debug] : [TCF-Adapter] [0577c725-2a4d-4fcd-a2db-494c7e811c70] debugAdapterExit: undefined 
+2026-09-15 22:33:11 [debug] : onDebugAdapterExit session: '0577c725-2a4d-4fcd-a2db-494c7e811c70' 
+2026-09-15 22:33:11 [debug] : [Debug Manager] Launch event posted to server using notification service - ON_DID_EDGE_HOST_LAUNCH_STOP 
+2026-09-15 22:33:11 [debug] : Received event from notification service: ON_DID_EDGE_HOST_LAUNCH_STOP. 
+2026-09-15 22:33:13 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:33:13 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:33:16 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"}
+2026-09-15 22:33:16 [debug] : [Platform Server] Generate platform requested for platform_pll with internal id '6e7dbc4e-187a-4a8a-bf06-358ad773e536'. 
+2026-09-15 22:33:16 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-09-15 22:33:16 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-09-15 22:33:16 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-09-15 22:33:16 [debug] : [Platform Output] Generate platform_pll platform with id '6e7dbc4e-187a-4a8a-bf06-358ad773e536' started. 
+2026-09-15 22:33:16 [debug] : RIGEL SERVER 22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_pmufw 
+2026-09-15 22:33:16 [debug] : RIGEL SERVER 22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+22:33:16 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+22:33:16 INFO  : BSP build will be initiated for Domain what
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:33:16 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:16 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:16 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:16 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 948,
+        "startColumn": 1,
+        "endLineNumber": 948,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "22:33:11 INFO  : disconnect\r\n22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_pmufw\r\n22:33:16 INFO  : BSP build will be initiated for Domain what\r\n22:33:16 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0\r\n22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_fsbl\r\n22:33:16 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:16 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:16 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:16 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n",
+      "rangeOffset": 100396,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 7,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:17 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:20 [debug] : RIGEL SERVER 22:33:20 INFO  : Domain reconfigured successfully 
+2026-09-15 22:33:20 [debug] : RIGEL SERVER 22:33:20 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp 
+2026-09-15 22:33:20 [debug] : RIGEL SERVER 22:33:20 INFO  : Domain reconfigured successfully 
+2026-09-15 22:33:20 [debug] : RIGEL SERVER 22:33:20 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp 
+2026-09-15 22:33:20 [debug] : RIGEL SERVER 22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp 
+2026-09-15 22:33:21 [debug] : RIGEL SERVER 22:33:21 INFO  : Domain reconfigured successfully 
+2026-09-15 22:33:21 [debug] : RIGEL SERVER 22:33:21 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:21 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp 
+2026-09-15 22:33:21 [debug] : RIGEL SERVER 22:33:21 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp 
+2026-09-15 22:33:26 [debug] : RIGEL SERVER 22:33:26 INFO  : Domain reconfigured successfully 
+2026-09-15 22:33:26 [debug] : RIGEL SERVER 22:33:26 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:26 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:33:26 [debug] : RIGEL SERVER 22:33:26 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp 
+2026-09-15 22:33:31 [debug] : RIGEL SERVER 22:33:31 INFO  : Domain build successfully 
+2026-09-15 22:33:31 [debug] : RIGEL SERVER 22:33:31 INFO  : Domain build successfully 
+2026-09-15 22:33:34 [debug] : RIGEL SERVER 22:33:34 INFO  : Domain build successfully 
+2026-09-15 22:33:36 [debug] : RIGEL SERVER 22:33:36 INFO  : Domain build successfully 
+2026-09-15 22:33:36 [debug] : RIGEL SERVER 22:33:36 INFO  : Generating Boot ELFs 
+2026-09-15 22:33:36 [debug] : RIGEL SERVER 22:33:36 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:36 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:33:37 [debug] : RIGEL SERVER 22:33:37 INFO  : [INFO]: Retargeting app 
+2026-09-15 22:33:37 [debug] : RIGEL SERVER 22:33:37 INFO  : [INFO]: Updating link libraries based on new domain
+22:33:37 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+22:33:37 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:33:37 [debug] : RIGEL SERVER 22:33:37 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:33:41 [debug] : RIGEL SERVER 22:33:41 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build 
+2026-09-15 22:33:41 [debug] : RIGEL SERVER 22:33:41 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:33:41 [debug] : RIGEL SERVER 22:33:41 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:33:42 [debug] : RIGEL SERVER 22:33:42 INFO  : [INFO]: Retargeting app 
+2026-09-15 22:33:42 [debug] : RIGEL SERVER 22:33:42 INFO  : [INFO]: Updating link libraries based on new domain
+22:33:42 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw 
+2026-09-15 22:33:42 [debug] : RIGEL SERVER 22:33:42 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:33:42 [debug] : RIGEL SERVER 22:33:42 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:33:47 [debug] : RIGEL SERVER 22:33:47 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build 
+2026-09-15 22:33:47 [debug] : RIGEL SERVER 22:33:47 INFO  : Generating Export directory 
+2026-09-15 22:33:48 [debug] : [Platform Server] Generate platform completed on 'platform_pll' with internal id '6e7dbc4e-187a-4a8a-bf06-358ad773e536'. 
+2026-09-15 22:33:48 [debug] : [Platform Server] Generate platform status event - label: platform_pll, status_code:0, status_details:. 
+2026-09-15 22:33:48 [debug] : [Platform Server] Generate platform output steam finished on 'platform_pll' with internal id '6e7dbc4e-187a-4a8a-bf06-358ad773e536'. 
+2026-09-15 22:33:48 [info] : [Platform Server] Generate platform output stream finished - platform_pll. 
+2026-09-15 22:33:48 [debug] : RIGEL SERVER 22:33:48 INFO  : Platform Build Finished successfully. 
+2026-09-15 22:33:55 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-09-15 22:33:55 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-09-15 22:33:55 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-09-15 22:33:55 [debug] : [Platform Output] Generate platform_pll platform with id '6e7dbc4e-187a-4a8a-bf06-358ad773e536' completed. 
+2026-09-15 22:33:55 [debug] : [Platform Output] Deleting and canceling the build task with id '6e7dbc4e-187a-4a8a-bf06-358ad773e536'. 
+2026-09-15 22:33:55 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-09-15 22:33:55 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 965,
+        "startColumn": 1,
+        "endLineNumber": 965,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "22:33:20 INFO  : Domain reconfigured successfully\r\n22:33:20 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_pmu_0\\what\\bsp\r\n22:33:20 INFO  : Domain reconfigured successfully\r\n22:33:20 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp\r\n22:33:21 INFO  : Domain reconfigured successfully\r\n22:33:21 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:21 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:21 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\psu_cortexa53_0\\standalone_psu_cortexa53_0\\bsp\r\n22:33:26 INFO  : Domain reconfigured successfully\r\n22:33:26 INFO  : Generating BSP for the domain C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:33:26 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:33:26 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp\r\n22:33:31 INFO  : Domain build successfully\r\n22:33:31 INFO  : Domain build successfully\r\n22:33:34 INFO  : Domain build successfully\r\n22:33:36 INFO  : Domain build successfully\r\n22:33:36 INFO  : Generating Boot ELFs\r\n22:33:36 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:33:36 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\zynqmp_fsbl_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:33:37 INFO  : [INFO]: Retargeting app\r\n22:33:37 INFO  : [INFO]: Updating link libraries based on new domain\r\n22:33:37 INFO  : Successfully retargeted Application C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\r\n22:33:37 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:33:37 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:33:41 INFO  : Successfully building the baremetal applicationC:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_fsbl\\build\r\n22:33:41 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:33:41 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw -d C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\zynqmp_pmufw_bsp -b C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:33:42 INFO  : [INFO]: Retargeting app\r\n22:33:42 INFO  : [INFO]: Updating link libraries based on new domain\r\n22:33:42 INFO  : Successfully retargeted Application C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\r\n22:33:42 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:33:42 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw --build_dir C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:33:47 INFO  : Successfully building the baremetal applicationC:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\zynqmp_pmufw\\build\r\n22:33:47 INFO  : Generating Export directory\r\n22:33:48 INFO  : Platform Build Finished successfully.\r\n",
+      "rangeOffset": 102474,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 8,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:55 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/projects/amd/test_project/vitis_files/_ide/logs/vitis.log"}
+2026-09-15 22:33:56 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:35:43 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:35:43 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\hello_world 
+2026-09-15 22:35:46 [debug] : [ProjectDecorator] tree decoration updated 
+2026-09-15 22:35:46 [debug] : [ProjectCache] Project location updated to C:\projects\amd\test_project\vitis_files\platform_pll 
+2026-09-15 22:36:43 [debug] : [Platform Server] Executing method:[getHwXsaSpecification] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\projects\\amd\\test_project\\vitis_files\\platform_pll\\hw\\mdesign_wrapper.xsa",null,"91dfca23-1ca5-4c2c-a126-754bd21c08f9"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-09-15 22:36:47 [debug] : start navigation 1 
+2026-09-15 22:36:47 [debug] : end navigation 0 
+2026-09-15 22:36:47 [debug] : ending navigation with location {"uri":"file:///c%3A/projects/amd/test_project/vitis_files/hello_world/src/platform.h","type":0,"context":{"line":18,"character":0}} 
+2026-09-15 22:36:48 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/platform.h"}
+2026-09-15 22:36:48 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/projects/amd/test_project/vitis_files/hello_world/src/platform.h"}
+2026-09-15 22:36:48 [debug] : TypeError: Cannot read properties of undefined (reading 'node')
+    at t.ToolbarMenuNodeWrapper.renderMenuItem (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520522)
+    at t.ToolbarMenuNodeWrapper.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:35520048)
+    at file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131052
+    at Array.map (<anonymous>)
+    at n.render (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:36131043)
+    at n.onUpdateRequest (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:6281451)
+    at n.processMessage (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:23512643)
+    at f (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162247)
+    at r (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9161302)
+    at p (file:///C:/AMDDesignTools/2025.2.1/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:9162490) 
+2026-09-15 22:36:48 [debug] : TextEditor is disposed! 
+2026-09-15 22:36:52 [debug] : Widget was activated, but did not accept focus after 2000ms: file:///c%3A/projects/amd/test_project/vitis_files/platform_pll/hw/mdesign_wrapper.xsa_hardware-specification-widget 

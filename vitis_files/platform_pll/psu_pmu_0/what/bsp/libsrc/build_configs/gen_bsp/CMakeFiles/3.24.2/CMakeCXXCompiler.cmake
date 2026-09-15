@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-g++.exe")
+set(CMAKE_CXX_COMPILER "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin/mb-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "13.3.0")
@@ -19,15 +19,15 @@ set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
-set(CMAKE_CXX_COMPILER_SYSROOT "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr")
-set(CMAKE_COMPILER_SYSROOT "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr")
+set(CMAKE_CXX_COMPILER_SYSROOT "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr")
+set(CMAKE_COMPILER_SYSROOT "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin//../microblazeeb-xilinx-elf/usr")
 
 
 set(CMAKE_AR "mb-ar")
-set(CMAKE_CXX_COMPILER_AR "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-ld.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin/mb-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin/mb-ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin/mb-gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/bin/mb-ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/include;C:/Xilinx/2025.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include;C:/Xilinx/2025.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include-fixed;C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0;C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0/microblaze-xilinx-elf/le/bs/p;C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0/backward;C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/include;C:/AMDDesignTools/2025.2.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include;C:/AMDDesignTools/2025.2.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.3.0/include-fixed;C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0;C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0/microblaze-xilinx-elf/le/bs/p;C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include/c++/13.3.0/backward;C:/AMDDesignTools/2025.2.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

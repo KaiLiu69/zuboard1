@@ -8,3 +8,8 @@ client.delete_component(name="zynqmp_pmufw")
 
 client.delete_component(name="zynqmp_pmufw")
 
+platform = client.get_component(name="platform_pll")
+status = platform.build()
+
+status = platform.build()
+

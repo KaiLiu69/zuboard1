@@ -860,3 +860,144 @@
      8  APU
         9* Cortex-A53 #0 (Breakpoint, EL3(S)/A64)
        10  Cortex-A53 #1 (Power On Reset)
+22:15:13 INFO  : connect -url tcp:127.0.0.1:3121
+22:15:13 INFO  : bpremove -all
+22:15:13 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/scripts/vitis/util/zynqmp_utils.tcl
+22:15:13 INFO  : Context for 'APU' is selected.
+22:15:13 INFO  : System reset is completed.
+22:15:16 INFO  : 'after 3000' command is executed.
+22:15:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && level==0 && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-04688093-0"}' command is executed.
+22:15:18 INFO  : Device configured successfully with "C:/projects/amd/test_project/vitis_files/hello_world/_ide/bitstream/mdesign_wrapper.bit"
+22:15:18 INFO  : targets -set -nocase -filter {name =~"PSU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+22:15:18 INFO  : catch {disable_pmu_gate}
+22:15:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+22:15:18 INFO  : loadhw -hw C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/hw/mdesign_wrapper.xsa -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+22:15:18 INFO  : configparams force-mem-access 1
+22:15:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+22:15:18 INFO  : source C:/AMDDesignTools/2025.2.1/Vitis/vitis-server/scripts/jtag_reg.tcl
+22:15:19 INFO  : Boot mode is read from the target.
+22:15:19 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+22:15:19 INFO  : rst -processor
+22:15:19 INFO  : dow C:/projects/amd/test_project/vitis_files/platform_pll/export/platform_pll/sw/boot/fsbl.elf
+22:15:19 INFO  : set bp_15_19_fsbl_bp [bpadd -addr &XFsbl_Exit]
+22:15:20 INFO  : con -block -timeout 60
+22:15:20 INFO  : bpremove $bp_15_19_fsbl_bp
+22:15:20 INFO  : targets -set -nocase -filter {name =~ "*A53*#0" && jtag_cable_name =~ "Avnet ZUBoard1CG 1234-oj1A" && jtag_device_ctx=="jsn-ZUBoard1CG-1234-oj1A-5ba00477-0"}
+22:15:20 INFO  : rst -processor
+22:15:21 INFO  : dow C:/projects/amd/test_project/vitis_files/hello_world/build/hello_world.elf
+22:15:21 INFO  : con
+22:15:21 INFO  : configparams force-mem-access 0
+22:15:22 INFO  : Testing the connection for 127.0.0.1
+22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+22:31:59 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+22:31:59 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+22:31:59 INFO  : BSP build will be initiated for Domain what
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:31:59 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:31:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:32:07 INFO  : Domain reconfigured successfully
+22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:32:07 INFO  : Domain reconfigured successfully
+22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:32:07 INFO  : Domain reconfigured successfully
+22:32:07 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:32:07 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:32:07 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:32:12 INFO  : Domain reconfigured successfully
+22:32:12 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:32:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:32:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:32:20 INFO  : Domain build successfully
+22:32:20 INFO  : Domain build successfully
+22:32:21 INFO  : Domain build successfully
+22:32:24 INFO  : Domain build successfully
+22:32:24 INFO  : Generating Boot ELFs
+22:32:24 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:32:24 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:32:25 INFO  : [INFO]: Retargeting app
+22:32:25 INFO  : [INFO]: Updating link libraries based on new domain
+22:32:25 INFO  : [INFO]: Compiler path changed from C:\Xilinx\2025.1\Vitis\gnu\aarch64\nt\aarch64-none\bin\aarch64-none-elf-gcc-ar.exe to C:\AMDDesignTools\2025.2.1\Vitis\gnu\aarch64\nt\aarch64-none\bin\aarch64-none-elf-gcc-ar.exe. Clearing build directory.
+22:32:25 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+22:32:25 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:32:25 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:32:33 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:32:33 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:32:33 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:32:33 INFO  : [INFO]: Retargeting app
+22:32:33 INFO  : [INFO]: Updating link libraries based on new domain
+22:32:33 INFO  : [INFO]: Compiler path changed from C:\Xilinx\2025.1\Vitis\gnu\microblaze\nt\bin\mb-gcc-ar.exe to C:\AMDDesignTools\2025.2.1\Vitis\gnu\microblaze\nt\bin\mb-gcc-ar.exe. Clearing build directory.
+22:32:33 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+22:32:33 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:32:33 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:32:40 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:32:40 INFO  : Generating Export directory
+22:32:41 INFO  : Platform Build Finished successfully.
+22:33:11 INFO  : disconnect
+22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_pmufw
+22:33:16 INFO  : BSP build will be initiated for Domain what
+22:33:16 INFO  : BSP build will be initiated for Domain standalone_psu_cortexa53_0
+22:33:16 INFO  : BSP build will be initiated for Domain zynqmp_fsbl
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:16 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:20 INFO  : Domain reconfigured successfully
+22:33:20 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+22:33:20 INFO  : Domain reconfigured successfully
+22:33:20 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:20 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:20 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp
+22:33:21 INFO  : Domain reconfigured successfully
+22:33:21 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:21 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:21 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\psu_cortexa53_0\standalone_psu_cortexa53_0\bsp
+22:33:26 INFO  : Domain reconfigured successfully
+22:33:26 INFO  : Generating BSP for the domain C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:26 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:26 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp
+22:33:31 INFO  : Domain build successfully
+22:33:31 INFO  : Domain build successfully
+22:33:34 INFO  : Domain build successfully
+22:33:36 INFO  : Domain build successfully
+22:33:36 INFO  : Generating Boot ELFs
+22:33:36 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:36 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\zynqmp_fsbl_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:37 INFO  : [INFO]: Retargeting app
+22:33:37 INFO  : [INFO]: Updating link libraries based on new domain
+22:33:37 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl
+22:33:37 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:37 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:41 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_fsbl\build
+22:33:41 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:33:41 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw -d C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\zynqmp_pmufw_bsp -b C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:33:42 INFO  : [INFO]: Retargeting app
+22:33:42 INFO  : [INFO]: Updating link libraries based on new domain
+22:33:42 INFO  : Successfully retargeted Application C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw
+22:33:42 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:33:42 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw --build_dir C:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:33:47 INFO  : Successfully building the baremetal applicationC:\projects\amd\test_project\vitis_files\platform_pll\zynqmp_pmufw\build
+22:33:47 INFO  : Generating Export directory
+22:33:48 INFO  : Platform Build Finished successfully.

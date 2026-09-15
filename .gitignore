@@ -19,3 +19,19 @@
 
 _ide/logs
 _ide/.wsdata
+
+# Compiled/intermediate
+**/*.obj
+
+# Vivado generated files
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+.Xil/
+
+# Vitis generated/build directories
+Debug/
+Release/
