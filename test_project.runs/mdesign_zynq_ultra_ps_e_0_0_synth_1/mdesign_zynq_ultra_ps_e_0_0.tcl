@@ -57,14 +57,6 @@ if {$::dispatch::connected} {
 
 OPTRACE "mdesign_zynq_ultra_ps_e_0_0_synth_1" START { ROLLUP_AUTO }
 set_param general.usePosixSpawnForFork 1
-set_param power.BramSDPPropagationFix 1
-set_param power.enableUnconnectedCarry8PinPower 1
-set_param power.enableCarry8RouteBelPower 1
-set_param synth.incrementalSynthesisCache C:/Users/kai/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10652-slim5/incrSyn
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param power.enableLutRouteBelPower 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -76,11 +68,8 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/projects/amd/test_project/test_project.cache/wt [current_project]
 set_property parent.project_path C:/projects/amd/test_project/test_project.xpr [current_project]
-set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {C:/Users/kai/AppData/Roaming/Xilinx/Vivado/2025.1/xhub/board_store/xilinx_board_store} [current_project]
-set_property board_part avnet.com:zuboard_1cg:part0:1.0 [current_project]
 set_property ip_output_repo c:/projects/amd/test_project/test_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }

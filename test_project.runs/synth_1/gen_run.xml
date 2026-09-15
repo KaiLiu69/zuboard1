@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xczu1cg-sbva484-1-e" LaunchTime="1754226642" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
+<GenRun Id="synth_1" LaunchPart="xczu1cg-sbva484-1-e" LaunchTime="1789492653" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/top.dcp">
   <File Type="PA-TCL" Name="mdesign_wrapper.tcl"/>
   <File Type="REPORTS-TCL" Name="mdesign_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="mdesign_wrapper.vds"/>
@@ -69,6 +69,6 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mdesign_zynq_ultra_ps_e_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mdesign_top_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mdesign_zynq_ultra_ps_e_0_0"/>
 </GenRun>

@@ -118,13 +118,13 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/CMakeFiles/pkgRedirects
 
 //No help, variable specified on the command line.
-CMAKE_INCLUDE_PATH:UNINITIALIZED=C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\include
+CMAKE_INCLUDE_PATH:UNINITIALIZED=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/include
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/bsp
 
 //No help, variable specified on the command line.
-CMAKE_LIBRARY_PATH:UNINITIALIZED=C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\lib
+CMAKE_LIBRARY_PATH:UNINITIALIZED=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/lib
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-ld.exe
@@ -155,7 +155,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //No help, variable specified on the command line.
-CMAKE_MODULE_PATH:UNINITIALIZED=C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp
+CMAKE_MODULE_PATH:UNINITIALIZED=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp
 
 //Path to a program.
 CMAKE_NM:FILEPATH=C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-nm.exe
@@ -211,7 +211,7 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 CMAKE_SKIP_RPATH:BOOL=NO
 
 //Specs file path for using CMAKE toolchain files
-CMAKE_SPECS_FILE:STRING=C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\Xilinx.spec
+CMAKE_SPECS_FILE:STRING=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/Xilinx.spec
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -237,7 +237,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_STRIP:FILEPATH=C:/Xilinx/2025.1/Vitis/gnu/microblaze/nt/bin/mb-strip.exe
 
 //No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\microblaze-pmu_toolchain.cmake
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/microblaze-pmu_toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -380,6 +380,15 @@ XILTIMER_tick_timer:STRING=None
 YOCTO:BOOL=OFF
 
 //Value Computed by CMake
+axipmon_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/axipmon/src
+
+//Value Computed by CMake
+axipmon_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+axipmon_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/axipmon/src
+
+//Value Computed by CMake
 bsp_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp
 
 //Value Computed by CMake
@@ -387,6 +396,87 @@ bsp_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 bsp_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp
+
+//Value Computed by CMake
+clockps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/clockps/src
+
+//Value Computed by CMake
+clockps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+clockps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/clockps/src
+
+//Value Computed by CMake
+common_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/common/src
+
+//Value Computed by CMake
+common_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+common_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/common/src
+
+//Value Computed by CMake
+csudma_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/csudma/src
+
+//Value Computed by CMake
+csudma_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+csudma_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/csudma/src
+
+//Value Computed by CMake
+ddrcpsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/ddrcpsu/src
+
+//Value Computed by CMake
+ddrcpsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ddrcpsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/ddrcpsu/src
+
+//Value Computed by CMake
+emacps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/emacps/src
+
+//Value Computed by CMake
+emacps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+emacps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/emacps/src
+
+//Value Computed by CMake
+gpiops_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src
+
+//Value Computed by CMake
+gpiops_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+gpiops_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/gpiops/src
+
+//Value Computed by CMake
+iicps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/iicps/src
+
+//Value Computed by CMake
+iicps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+iicps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/iicps/src
+
+//Value Computed by CMake
+ipipsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/ipipsu/src
+
+//Value Computed by CMake
+ipipsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ipipsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/ipipsu/src
+
+//Value Computed by CMake
+libxil_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc
+
+//Value Computed by CMake
+libxil_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libxil_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc
 
 //Archiver used to archive libraries for both BSP generation as
 // well as applications.
@@ -407,6 +497,51 @@ proc_compiler_flags:STRING= -O2  -mlittle-endian -mxl-barrel-shift -mxl-pattern-
 
 //Extra Compiler Flags used in BSP and library generation
 proc_extra_compiler_flags:STRING= -g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns
+
+//Value Computed by CMake
+qspipsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/qspipsu/src
+
+//Value Computed by CMake
+qspipsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+qspipsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/qspipsu/src
+
+//Value Computed by CMake
+resetps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/resetps/src
+
+//Value Computed by CMake
+resetps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+resetps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/resetps/src
+
+//Value Computed by CMake
+rtcpsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/rtcpsu/src
+
+//Value Computed by CMake
+rtcpsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+rtcpsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/rtcpsu/src
+
+//Value Computed by CMake
+sdps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/sdps/src
+
+//Value Computed by CMake
+sdps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+sdps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/sdps/src
+
+//Value Computed by CMake
+spips_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/spips/src
+
+//Value Computed by CMake
+spips_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+spips_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/spips/src
 
 //This option is not supported in the Unified Vitis IDE in this
 // version. Change to the classic IDE if you want to use this option
@@ -437,6 +572,51 @@ standalone_ttc_select_cntr:STRING=None
 //This option is not supported in the Unified Vitis IDE in this
 // version. Change to the classic IDE if you want to use this option.
 standalone_xpm_support:STRING=None
+
+//Value Computed by CMake
+sysmonpsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/sysmonpsu/src
+
+//Value Computed by CMake
+sysmonpsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+sysmonpsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/sysmonpsu/src
+
+//Value Computed by CMake
+ttcps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/ttcps/src
+
+//Value Computed by CMake
+ttcps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ttcps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/ttcps/src
+
+//Value Computed by CMake
+uartps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src
+
+//Value Computed by CMake
+uartps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+uartps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/uartps/src
+
+//Value Computed by CMake
+usbpsu_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/usbpsu/src
+
+//Value Computed by CMake
+usbpsu_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+usbpsu_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/usbpsu/src
+
+//Value Computed by CMake
+wdtps_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/wdtps/src
+
+//Value Computed by CMake
+wdtps_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+wdtps_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/wdtps/src
 
 //Value Computed by CMake
 xilfpga_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/xilfpga/src
@@ -482,6 +662,15 @@ xiltimer_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 xiltimer_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/xiltimer/src
+
+//Value Computed by CMake
+zdma_BINARY_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/zdma/src
+
+//Value Computed by CMake
+zdma_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+zdma_SOURCE_DIR:STATIC=C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/zdma/src
 
 
 ########################
@@ -593,7 +782,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=35
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

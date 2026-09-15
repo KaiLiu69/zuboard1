@@ -1,0 +1,26 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Dec 20 18:03:56 2025
+| Host         : slim5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu1cg-sbva484-1-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mdesign_zynq_ultra_ps_e_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mdesign_zynq_ultra_ps_e_0_0 (xilinx.com:ip:zynq_ultra_ps_e:3.5) from (Rev. 7) to (Rev. 8)
+
+2. Upgrade messages
+-------------------
+
+Set parameter PSU__GPIO_EMIO__PERIPHERAL__IO to value <Select> (source 'default')
+WARNING: upgrade cannot add parameter PSU__USE__USB3_0_HUB with default value 0 : a parameter called PSU__USE__USB3_0_HUB already exists in zynq_ultra_ps_e_v3_5
+WARNING: upgrade cannot add parameter PSU__USE__USB3_1_HUB with default value 0 : a parameter called PSU__USE__USB3_1_HUB already exists in zynq_ultra_ps_e_v3_5
+WARNING: upgrade cannot get value of parameter PSU__CRF_APB__DBG_TRACE_CTRL__FREQRANGE_MAX : there is no parameter called PSU__CRF_APB__DBG_TRACE_CTRL__FREQRANGE_MAX in zynq_ultra_ps_e_v3_5
+WARNING: upgrade cannot set value of parameter PSU__CRF_APB__DBG_TRACE_CTRL__FREQRANGE_MAX to 125 : there is no parameter called PSU__CRF_APB__DBG_TRACE_CTRL__FREQRANGE_MAX
+Set parameter PSU__PROTECTION__FPD_SEGMENTS to value SA:0xFD1A0000; SIZE:1280; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD000000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD010000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD020000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD030000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD040000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD050000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD610000; SIZE:512; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD5D0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware | SA:0xFD1A0000 ; SIZE:1280; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem (source 'default')
+

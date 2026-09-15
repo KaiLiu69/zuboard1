@@ -1,8 +1,10 @@
-# 2025-08-03T16:32:44.774870100
+# 2026-09-15T22:03:26.923132100
 import vitis
 
 client = vitis.create_client()
 client.set_workspace(path="vitis_files")
 
-vitis.dispose()
+client.delete_component(name="zynqmp_pmufw")
+
+client.delete_component(name="zynqmp_pmufw")
 

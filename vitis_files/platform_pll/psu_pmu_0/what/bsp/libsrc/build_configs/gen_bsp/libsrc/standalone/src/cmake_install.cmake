@@ -61,13 +61,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\include/../include")
+   "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/include/../include")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "C:\projects\amd\test_project\vitis_files\platform_pll\psu_pmu_0\what\bsp\include/.." TYPE DIRECTORY MESSAGE_LAZY FILES "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/include")
+  file(INSTALL DESTINATION "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/include/.." TYPE DIRECTORY MESSAGE_LAZY FILES "C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/include")
 endif()
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Aug  3 14:53:20 2025" VIVADOVERSION="2025.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Sep 15 19:17:31 2026" VIVADOVERSION="2025.2.1">
 
-  <SYSTEMINFO ARCH="zynquplus" BOARD="avnet.com:zuboard_1cg:part0:1.0" DEVICE="xczu1cg" NAME="mdesign" PACKAGE="sbva484" SPEEDGRADE="-1"/>
+  <SYSTEMINFO ARCH="zynquplus" DEVICE="xczu1cg" NAME="mdesign" PACKAGE="sbva484" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT DIR="O" NAME="blinky_0" SIGIS="undef" SIGNAME="top_0_blinky">
@@ -40,7 +40,7 @@
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE CONFIGURABLE="TRUE" COREREVISION="7" FULLNAME="/zynq_ultra_ps_e_0" HWVERSION="3.5" INSTANCE="zynq_ultra_ps_e_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" IS_PL="FALSE" MODTYPE="zynq_ultra_ps_e" VLNV="xilinx.com:ip:zynq_ultra_ps_e:3.5">
+    <MODULE CONFIGURABLE="TRUE" COREREVISION="8" FULLNAME="/zynq_ultra_ps_e_0" HWVERSION="3.5" INSTANCE="zynq_ultra_ps_e_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" IS_PL="FALSE" MODTYPE="zynq_ultra_ps_e" VLNV="xilinx.com:ip:zynq_ultra_ps_e:3.5">
       <DOCUMENTS>
         <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=zynq_ultra_ps_e;v=v3_5;d=pg201-zynq-ultrascale-plus-processing-system.pdf"/>
       </DOCUMENTS>
@@ -1305,6 +1305,8 @@
         <PARAMETER NAME="PSU__IRQ_P2F_TTC3__INT2" VALUE="0"/>
         <PARAMETER NAME="PSU__IRQ_P2F_UART0__INT" VALUE="0"/>
         <PARAMETER NAME="PSU__IRQ_P2F_UART1__INT" VALUE="0"/>
+        <PARAMETER NAME="PSU__IRQ_P2F_USB2_OTG__INT0" VALUE="0"/>
+        <PARAMETER NAME="PSU__IRQ_P2F_USB2_OTG__INT1" VALUE="0"/>
         <PARAMETER NAME="PSU__IRQ_P2F_USB3_ENDPOINT__INT0" VALUE="0"/>
         <PARAMETER NAME="PSU__IRQ_P2F_USB3_ENDPOINT__INT1" VALUE="0"/>
         <PARAMETER NAME="PSU__IRQ_P2F_USB3_OTG__INT0" VALUE="0"/>
@@ -1519,7 +1521,7 @@
         <PARAMETER NAME="PSU__PROTECTION__DDR_SEGMENTS" VALUE="NONE"/>
         <PARAMETER NAME="PSU__PROTECTION__DEBUG" VALUE="0"/>
         <PARAMETER NAME="PSU__PROTECTION__ENABLE" VALUE="0"/>
-        <PARAMETER NAME="PSU__PROTECTION__FPD_SEGMENTS" VALUE="SA:0xFD1A0000; SIZE:1280; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD000000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD010000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD020000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD030000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD040000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD050000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD610000; SIZE:512; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFD5D0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware|SA:0xFD1A0000 ; SIZE:1280; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem"/>
+        <PARAMETER NAME="PSU__PROTECTION__FPD_SEGMENTS" VALUE="SA:0xFD1A0000; SIZE:1280; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD000000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD010000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD020000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD030000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD040000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD050000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD610000; SIZE:512; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware |  SA:0xFD5D0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware | SA:0xFD1A0000 ; SIZE:1280; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem"/>
         <PARAMETER NAME="PSU__PROTECTION__LOCK_UNUSED_SEGMENTS" VALUE="0"/>
         <PARAMETER NAME="PSU__PROTECTION__LPD_SEGMENTS" VALUE="SA:0xFF980000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFF5E0000; SIZE:2560; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFFCC0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFF180000; SIZE:768; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFF410000; SIZE:640; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFFA70000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware| SA:0xFF9A0000; SIZE:64; UNIT:KB; RegionTZ:Secure; WrAllowed:Read/Write; subsystemId:PMU Firmware|SA:0xFF5E0000 ; SIZE:2560; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem|SA:0xFFCC0000 ; SIZE:64; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem|SA:0xFF180000 ; SIZE:768; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem|SA:0xFF9A0000 ; SIZE:64; UNIT:KB; RegionTZ:Secure ; WrAllowed:Read/Write; subsystemId:Secure Subsystem"/>
         <PARAMETER NAME="PSU__PROTECTION__MASTERS" VALUE="USB1:NonSecure;1|USB0:NonSecure;0|S_AXI_LPD:NA;0|S_AXI_HPC1_FPD:NA;0|S_AXI_HPC0_FPD:NA;0|S_AXI_HP3_FPD:NA;0|S_AXI_HP2_FPD:NA;0|S_AXI_HP1_FPD:NA;0|S_AXI_HP0_FPD:NA;0|S_AXI_ACP:NA;0|S_AXI_ACE:NA;0|SD1:NonSecure;1|SD0:NonSecure;0|SATA1:NonSecure;0|SATA0:NonSecure;0|RPU1:Secure;1|RPU0:Secure;1|QSPI:NonSecure;1|PMU:NA;1|PCIe:NonSecure;0|NAND:NonSecure;0|LDMA:NonSecure;1|GPU:NonSecure;1|GEM3:NonSecure;0|GEM2:NonSecure;1|GEM1:NonSecure;0|GEM0:NonSecure;0|FDMA:NonSecure;1|DP:NonSecure;0|DAP:NA;1|Coresight:NA;1|CSU:NA;1|APU:NA;1"/>
@@ -1559,12 +1561,12 @@
         <PARAMETER NAME="PSU__SAXIGP6__DATA_WIDTH" VALUE="128"/>
         <PARAMETER NAME="PSU__SD0_COHERENCY" VALUE="0"/>
         <PARAMETER NAME="PSU__SD0_ROUTE_THROUGH_FPD" VALUE="0"/>
-        <PARAMETER NAME="PSU__SD0__CLK_100_SDR_OTAP_DLY" VALUE="0x00"/>
-        <PARAMETER NAME="PSU__SD0__CLK_200_SDR_OTAP_DLY" VALUE="0x00"/>
-        <PARAMETER NAME="PSU__SD0__CLK_50_DDR_ITAP_DLY" VALUE="0x00"/>
-        <PARAMETER NAME="PSU__SD0__CLK_50_DDR_OTAP_DLY" VALUE="0x00"/>
-        <PARAMETER NAME="PSU__SD0__CLK_50_SDR_ITAP_DLY" VALUE="0x00"/>
-        <PARAMETER NAME="PSU__SD0__CLK_50_SDR_OTAP_DLY" VALUE="0x00"/>
+        <PARAMETER NAME="PSU__SD0__CLK_100_SDR_OTAP_DLY" VALUE="0x3"/>
+        <PARAMETER NAME="PSU__SD0__CLK_200_SDR_OTAP_DLY" VALUE="0x3"/>
+        <PARAMETER NAME="PSU__SD0__CLK_50_DDR_ITAP_DLY" VALUE="0x3D"/>
+        <PARAMETER NAME="PSU__SD0__CLK_50_DDR_OTAP_DLY" VALUE="0x4"/>
+        <PARAMETER NAME="PSU__SD0__CLK_50_SDR_ITAP_DLY" VALUE="0x15"/>
+        <PARAMETER NAME="PSU__SD0__CLK_50_SDR_OTAP_DLY" VALUE="0x5"/>
         <PARAMETER NAME="PSU__SD0__DATA_TRANSFER_MODE" VALUE="&lt;Select>"/>
         <PARAMETER NAME="PSU__SD0__GRP_CD__ENABLE" VALUE="0"/>
         <PARAMETER NAME="PSU__SD0__GRP_CD__IO" VALUE="&lt;Select>"/>

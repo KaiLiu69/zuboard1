@@ -1,7 +1,7 @@
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date             : Sun Aug  3 15:13:10 2025
+| Tool Version     : Vivado v.2025.2.1 (win64) Build 6403652 Thu Mar 19 19:48:24 GMT 2026
+| Date             : Tue Sep 15 19:20:46 2026
 | Host             : slim5 running 64-bit major release  (build 9200)
 | Command          : report_power -file mdesign_wrapper_power_routed.rpt -pb mdesign_wrapper_power_summary_routed.pb -rpx mdesign_wrapper_power_routed.rpx
 | Design           : mdesign_wrapper
@@ -30,19 +30,20 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.177        |
-| Design Power Budget (W)  | 45.000       |
-| Power Budget Margin (W)  | 43.823 (MET) |
+| Total On-Chip Power (W)  | 1.181        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.942        |
-| Device Static (W)        | 0.236        |
-| Effective TJA (C/W)      | 0.8          |
-| Max Ambient (C)          | 99.1         |
-| Junction Temperature (C) | 25.9         |
+| Device Static (W)        | 0.239        |
+| Effective TJA (C/W)      | 2.7          |
+| Max Ambient (C)          | 96.8         |
+| Junction Temperature (C) | 28.2         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
 | Design Nets Matched      | NA           |
 +--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
 
 
 1.1 On-Chip Components
@@ -60,48 +61,48 @@ Table of Contents
 | Signals        |    <0.001 |       42 |       --- |             --- |
 | I/O            |    <0.001 |        1 |        82 |            1.22 |
 | PS8            |     0.941 |        1 |       --- |             --- |
-| Static Power   |     0.236 |          |           |                 |
-|   PS Static    |     0.086 |          |           |                 |
-|   PL Static    |     0.150 |          |           |                 |
-| Total          |     1.177 |          |           |                 |
+| Static Power   |     0.239 |          |           |                 |
+|   PS Static    |     0.087 |          |           |                 |
+|   PL Static    |     0.152 |          |           |                 |
+| Total          |     1.181 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
 1.2 Power Supply Summary
 ------------------------
 
-+-----------------+-------------+-----------+-------------+------------+-------------+-------------+-------------+
-| Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A)  |
-+-----------------+-------------+-----------+-------------+------------+-------------+-------------+-------------+
-| Vccint          |       0.850 |     0.025 |       0.001 |      0.024 |       NA    |       3.000 | 2.975 (MET) |
-| Vccint_io       |       0.850 |     0.027 |       0.000 |      0.027 |       NA    | Unspecified | NA          |
-| Vccbram         |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vccaux          |       1.800 |     0.026 |       0.000 |      0.026 |       NA    | Unspecified | NA          |
-| Vccaux_io       |       1.800 |     0.026 |       0.000 |      0.025 |       NA    | Unspecified | NA          |
-| Vcco33          |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco25          |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco18          |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco15          |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco135         |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco12          |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vcco10          |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| Vccadc          |       1.800 |     0.008 |       0.000 |      0.008 |       NA    | Unspecified | NA          |
-| VCC_PSINTFP     |       0.850 |     0.354 |       0.329 |      0.025 |       NA    | Unspecified | NA          |
-| VCC_PSINTLP     |       0.850 |     0.282 |       0.275 |      0.007 |       NA    | Unspecified | NA          |
-| VPS_MGTRAVCC    |       0.850 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCC_PSINTFP_DDR |       0.850 |     0.267 |       0.263 |      0.004 |       NA    | Unspecified | NA          |
-| VCC_PSPLL       |       1.200 |     0.068 |       0.066 |      0.002 |       NA    | Unspecified | NA          |
-| VPS_MGTRAVTT    |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCCO_PSDDR_504  |       1.100 |     0.146 |       0.112 |      0.034 |       NA    | Unspecified | NA          |
-| VCC_PSAUX       |       1.800 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA          |
-| VCC_PSBATT      |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA          |
-| VCC_PSDDR_PLL   |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCCO_PSIO0_500  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCCO_PSIO1_501  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCCO_PSIO2_502  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCCO_PSIO3_503  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA          |
-| VCC_PSADC       |       1.800 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA          |
-+-----------------+-------------+-----------+-------------+------------+-------------+-------------+-------------+
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint          |       0.850 |     0.027 |       0.001 |      0.026 |       NA    | Unspecified | NA         |
+| Vccint_io       |       0.850 |     0.027 |       0.000 |      0.027 |       NA    | Unspecified | NA         |
+| Vccbram         |       0.850 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux          |       1.800 |     0.026 |       0.000 |      0.026 |       NA    | Unspecified | NA         |
+| Vccaux_io       |       1.800 |     0.026 |       0.000 |      0.025 |       NA    | Unspecified | NA         |
+| Vcco33          |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco25          |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco18          |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco15          |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco135         |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12          |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco10          |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccadc          |       1.800 |     0.008 |       0.000 |      0.008 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP     |       0.850 |     0.356 |       0.329 |      0.027 |       NA    | Unspecified | NA         |
+| VCC_PSINTLP     |       0.850 |     0.282 |       0.275 |      0.007 |       NA    | Unspecified | NA         |
+| VPS_MGTRAVCC    |       0.850 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP_DDR |       0.850 |     0.267 |       0.263 |      0.004 |       NA    | Unspecified | NA         |
+| VCC_PSPLL       |       1.200 |     0.068 |       0.066 |      0.002 |       NA    | Unspecified | NA         |
+| VPS_MGTRAVTT    |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCCO_PSDDR_504  |       1.100 |     0.146 |       0.112 |      0.034 |       NA    | Unspecified | NA         |
+| VCC_PSAUX       |       1.800 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA         |
+| VCC_PSBATT      |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| VCC_PSDDR_PLL   |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCCO_PSIO0_500  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCCO_PSIO1_501  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCCO_PSIO2_502  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCCO_PSIO3_503  |       1.800 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
+| VCC_PSADC       |       1.800 |     0.002 |       0.000 |      0.002 |       NA    | Unspecified | NA         |
++-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 
 
 1.3 Confidence Level
@@ -128,7 +129,7 @@ Table of Contents
 
 +-----------------------+--------------------------+
 | Ambient Temp (C)      | 25.0                     |
-| ThetaJA (C/W)         | 0.8                      |
+| ThetaJA (C/W)         | 2.7                      |
 | Airflow (LFM)         | 250                      |
 | Heat Sink             | medium (Medium Profile)  |
 | ThetaSA (C/W)         | 8.8                      |

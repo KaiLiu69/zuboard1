@@ -452,3 +452,5 @@ INFO: [Project 1-1918] Creating Hardware Platform: C:/projects/amd/test_project/
 INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
 INFO: [Project 1-1941] Successfully created Hardware Platform: C:/projects/amd/test_project/mdesign_wrapper.xsa
 write_hw_platform: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4493.953 ; gain = 31.438
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug  3 16:38:40 2025...

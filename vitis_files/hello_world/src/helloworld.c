@@ -21,13 +21,42 @@
 #include "platform.h"
 #include "xil_printf.h"
 
+#define SIZE 4
 
-int main()
-{
-    init_platform();
+int main() {
+    int A[SIZE][SIZE] = {
+        { 1, 0, 2, 0 },
+        { -1, 3, 1, 0 },
+        { 0, 2, -1, 1 },
+        { 3, -1, 0, 2 }
+    };
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
-    cleanup_platform();
+    int B[SIZE][SIZE] = {
+        { 2, 1, 0, -1 },
+        { 1, 0, 3, 1 },
+        { 0, 2, -2, 2 },
+        { 1, 1, 1, 0 }
+    };
+
+    int C[SIZE][SIZE] = {0};  // Result matrix initialized to 0
+
+    // Matrix multiplication
+    for (int i = 0; i < SIZE; ++i) {
+        for (int j = 0; j < SIZE; ++j) {
+            for (int k = 0; k < SIZE; ++k) {
+                C[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+
+    // Print result
+    printf("Result matrix C = A x B:\n");
+    for (int i = 0; i < SIZE; ++i) {
+        for (int j = 0; j < SIZE; ++j) {
+            printf("%4d ", C[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }

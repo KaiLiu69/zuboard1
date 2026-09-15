@@ -39,6 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/cmake_install.cmake")
 endif()
 
@@ -55,11 +65,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/xilskey/src/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/projects/amd/test_project/vitis_files/platform_pll/psu_pmu_0/what/bsp/libsrc/build_configs/gen_bsp/libsrc/standalone/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
